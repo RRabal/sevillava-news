@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+
+  <url>
+    <loc>https://www.sevillava.fr/notaesencial20072025</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevillava</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-07-20T12:33:00+02:00</news:publication_date>
+      <news:title>"La Nota Esencial" du 20 juillet 2025</news:title>
+      <news:keywords>Sevilla FC, Matías Almeyda, Nota Esencial, Yassine Bounou, Rafa Mir, Sevilla Sunderland, Rubén Vargas</news:keywords>
+      </news:news>
+  </url>
+
+  </urlset>
