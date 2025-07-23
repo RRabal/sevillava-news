@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
         
   <url>
+    <loc>https://www.sevillava.fr/notaesencial23072025</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevillava</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-07-23T09:58:00+02:00</news:publication_date>
+      <news:title>"La Nota Esencial" du 23 juillet 2025</news:title>
+      <news:keywords>Sevilla FC, Mercato, Antonio Cordón, Nota Esencial, Isaac Romero, Mateo Mejía</news:keywords>
+      </news:news>
+  </url>
+        
+ <url>
     <loc>https://www.sevillava.fr/notaesencial21072025</loc>
     <news:news>
       <news:publication>
