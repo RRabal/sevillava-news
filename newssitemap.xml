@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  <url>
+    <loc>https://www.sevillava.fr/troisiemetenue202526</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevillava</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-07-23T10:17:00+02:00</news:publication_date>
+      <news:title>Une troisième tenue 2025/26 noire et rouge, fidèle à l’ADN du club</news:title>
+      <news:keywords>Sevilla FC, Séville, Adidas</news:keywords>
+      </news:news>
+  </url>
         
   <url>
     <loc>https://www.sevillava.fr/notaesencial23072025</loc>
