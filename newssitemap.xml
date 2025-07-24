@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+
+  <url>
+    <loc>https://www.sevillava.fr/mercatoete2025</loc>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-07-24T14:38:58+00:00</news:publication_date>
+      <news:title>Mercato ete 2025 : départs, arrivées, rumeurs...</news:title>
+      <news:keywords>Sevilla FC, Mercato, Seville, FC Seville, Liga, FC Séville, Sevilla FC Mercato</news:keywords>
+      </news:news>
+  </url>
+        
    <url>
     <loc>https://www.sevillava.fr/schalkesevillafcpresentation</loc>
     <news:news>
@@ -11,19 +25,6 @@
       <news:publication_date>2025-07-24T10:27:14+00:00</news:publication_date>
       <news:title>Le Sevilla FC poursuit sa préparation estivale avec un match amical symbolique face au Schalke 04, ce samedi 26 juillet.</news:title>
       <news:keywords>Sevilla FC, Pré-saison, Partido, Sunderland AFC</news:keywords>
-      </news:news>
-  </url>
-        
-   <url>
-    <loc>https://www.sevillava.fr/mercatoete2025</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-07-24T14:38:58+00:00</news:publication_date>
-      <news:title>Mercato ete 2025 : départs, arrivées, rumeurs...</news:title>
-      <news:keywords>Sevilla FC, Mercato, Seville, FC Seville, Liga, FC Séville, Sevilla FC Mercato</news:keywords>
       </news:news>
   </url>
         
