@@ -40,57 +40,5 @@
       <news:keywords>Sevilla FC, Pré-saison, Partido, Sunderland AFC</news:keywords>
       </news:news>
   </url>
-        
-  <url>
-    <loc>https://www.sevillava.fr/troisiemetenue202526</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-07-23T10:17:00+02:00</news:publication_date>
-      <news:title>Une troisième tenue 2025/26 noire et rouge, fidèle à l’ADN du club</news:title>
-      <news:keywords>Sevilla FC, Séville, Adidas</news:keywords>
-      </news:news>
-  </url>
-        
-  <url>
-    <loc>https://www.sevillava.fr/notaesencial23072025</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-07-23T09:58:00+02:00</news:publication_date>
-      <news:title>"La Nota Esencial" du 23 juillet 2025</news:title>
-      <news:keywords>Sevilla FC, Mercato, Antonio Cordón, Nota Esencial, Isaac Romero, Mateo Mejía</news:keywords>
-      </news:news>
-  </url>
-        
- <url>
-    <loc>https://www.sevillava.fr/notaesencial21072025</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-07-20T22:29:00+02:00</news:publication_date>
-      <news:title>"La Nota Esencial" du 21 juillet 2025</news:title>
-      <news:keywords>Sevilla FC, Antonio Cordón, Nota Esencial, Alfon, Ramón Sánchez-Pizjuán, Alfonso González, Loïc Badé</news:keywords>
-      </news:news>
-  </url>
-        
-  <url>
-    <loc>https://www.sevillava.fr/notaesencial20072025</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-07-20T12:33:00+02:00</news:publication_date>
-      <news:title>"La Nota Esencial" du 20 juillet 2025</news:title>
-      <news:keywords>Sevilla FC, Matías Almeyda, Nota Esencial, Yassine Bounou, Rafa Mir, Sevilla Sunderland, Rubén Vargas</news:keywords>
-      </news:news>
-  </url>
 
   </urlset>
