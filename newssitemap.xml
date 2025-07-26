@@ -2,6 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
+<url>
+    <loc>https://www.sevillava.fr/schalke24sevilla</loc>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-07-26T19:48:00+02:00</news:publication_date>
+      <news:title>FC Schalke 04 2 - 4 Sevilla FC : Un pas en avant intéressant pour les hommes d'Almeyda</news:title>
+      <news:keywords>Sevilla FC, Matías Almeyda, FC Séville, FC Schalke 04, Schalke Sevilla, Akor Adams</news:keywords>
+      </news:news>
+  </url>
+
    <url>
     <loc>https://www.sevillava.fr/notaesencial25072025</loc>
     <news:news>
