@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-
+<url>
+    <loc>https://www.sevillava.fr/almeyda-schalkesevilla</loc>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-07-27T13:05:00+02:00</news:publication_date>
+      <news:title>Matías Almeyda : « Nous sommes sur la bonne voie »</news:title>
+      <news:keywords>Matías Almeyda, Sevilla FC, Schalke Sevilla, FC Schalke 04, FC Séville, Partido</news:keywords>
+      </news:news>
+  </url>
+        
 <url>
     <loc>https://www.sevillava.fr/schalke24sevilla</loc>
     <news:news>
