@@ -8,7 +8,7 @@ feed = feedparser.parse(rss_url)
 latest_post = feed.entries[0].link.strip()
 
 # Vérifier si fichier existe
-latest_path = "sevillava-news/data/latest.txt"
+latest_path = "data/latest.txt"
 if os.path.exists(latest_path):
     with open(latest_path, "r") as f:
         last_saved = f.read().strip()
