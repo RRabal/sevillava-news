@@ -1,20 +1,15 @@
-name: Vérif RSS Wix
-
 on:
   schedule:
-    - cron: '*/15 * * * *'  # Toutes les 15 minutes
-  workflow_dispatch:     # Permet aussi de lancer manuellement
+    - cron: '*/10 * * * *'  # Toutes les 10 minutes
 
 jobs:
   check:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Récupérer le dépôt
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
       - name: Installer feedparser
         run: pip install feedparser
 
-      - name: Lancer le script Python
-        run: python scripts/check_rss.py
+      - name: Vérifier les articles et générer le sitemap
+        run: python check_rss.py
