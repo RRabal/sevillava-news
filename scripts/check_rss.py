@@ -1,7 +1,7 @@
 import feedparser
 import os
 
-rss_url = "https://tonsite.com/blog-feed.xml"  # ➤ Remplace par l'URL réelle de ton blog Wix
+rss_url = "https://www.sevillava.fr/blog-feed.xml"  # ➤ Remplace par l'URL réelle de ton blog Wix
 feed = feedparser.parse(rss_url)
 
 # Dernier article
