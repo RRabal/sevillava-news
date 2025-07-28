@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-<url>
+
+  <url>
     <loc>https://www.sevillava.fr/almeyda-schalkesevilla</loc>
     <news:news>
       <news:publication>
@@ -11,10 +12,10 @@
       <news:publication_date>2025-07-27T13:05:00+02:00</news:publication_date>
       <news:title>Matías Almeyda : « Nous sommes sur la bonne voie »</news:title>
       <news:keywords>Matías Almeyda, Sevilla FC, Schalke Sevilla, FC Schalke 04, FC Séville, Partido</news:keywords>
-      </news:news>
+    </news:news>
   </url>
-        
-<url>
+
+  <url>
     <loc>https://www.sevillava.fr/schalke24sevilla</loc>
     <news:news>
       <news:publication>
@@ -24,10 +25,10 @@
       <news:publication_date>2025-07-26T19:48:00+02:00</news:publication_date>
       <news:title>FC Schalke 04 2 - 4 Sevilla FC : Un pas en avant intéressant pour les hommes d'Almeyda</news:title>
       <news:keywords>Sevilla FC, Matías Almeyda, FC Séville, FC Schalke 04, Schalke Sevilla, Akor Adams</news:keywords>
-      </news:news>
+    </news:news>
   </url>
 
-   <url>
+  <url>
     <loc>https://www.sevillava.fr/notaesencial25072025</loc>
     <news:news>
       <news:publication>
@@ -37,9 +38,9 @@
       <news:publication_date>2025-07-25T16:33:00+02:00</news:publication_date>
       <news:title>La Nota Esencial du 25 juillet 2025</news:title>
       <news:keywords>Sevilla FC, Mercato, Nota Esencial, Isaac Romero, Lucien Agoumé, Loïc Badé, Carlos Martín</news:keywords>
-      </news:news>
+    </news:news>
   </url>
-        
+
   <url>
     <loc>https://www.sevillava.fr/mercatoete2025</loc>
     <news:news>
@@ -50,7 +51,7 @@
       <news:publication_date>2025-07-25T16:38:00+02:00</news:publication_date>
       <news:title>Mercato ete 2025 : départs, arrivées, rumeurs...</news:title>
       <news:keywords>Sevilla FC, Mercato, Seville, FC Seville, Liga, FC Séville, Sevilla FC Mercato</news:keywords>
-      </news:news>
+    </news:news>
   </url>
 
-  </urlset>
+</urlset>
