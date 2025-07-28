@@ -41,30 +41,4 @@
     </news:news>
   </url>
 
-  <url>
-    <loc>https://www.sevillava.fr/notaesencial25072025</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-07-25T16:33:00+02:00</news:publication_date>
-      <news:title>La Nota Esencial du 25 juillet 2025</news:title>
-      <news:keywords>Sevilla FC, Mercato, Nota Esencial, Isaac Romero, Lucien Agoumé, Loïc Badé, Carlos Martín</news:keywords>
-    </news:news>
-  </url>
-
-  <url>
-    <loc>https://www.sevillava.fr/mercatoete2025</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-07-25T16:38:00+02:00</news:publication_date>
-      <news:title>Mercato ete 2025 : départs, arrivées, rumeurs...</news:title>
-      <news:keywords>Sevilla FC, Mercato, Seville, FC Seville, Liga, FC Séville, Sevilla FC Mercato</news:keywords>
-    </news:news>
-  </url>
-
 </urlset>
