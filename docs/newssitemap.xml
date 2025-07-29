@@ -1,44 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-
-   <url>
-    <loc>https://www.sevillava.fr/rafamirfini</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-07-28T16:20:00+02:00</news:publication_date>
-      <news:title>Rafa Mir définitivement écarté du projet du Sevilla FC</news:title>
-      <news:keywords>Rafa Mir, Sevilla FC, FC Séville, Mercato</news:keywords>
-    </news:news>
-  </url>
-
-  <url>
-    <loc>https://www.sevillava.fr/almeyda-schalkesevilla</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-07-27T13:05:00+02:00</news:publication_date>
-      <news:title>Matías Almeyda : « Nous sommes sur la bonne voie »</news:title>
-      <news:keywords>Matías Almeyda, Sevilla FC, Schalke Sevilla, FC Schalke 04, FC Séville, Partido</news:keywords>
-    </news:news>
-  </url>
-
-  <url>
-    <loc>https://www.sevillava.fr/schalke24sevilla</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-07-26T19:48:00+02:00</news:publication_date>
-      <news:title>FC Schalke 04 2 - 4 Sevilla FC : Un pas en avant intéressant pour les hommes d'Almeyda</news:title>
-      <news:keywords>Sevilla FC, Matías Almeyda, FC Séville, FC Schalke 04, Schalke Sevilla, Akor Adams</news:keywords>
-    </news:news>
-  </url>
-
+<urlset
+	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+	xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+	<url>
+		<loc>https://www.sevillava.fr/rafamirfini</loc>
+		<news:news>
+			<news:publication>
+				<news:name>SevillaVa</news:name>
+				<news:language>fr</news:language>
+			</news:publication>
+			<news:publication_date>2025-07-28T16:20:00+02:00</news:publication_date>
+			<news:title>Rafa Mir définitivement écarté du projet du Sevilla FC</news:title>
+			<news:keywords>Rafa Mir, Sevilla FC, FC Séville, Mercato</news:keywords>
+		</news:news>
+	</url>
+	<url>
+		<loc>https://www.sevillava.fr/almeyda-schalkesevilla</loc>
+		<news:news>
+			<news:publication>
+				<news:name>SevillaVa</news:name>
+				<news:language>fr</news:language>
+			</news:publication>
+			<news:publication_date>2025-07-27T13:05:00+02:00</news:publication_date>
+			<news:title>Matías Almeyda : « Nous sommes sur la bonne voie »</news:title>
+			<news:keywords>Matías Almeyda, Sevilla FC, Schalke Sevilla, FC Schalke 04, FC Séville, Partido</news:keywords>
+		</news:news>
+	</url>
+	<url>
+		<loc>https://www.sevillava.fr/schalke24sevilla</loc>
+		<news:news>
+			<news:publication>
+				<news:name>SevillaVa</news:name>
+				<news:language>fr</news:language>
+			</news:publication>
+			<news:publication_date>2025-07-26T19:48:00+02:00</news:publication_date>
+			<news:title>FC Schalke 04 2 - 4 Sevilla FC : Un pas en avant intéressant pour les hommes d'Almeyda</news:title>
+			<news:keywords>Sevilla FC, Matías Almeyda, FC Séville, FC Schalke 04, Schalke Sevilla, Akor Adams</news:keywords>
+		</news:news>
+	</url>
 </urlset>
