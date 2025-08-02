@@ -3,6 +3,18 @@
 	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
 	xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 	<url>
+		<loc>https://www.sevillava.fr/olympiquedemarseillesevillafcpresentation</loc>
+		<news:news>
+			<news:publication>
+				<news:name>SevillaVa</news:name>
+				<news:language>fr</news:language>
+			</news:publication>
+			<news:publication_date>2025-08-02T10:06:00+02:00</news:publication_date>
+			<news:title>Olympique de Marseille - Sevilla FC : Présentation, diffusion WEB...</news:title>
+			<news:keywords>Sevilla FC, Olympique de Marseille, OM, OM Sevilla FC, OM FC Séville, Partido, FC Séville, Marseille</news:keywords>
+		</news:news>
+	</url>
+	<url>
 		<loc>https://www.sevillava.fr/socios202526</loc>
 		<news:news>
 			<news:publication>
@@ -12,18 +24,6 @@
 			<news:publication_date>2025-08-01T16:06:00+02:00</news:publication_date>
 			<news:title>Le Sevilla FC lance sa campagne d’adhésion socios rojos y blancos 2025/26</news:title>
 			<news:keywords>socios, rojos y blancos, FC Séville, Sevilla FC</news:keywords>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.sevillava.fr/olympiquedemarseillesevillafcpresentation</loc>
-		<news:news>
-			<news:publication>
-				<news:name>SevillaVa</news:name>
-				<news:language>fr</news:language>
-			</news:publication>
-			<news:publication_date>2025-07-31T16:20:00+02:00</news:publication_date>
-			<news:title>Olympique de Marseille - Sevilla FC : Présentation, diffusion WEB...</news:title>
-			<news:keywords>Sevilla FC, Olympique de Marseille, OM, OM Sevilla FC, OM FC Séville, Partido, FC Séville, Marseille</news:keywords>
 		</news:news>
 	</url>
 	<url>
