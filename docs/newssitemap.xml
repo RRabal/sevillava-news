@@ -3,6 +3,18 @@
 	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
 	xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 	<url>
+		<loc>https://www.sevillava.fr/matiasalmeydaomsevilla</loc>
+		<news:news>
+			<news:publication>
+				<news:name>SevillaVa</news:name>
+				<news:language>fr</news:language>
+			</news:publication>
+			<news:publication_date>2025-08-03T17:00:00+02:00</news:publication_date>
+			<news:title>Matías Almeyda : « Nous continuons de grandir en tant qu'équipe et à mieux voir l'idée de jeu »</news:title>
+			<news:keywords>Matías Almeyda, Olympique de Marseille Sevilla FC, Sevilla FC, OM Séville, Marseille, FC Séville</news:keywords>
+		</news:news>
+	</url>
+	<url>
 		<loc>https://www.sevillava.fr/olympiquedemarseillesevillafcscore</loc>
 		<news:news>
 			<news:publication>
@@ -11,7 +23,7 @@
 			</news:publication>
 			<news:publication_date>2025-08-03T10:37:00+02:00</news:publication_date>
 			<news:title>Olympique de Marseille 1 - 1 Sevilla FC : Match nul dans ce duel de haut niveau</news:title>
-			<news:keywords>Sevilla FC, Olympique de Marseille, OM Sevilla FC, OM Seville, Marseille, FC Séville</news:keywords>
+			<news:keywords>Sevilla FC, Olympique de Marseille, OM Sevilla FC, OM Séville, Marseille, FC Séville</news:keywords>
 		</news:news>
 	</url>
 	<url>
