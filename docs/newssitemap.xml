@@ -3,6 +3,18 @@
 	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
 	xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 	<url>
+		<loc>https://www.sevillava.fr/sevillafcal-qadisiyahtabresultat</loc>
+		<news:news>
+			<news:publication>
+				<news:name>SevillaVa</news:name>
+				<news:language>fr</news:language>
+			</news:publication>
+			<news:publication_date>2025-08-05T00:00:00+02:00</news:publication_date>
+			<news:title>Sevilla FC 2 - 2 Al-Qadisiyah / TAB 4 - 1  : les andalous remportent la 14e edition de trofeo Antonio Puerta</news:title>
+			<news:keywords>Sevilla FC, FC Séville, Antonio Puerta, Trofeo Antonio Puerta, Trophée Antonio Puerta, Ramón Sánchez Pizjuán, Al-Qadisiyah, Al-Qadsiah, Sevilla FC Al-Qadisiyah</news:keywords>
+		</news:news>
+	</url>
+	<url>
 		<loc>https://www.sevillava.fr/histoiretrofeoantoniopuerta</loc>
 		<news:news>
 			<news:publication>
