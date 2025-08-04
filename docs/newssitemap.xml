@@ -3,6 +3,18 @@
 	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
 	xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 	<url>
+		<loc>https://www.sevillava.fr/histoiretrofeoantoniopuerta</loc>
+		<news:news>
+			<news:publication>
+				<news:name>SevillaVa</news:name>
+				<news:language>fr</news:language>
+			</news:publication>
+			<news:publication_date>2025-08-04T19:30:00+02:00</news:publication_date>
+			<news:title>L'histoire du Trofeo Antonio Puerta</news:title>
+			<news:keywords>Sevilla FC, Antonio Puerta, Trofeo Antonio Puerta, Trophée Antonio Puerta, Ramón Sánchez Pizjuán</news:keywords>
+		</news:news>
+	</url>
+	<url>
 		<loc>https://www.sevillava.fr/sevillafcal-qadisiyahpresentation</loc>
 		<news:news>
 			<news:publication>
