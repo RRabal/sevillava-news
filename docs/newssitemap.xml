@@ -3,6 +3,18 @@
 	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
 	xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 	<url>
+		<loc>https://www.sevillava.fr/notaesencial09082025</loc>
+		<news:news>
+			<news:publication>
+				<news:name>SevillaVa</news:name>
+				<news:language>fr</news:language>
+			</news:publication>
+			<news:publication_date>2025-08-10T11:04:00+02:00</news:publication_date>
+			<news:title>la Nota Esencial du 9 août 2025</news:title>
+			<news:keywords>Sevilla FC, FC Séville, Loïc Badé, Rubén Vargas, Juanlu Sánchez</news:keywords>
+		</news:news>
+	</url>
+	<url>
 		<loc>https://www.sevillava.fr/toulousefcsevillafc1</loc>
 		<news:news>
 			<news:publication>
