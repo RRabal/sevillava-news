@@ -2,6 +2,18 @@
 <urlset
 	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
 	xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+    <url>
+		<loc>https://www.sevillava.fr/entrevuelesviolets</loc>
+		<news:news>
+			<news:publication>
+				<news:name>SevillaVa</news:name>
+				<news:language>fr</news:language>
+			</news:publication>
+			<news:publication_date>2025-08-10T16:23:00+02:00</news:publication_date>
+			<news:title>L'entrevue sur LesViolets.com</news:title>
+			<news:keywords>Sevilla FC, FC Séville, TéFéCé, Toulouse FC Sevilla FC, Toulouse FC FC Séville, LesViolets.com, LesViolets</news:keywords>
+		</news:news>
+	</url>
 	<url>
 		<loc>https://www.sevillava.fr/notaesencial09082025</loc>
 		<news:news>
