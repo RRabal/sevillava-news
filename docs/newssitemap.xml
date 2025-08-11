@@ -3,6 +3,18 @@
 	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
 	xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 	<url>
+		<loc>https://www.sevillava.fr/odisseasvlachodimos-transfert</loc>
+		<news:news>
+			<news:publication>
+				<news:name>SevillaVa</news:name>
+				<news:language>fr</news:language>
+			</news:publication>
+			<news:publication_date>2025-08-11T17:07:00+02:00</news:publication_date>
+			<news:title>Odisseas Vlachodimos va rejoindre le Sevilla FC en prêt</news:title>
+			<news:keywords>Sevilla FC, FC Séville, Odisseas Vlachodimos, Odysséas Vlachodímos, Mercato, Orjan, Nyland, SevillaVa, Sevilla Va, Seville FC France</news:keywords>
+		</news:news>
+	</url>
+	<url>
 		<loc>https://www.sevillava.fr/matiasalmeydatoulousefc</loc>
 		<news:news>
 			<news:publication>
