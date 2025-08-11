@@ -3,6 +3,18 @@
 	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
 	xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 	<url>
+		<loc>https://www.sevillava.fr/matiasalmeydatoulousefc</loc>
+		<news:news>
+			<news:publication>
+				<news:name>SevillaVa</news:name>
+				<news:language>fr</news:language>
+			</news:publication>
+			<news:publication_date>2025-08-11T13:48:00+02:00</news:publication_date>
+			<news:title>Matías Almeyda : « Le bilan de la pré-saison est positif. »</news:title>
+			<news:keywords>Sevilla FC, FC Séville, Toulouse FC Sevilla FC, Toulouse FC FC Séville, SevillaVa, Sevilla Va, Seville FC France, Matías Almeyda</news:keywords>
+		</news:news>
+	</url>
+	<url>
 		<loc>https://www.sevillava.fr/toulousefc11sevillafc</loc>
 		<news:news>
 			<news:publication>
