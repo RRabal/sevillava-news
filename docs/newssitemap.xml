@@ -3,6 +3,18 @@
 	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
 	xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 	<url>
+		<loc>https://www.sevillava.fr/athleticclubsevillafc2526</loc>
+		<news:news>
+			<news:publication>
+				<news:name>SevillaVa</news:name>
+				<news:language>fr</news:language>
+			</news:publication>
+			<news:publication_date>2025-08-16T23:00:00+02:00</news:publication_date>
+			<news:title>Athletic Club - Sevilla FC : Présentation, diffusion WEB...</news:title>
+			<news:keywords>Sevilla FC, FC Séville, Athletic Club, Athletic Bilbao, Athletic Club Sevilla FC, Athletic Sevilla, San Mamés, Liga, Seville, SevillaVa, Sevilla Va, Seville FC France</news:keywords>
+		</news:news>
+	</url>
+	<url>
 		<loc>https://www.sevillava.fr/almeydaathleticclub1</loc>
 		<news:news>
 			<news:publication>
