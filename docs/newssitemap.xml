@@ -3,6 +3,18 @@
 	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
 	xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 	<url>
+		<loc>https://www.sevillava.fr/athleticclub32sevillafc</loc>
+		<news:news>
+			<news:publication>
+				<news:name>SevillaVa</news:name>
+				<news:language>fr</news:language>
+			</news:publication>
+			<news:publication_date>2025-08-18T00:40:00+02:00</news:publication_date>
+			<news:title>Athletic Club 3 - 2 Sevilla FC / Faux pas pour les Andalous à San Mamés.</news:title>
+			<news:keywords>Sevilla FC, FC Séville, Athletic Club, Athletic Bilbao, Athletic Club Sevilla FC, Athletic Sevilla, Matías Almeyda, San Mamés, Liga, SevillaVa, Sevilla Va, Seville FC France</news:keywords>
+		</news:news>
+	</url>
+	<url>
 		<loc>https://www.sevillava.fr/athleticclubsevillafc2526</loc>
 		<news:news>
 			<news:publication>
