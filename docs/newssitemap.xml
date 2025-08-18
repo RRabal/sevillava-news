@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+	
+<url>
+    <loc>https://www.sevillava.fr/matiasalmeydaathleticclub1</loc>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-08-18T11:05:00Z</news:publication_date>
+      <news:title>Matías Almeyda : « La confiance en 2e MT est la clé »</news:title>
+      <news:keywords>Sevilla FC, FC Séville, Partido, SevillaVa, Sevilla Va, Seville FC France, Athletic Club, Athletic Bilbao, Athetlic Club Sevilla FC, Matías Almeyda</news:keywords>
+    </news:news>
+  </url>
+	
   <url>
     <loc>https://www.sevillava.fr/rafamirelchecf</loc>
     <news:news>
