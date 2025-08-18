@@ -1,317 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-	xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-	<url>
-		<loc>https://www.sevillava.fr/athleticclub32sevillafc</loc>
-		<news:news>
-			<news:publication>
-				<news:name>SevillaVa</news:name>
-				<news:language>fr</news:language>
-			</news:publication>
-			<news:publication_date>2025-08-18T00:40:00+02:00</news:publication_date>
-			<news:title>Athletic Club 3 - 2 Sevilla FC / Faux pas pour les Andalous à San Mamés.</news:title>
-			<news:keywords>Sevilla FC, FC Séville, Athletic Club, Athletic Bilbao, Athletic Club Sevilla FC, Athletic Sevilla, Matías Almeyda, San Mamés, Liga, SevillaVa, Sevilla Va, Seville FC France</news:keywords>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.sevillava.fr/athleticclubsevillafc2526</loc>
-		<news:news>
-			<news:publication>
-				<news:name>SevillaVa</news:name>
-				<news:language>fr</news:language>
-			</news:publication>
-			<news:publication_date>2025-08-16T23:00:00+02:00</news:publication_date>
-			<news:title>Athletic Club - Sevilla FC : Présentation, diffusion WEB...</news:title>
-			<news:keywords>Sevilla FC, FC Séville, Athletic Club, Athletic Bilbao, Athletic Club Sevilla FC, Athletic Sevilla, San Mamés, Liga, Seville, SevillaVa, Sevilla Va, Seville FC France</news:keywords>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.sevillava.fr/almeydaathleticclub1</loc>
-		<news:news>
-			<news:publication>
-				<news:name>SevillaVa</news:name>
-				<news:language>fr</news:language>
-			</news:publication>
-			<news:publication_date>2025-08-15T14:28:00+02:00</news:publication_date>
-			<news:title>Matías Almeyda « Je ne cherche pas d’excuses et je suis concentré sur ce que je veux »</news:title>
-			<news:keywords>Matías Almeyda, Matias Almeyda, Sevilla FC, FC Séville, Entrevista, Liga, Seville, SevillaVa, Sevilla Va, Seville FC France</news:keywords>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.sevillava.fr/mercatoete2025</loc>
-		<news:news>
-			<news:publication>
-				<news:name>SevillaVa</news:name>
-				<news:language>fr</news:language>
-			</news:publication>
-			<news:publication_date>2025-08-14T16:39:00+02:00</news:publication_date>
-			<news:title>Mercato ete 2025 : départs, arrivées, rumeurs...</news:title>
-			<news:keywords>Sevilla FC, FC Séville, Mercato, Sevilla FC Mercato, Liga, Seville, SevillaVa, Sevilla Va, Seville FC France</news:keywords>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.sevillava.fr/antoniocord%C3%B3n-mercato1</loc>
-		<news:news>
-			<news:publication>
-				<news:name>SevillaVa</news:name>
-				<news:language>fr</news:language>
-			</news:publication>
-			<news:publication_date>2025-08-13T17:55:00+02:00</news:publication_date>
-			<news:title>Antonio Cordón, analyse le mercato estival du club</news:title>
-			<news:keywords>Sevilla FC, FC Séville, Antonio Cordón, Odysséas Vlachodímos, Mercato, SevillaVa, Sevilla Va, Seville FC France</news:keywords>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.sevillava.fr/odysseasvlachodimosofficiel</loc>
-		<news:news>
-			<news:publication>
-				<news:name>SevillaVa</news:name>
-				<news:language>fr</news:language>
-			</news:publication>
-			<news:publication_date>2025-08-12T20:52:00+02:00</news:publication_date>
-			<news:title>Odysseas Vlachodimos est officiellement un joueur du Sevilla FC</news:title>
-			<news:keywords>Sevilla FC, FC Séville, Odysseas Vlachodimos, Odysséas Vlachodímos, Mercato, SevillaVa, Sevilla Va, Seville FC France</news:keywords>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.sevillava.fr/odisseasvlachodimos-transfert</loc>
-		<news:news>
-			<news:publication>
-				<news:name>SevillaVa</news:name>
-				<news:language>fr</news:language>
-			</news:publication>
-			<news:publication_date>2025-08-11T17:07:00+02:00</news:publication_date>
-			<news:title>Odisseas Vlachodimos va rejoindre le Sevilla FC en prêt</news:title>
-			<news:keywords>Sevilla FC, FC Séville, Odisseas Vlachodimos, Odysséas Vlachodímos, Mercato, Orjan, Nyland, SevillaVa, Sevilla Va, Seville FC France</news:keywords>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.sevillava.fr/matiasalmeydatoulousefc</loc>
-		<news:news>
-			<news:publication>
-				<news:name>SevillaVa</news:name>
-				<news:language>fr</news:language>
-			</news:publication>
-			<news:publication_date>2025-08-11T13:48:00+02:00</news:publication_date>
-			<news:title>Matías Almeyda : « Le bilan de la pré-saison est positif. »</news:title>
-			<news:keywords>Sevilla FC, FC Séville, Toulouse FC Sevilla FC, Toulouse FC FC Séville, SevillaVa, Sevilla Va, Seville FC France, Matías Almeyda</news:keywords>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.sevillava.fr/toulousefc11sevillafc</loc>
-		<news:news>
-			<news:publication>
-				<news:name>SevillaVa</news:name>
-				<news:language>fr</news:language>
-			</news:publication>
-			<news:publication_date>2025-08-10T23:37:00+02:00</news:publication_date>
-			<news:title>Toulouse FC 1 - 1 Sevilla FC / Un but en fin de match prive le Sevilla FC d’une victoire à Toulouse</news:title>
-			<news:keywords>Sevilla FC, FC Séville, TéFéCé, Toulouse FC Sevilla FC, Toulouse FC FC Séville, SevillaVa, Sevilla Va, Seville FC France, Toulouse FC</news:keywords>
-		</news:news>
-	</url>
-    <url>
-		<loc>https://www.sevillava.fr/entrevuelesviolets</loc>
-		<news:news>
-			<news:publication>
-				<news:name>SevillaVa</news:name>
-				<news:language>fr</news:language>
-			</news:publication>
-			<news:publication_date>2025-08-10T16:23:00+02:00</news:publication_date>
-			<news:title>L'entrevue sur LesViolets.com</news:title>
-			<news:keywords>Sevilla FC, FC Séville, TéFéCé, Toulouse FC Sevilla FC, Toulouse FC FC Séville, LesViolets.com, LesViolets</news:keywords>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.sevillava.fr/notaesencial09082025</loc>
-		<news:news>
-			<news:publication>
-				<news:name>SevillaVa</news:name>
-				<news:language>fr</news:language>
-			</news:publication>
-			<news:publication_date>2025-08-10T11:04:00+02:00</news:publication_date>
-			<news:title>la Nota Esencial du 9 août 2025</news:title>
-			<news:keywords>Sevilla FC, FC Séville, Loïc Badé, Rubén Vargas, Juanlu Sánchez</news:keywords>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.sevillava.fr/toulousefcsevillafc1</loc>
-		<news:news>
-			<news:publication>
-				<news:name>SevillaVa</news:name>
-				<news:language>fr</news:language>
-			</news:publication>
-			<news:publication_date>2025-08-08T18:13:00+02:00</news:publication_date>
-			<news:title>Toulouse FC - Sevilla FC : Présentation, diffusion WEB...</news:title>
-			<news:keywords>Sevilla FC, FC Séville, Partido, Toulouse FC, TéFéCé, Toulouse FC Sevilla FC</news:keywords>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.sevillava.fr/notaesencial06082025</loc>
-		<news:news>
-			<news:publication>
-				<news:name>SevillaVa</news:name>
-				<news:language>fr</news:language>
-			</news:publication>
-			<news:publication_date>2025-08-06T21:39:00+02:00</news:publication_date>
-			<news:title>La Nota Esencial du 6 août 2025</news:title>
-			<news:keywords>Nota Esencial, Juanlu Sánchez, Sevilla FC, FC Séville, Loïc Badé, Iheanacho</news:keywords>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.sevillava.fr/matiasalmeydatrofeopuerta</loc>
-		<news:news>
-			<news:publication>
-				<news:name>SevillaVa</news:name>
-				<news:language>fr</news:language>
-			</news:publication>
-			<news:publication_date>2025-08-05T09:16:00+02:00</news:publication_date>
-			<news:title>Matías Almeyda : « Je vois un groupe qui montre cette rébellion du changement »</news:title>
-			<news:keywords>Sevilla FC, FC Séville, Trofeo Antonio Puerta, Matías Almeyda, Entrevista</news:keywords>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.sevillava.fr/sevillafcal-qadisiyahtabresultat</loc>
-		<news:news>
-			<news:publication>
-				<news:name>SevillaVa</news:name>
-				<news:language>fr</news:language>
-			</news:publication>
-			<news:publication_date>2025-08-05T00:00:00+02:00</news:publication_date>
-			<news:title>Sevilla FC 2 - 2 Al-Qadisiyah / TAB 4 - 1  : les andalous remportent la 14e edition de trofeo Antonio Puerta</news:title>
-			<news:keywords>Sevilla FC, FC Séville, Antonio Puerta, Trofeo Antonio Puerta, Trophée Antonio Puerta, Ramón Sánchez Pizjuán, Al-Qadisiyah, Al-Qadsiah, Sevilla FC Al-Qadisiyah</news:keywords>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.sevillava.fr/histoiretrofeoantoniopuerta</loc>
-		<news:news>
-			<news:publication>
-				<news:name>SevillaVa</news:name>
-				<news:language>fr</news:language>
-			</news:publication>
-			<news:publication_date>2025-08-04T19:30:00+02:00</news:publication_date>
-			<news:title>L'histoire du Trofeo Antonio Puerta</news:title>
-			<news:keywords>Sevilla FC, Antonio Puerta, Trofeo Antonio Puerta, Trophée Antonio Puerta, Ramón Sánchez Pizjuán</news:keywords>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.sevillava.fr/sevillafcal-qadisiyahpresentation</loc>
-		<news:news>
-			<news:publication>
-				<news:name>SevillaVa</news:name>
-				<news:language>fr</news:language>
-			</news:publication>
-			<news:publication_date>2025-08-04T09:42:00+02:00</news:publication_date>
-			<news:title>Sevilla FC - Al-Qadisiyah FC : Présentation, diffusion WEB...</news:title>
-			<news:keywords>Sevilla FC Al-Qadisiyah, Al-Qadsiah, Sevilla FC, FC Séville, Trophée Antonio Puerta, Trofeo Antonio Puerta, Partido</news:keywords>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.sevillava.fr/matiasalmeydaomsevilla</loc>
-		<news:news>
-			<news:publication>
-				<news:name>SevillaVa</news:name>
-				<news:language>fr</news:language>
-			</news:publication>
-			<news:publication_date>2025-08-03T17:00:00+02:00</news:publication_date>
-			<news:title>Matías Almeyda : « Nous continuons de grandir en tant qu'équipe et à mieux voir l'idée de jeu »</news:title>
-			<news:keywords>Matías Almeyda, Olympique de Marseille Sevilla FC, Sevilla FC, OM Séville, Marseille, FC Séville</news:keywords>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.sevillava.fr/olympiquedemarseillesevillafcscore</loc>
-		<news:news>
-			<news:publication>
-				<news:name>SevillaVa</news:name>
-				<news:language>fr</news:language>
-			</news:publication>
-			<news:publication_date>2025-08-03T10:37:00+02:00</news:publication_date>
-			<news:title>Olympique de Marseille 1 - 1 Sevilla FC : Match nul dans ce duel de haut niveau</news:title>
-			<news:keywords>Sevilla FC, Olympique de Marseille, OM Sevilla FC, OM Séville, Marseille, FC Séville</news:keywords>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.sevillava.fr/notaesencial02082025</loc>
-		<news:news>
-			<news:publication>
-				<news:name>SevillaVa</news:name>
-				<news:language>fr</news:language>
-			</news:publication>
-			<news:publication_date>2025-08-02T10:33:00+02:00</news:publication_date>
-			<news:title>La Nota Esencial du 2 août 2025</news:title>
-			<news:keywords>Nota Esencial, FC Séville, Sevilla FC, Marcao</news:keywords>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.sevillava.fr/olympiquedemarseillesevillafcpresentation</loc>
-		<news:news>
-			<news:publication>
-				<news:name>SevillaVa</news:name>
-				<news:language>fr</news:language>
-			</news:publication>
-			<news:publication_date>2025-08-02T10:06:00+02:00</news:publication_date>
-			<news:title>Olympique de Marseille - Sevilla FC : Présentation, diffusion WEB...</news:title>
-			<news:keywords>Sevilla FC, Olympique de Marseille, OM, OM Sevilla FC, OM FC Séville, Partido, FC Séville, Marseille</news:keywords>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.sevillava.fr/socios202526</loc>
-		<news:news>
-			<news:publication>
-				<news:name>SevillaVa</news:name>
-				<news:language>fr</news:language>
-			</news:publication>
-			<news:publication_date>2025-08-01T16:06:00+02:00</news:publication_date>
-			<news:title>Le Sevilla FC lance sa campagne d’adhésion socios rojos y blancos 2025/26</news:title>
-			<news:keywords>socios, rojos y blancos, FC Séville, Sevilla FC</news:keywords>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.sevillava.fr/notaesencial30072025</loc>
-		<news:news>
-			<news:publication>
-				<news:name>SevillaVa</news:name>
-				<news:language>fr</news:language>
-			</news:publication>
-			<news:publication_date>2025-07-30T21:45:00+02:00</news:publication_date>
-			<news:title>La Nota Esencial du 30 juillet 2025</news:title>
-			<news:keywords>Nota Esencial, Loïc Badé, FC Séville, Sevilla FC, Alfon González, Mercato</news:keywords>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.sevillava.fr/rafamirfini</loc>
-		<news:news>
-			<news:publication>
-				<news:name>SevillaVa</news:name>
-				<news:language>fr</news:language>
-			</news:publication>
-			<news:publication_date>2025-07-28T16:20:00+02:00</news:publication_date>
-			<news:title>Rafa Mir définitivement écarté du projet du Sevilla FC</news:title>
-			<news:keywords>Rafa Mir, Sevilla FC, FC Séville, Mercato</news:keywords>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.sevillava.fr/almeyda-schalkesevilla</loc>
-		<news:news>
-			<news:publication>
-				<news:name>SevillaVa</news:name>
-				<news:language>fr</news:language>
-			</news:publication>
-			<news:publication_date>2025-07-27T13:05:00+02:00</news:publication_date>
-			<news:title>Matías Almeyda : « Nous sommes sur la bonne voie »</news:title>
-			<news:keywords>Matías Almeyda, Sevilla FC, Schalke Sevilla, FC Schalke 04, FC Séville, Partido</news:keywords>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.sevillava.fr/schalke24sevilla</loc>
-		<news:news>
-			<news:publication>
-				<news:name>SevillaVa</news:name>
-				<news:language>fr</news:language>
-			</news:publication>
-			<news:publication_date>2025-07-26T19:48:00+02:00</news:publication_date>
-			<news:title>FC Schalke 04 2 - 4 Sevilla FC : Un pas en avant intéressant pour les hommes d'Almeyda</news:title>
-			<news:keywords>Sevilla FC, Matías Almeyda, FC Séville, FC Schalke 04, Schalke Sevilla, Akor Adams</news:keywords>
-		</news:news>
-	</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  <url>
+    <loc>https://www.sevillava.fr/rafamirelchecf</loc>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-08-18T09:20:00Z</news:publication_date>
+      <news:title>Rafa Mir prété une saison au Elche CF</news:title>
+      <news:keywords>Sevilla FC, FC Séville, Rafa Mir, Adnan Januzaj, Elche CF, Mercato, SevillaVa, Sevilla Va, Seville FC France</news:keywords>
+    </news:news>
+  </url>
+	
+  <url>
+    <loc>https://www.sevillava.fr/athleticclub32sevillafc</loc>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-08-18T00:40:00Z</news:publication_date>
+      <news:title>Athletic Club 3 - 2 Sevilla FC / Faux pas pour les Andalous à San Mamés</news:title>
+      <news:keywords>Sevilla FC, FC Séville, Athletic Club, Athletic Bilbao, Athletic Club Sevilla FC, Athletic Sevilla, Matías Almeyda, San Mamés, Liga, SevillaVa, Sevilla Va, Seville FC France</news:keywords>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://www.sevillava.fr/athleticclubsevillafc2526</loc>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-08-16T23:00:00Z</news:publication_date>
+      <news:title>Athletic Club - Sevilla FC : Présentation, diffusion WEB...</news:title>
+      <news:keywords>Sevilla FC, FC Séville, Athletic Club, Athletic Bilbao, Athletic Club Sevilla FC, Athletic Sevilla, San Mamés, Liga, Seville, SevillaVa, Sevilla Va, Seville FC France</news:keywords>
+    </news:news>
+  </url>
+
 </urlset>
