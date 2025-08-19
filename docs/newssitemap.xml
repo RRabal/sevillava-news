@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+	
+<url>
+    <loc>https://www.sevillava.fr/lesadieuxdeloicbade</loc>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-08-19T20:26:00Z</news:publication_date>
+      <news:title>L’émouvant adieu de Loic Bade à l’entraînement du Sevilla FC</news:title>
+      <news:keywords>Sevilla FC, FC Séville, Loïc Badé, SevillaVa, Sevilla Va, Seville FC France, Mercato, Loic Bade, Bayer Leverkusen</news:keywords>
+    </news:news>
+  </url>
 
 <url>
     <loc>https://www.sevillava.fr/januzajrestesevillafc</loc>
