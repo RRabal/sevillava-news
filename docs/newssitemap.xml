@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+
+<url>
+    <loc>https://www.sevillava.fr/coup-dur-idumbo-januzaj</loc>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-08-20T10:25:00Z</news:publication_date>
+      <news:title>Coup dur, Idumbo et Januzaj absents jusqu’après la trêve</news:title>
+      <news:keywords>Sevilla FC, FC Séville, Stanis Idumbo, Adnan Januzaj, SevillaVa, Sevilla Va, Seville FC France</news:keywords>
+    </news:news>
+  </url>
 	
 <url>
     <loc>https://www.sevillava.fr/lesadieuxdeloicbade</loc>
@@ -38,32 +51,6 @@
       <news:publication_date>2025-08-18T11:05:00Z</news:publication_date>
       <news:title>Matías Almeyda : « La confiance en 2e MT est la clé »</news:title>
       <news:keywords>Sevilla FC, FC Séville, Partido, SevillaVa, Sevilla Va, Seville FC France, Athletic Club, Athletic Bilbao, Athetlic Club Sevilla FC, Matías Almeyda</news:keywords>
-    </news:news>
-  </url>
-	
-  <url>
-    <loc>https://www.sevillava.fr/rafamirelchecf</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-08-18T09:20:00Z</news:publication_date>
-      <news:title>Rafa Mir prété une saison au Elche CF</news:title>
-      <news:keywords>Sevilla FC, FC Séville, Rafa Mir, Adnan Januzaj, Elche CF, Mercato, SevillaVa, Sevilla Va, Seville FC France</news:keywords>
-    </news:news>
-  </url>
-	
-  <url>
-    <loc>https://www.sevillava.fr/athleticclub32sevillafc</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-08-18T00:40:00Z</news:publication_date>
-      <news:title>Athletic Club 3 - 2 Sevilla FC / Faux pas pour les Andalous à San Mamés</news:title>
-      <news:keywords>Sevilla FC, FC Séville, Athletic Club, Athletic Bilbao, Athletic Club Sevilla FC, Athletic Sevilla, Matías Almeyda, San Mamés, Liga, SevillaVa, Sevilla Va, Seville FC France</news:keywords>
     </news:news>
   </url>
 
