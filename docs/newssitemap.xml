@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+	
+<url>
+    <loc>https://www.sevillava.fr/pena-sevillista-francaise-5-ans</loc>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-08-21T14:20:00Z</news:publication_date>
+      <news:title>La Peña Sevillista Française fête ses 5 ans</news:title>
+      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Peña Sevillista Française</news:keywords>
+    </news:news>
+  </url>
 
 <url>
     <loc>https://www.sevillava.fr/coup-dur-idumbo-januzaj</loc>
