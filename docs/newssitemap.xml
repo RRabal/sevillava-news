@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+
+<url>
+    <loc>https://www.sevillava.fr/loïc-badé-rejoint-bayer-leverkusen</loc>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-08-21T22:09:00Z</news:publication_date>
+      <news:title>Gracias por todos Loïc Badé</news:title>
+      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Loic Bade, Loïc Badé, Mercato, Bayer Leverkusen</news:keywords>
+    </news:news>
+  </url>
 	
 <url>
     <loc>https://www.sevillava.fr/pena-sevillista-francaise-5-ans</loc>
@@ -25,45 +38,6 @@
       <news:publication_date>2025-08-20T10:25:00Z</news:publication_date>
       <news:title>Coup dur, Idumbo et Januzaj absents jusqu’après la trêve</news:title>
       <news:keywords>Sevilla FC, FC Séville, Stanis Idumbo, Adnan Januzaj, SevillaVa, Sevilla Va, Seville FC France</news:keywords>
-    </news:news>
-  </url>
-	
-<url>
-    <loc>https://www.sevillava.fr/lesadieuxdeloicbade</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-08-19T20:26:00Z</news:publication_date>
-      <news:title>L’émouvant adieu de Loic Bade à l’entraînement du Sevilla FC</news:title>
-      <news:keywords>Sevilla FC, FC Séville, Loïc Badé, SevillaVa, Sevilla Va, Seville FC France, Mercato, Loic Bade, Bayer Leverkusen</news:keywords>
-    </news:news>
-  </url>
-
-<url>
-    <loc>https://www.sevillava.fr/januzajrestesevillafc</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-08-19T11:16:00Z</news:publication_date>
-      <news:title>Januzaj reste au Sevilla FC : le club espère faire valider sa baisse salariale par LaLiga</news:title>
-      <news:keywords>Sevilla FC, FC Séville, Adnan Januzaj, SevillaVa, Sevilla Va, Seville FC France, Mercato, Januzaj, LaLiga</news:keywords>
-    </news:news>
-  </url>
-	
-<url>
-    <loc>https://www.sevillava.fr/matiasalmeydaathleticclub1</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-08-18T11:05:00Z</news:publication_date>
-      <news:title>Matías Almeyda : « La confiance en 2e MT est la clé »</news:title>
-      <news:keywords>Sevilla FC, FC Séville, Partido, SevillaVa, Sevilla Va, Seville FC France, Athletic Club, Athletic Bilbao, Athetlic Club Sevilla FC, Matías Almeyda</news:keywords>
     </news:news>
   </url>
 
