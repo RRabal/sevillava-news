@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/matías-almeyda-getafe-cf-1</loc>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-08-23T20:12:00Z</news:publication_date>
+      <news:title>Matías Almeyda : « Il faut donner confiance aux joueurs qui sont là »</news:title>
+      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Matías Almeyda, Getafe CF, Sevilla Getafe</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/juan-de-dios-crespo-investisseurs-americains</loc>
     <news:news>
       <news:publication>
@@ -38,32 +51,6 @@
       <news:publication_date>2025-08-21T22:09:00Z</news:publication_date>
       <news:title>Gracias por todos Loïc Badé</news:title>
       <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Loic Bade, Loïc Badé, Mercato, Bayer Leverkusen</news:keywords>
-    </news:news>
-  </url>
-	
-<url>
-    <loc>https://www.sevillava.fr/pena-sevillista-francaise-5-ans</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-08-21T14:20:00Z</news:publication_date>
-      <news:title>La Peña Sevillista Française fête ses 5 ans</news:title>
-      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Peña Sevillista Française</news:keywords>
-    </news:news>
-  </url>
-
-<url>
-    <loc>https://www.sevillava.fr/coup-dur-idumbo-januzaj</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-08-20T10:25:00Z</news:publication_date>
-      <news:title>Coup dur, Idumbo et Januzaj absents jusqu’après la trêve</news:title>
-      <news:keywords>Sevilla FC, FC Séville, Stanis Idumbo, Adnan Januzaj, SevillaVa, Sevilla Va, Seville FC France</news:keywords>
     </news:news>
   </url>
 
