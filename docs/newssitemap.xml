@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/biris-norte-boycottera-son-tifo-face-a-getafe-cf</loc>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-08-25T11:31:00Z</news:publication_date>
+      <news:title>Biris Norte boycottera son tifo face a getafe CF</news:title>
+      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, LaLiga, Biris Norte, Getafe CF, Sevilla FC Getafe CF, Ramón Sánchez-Pizjuán</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/matías-almeyda-getafe-cf-1</loc>
     <news:news>
       <news:publication>
