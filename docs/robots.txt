@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
+Sitemap: https://www.sevillava.fr/sitemapnews.xml
 Sitemap: https://news.sevillava.fr/newssitemap.xml
 Sitemap: https://www.sevillava.fr/sitemap.xml
 Sitemap: https://www.sevillava.fr/blog-feed.xml
