@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/gudelj-nyland-ejuke-les-joueurs-reagissent</loc>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-08-26T15:51:00Z</news:publication_date>
+      <news:title>Gudelj, Nyland, Ejuke... les joueurs reagissent après la défaite face a Getafe CF</news:title>
+      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Getafe CF, Nemanja Gudelj, Ørjan Nyland, Chidera Ejuke</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/matías-almeyda-defaite-face-a-getafe-cf1</loc>
     <news:news>
       <news:publication>
