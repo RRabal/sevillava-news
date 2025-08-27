@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/chaos-au-sein-du-sevilla-fc</loc>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-08-27T14:12:00Z</news:publication_date>
+      <news:title>Chaos au sein du Sevilla FC, entre blessés et non-inscrits, on fait le point</news:title>
+      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Matías Almeyda, Antonio Cordón, Mercato</news:keywords>
+    </news:news>
+</url>
+    
+<url>
     <loc>https://www.sevillava.fr/gudelj-nyland-ejuke-les-joueurs-reagissent</loc>
     <news:news>
       <news:publication>
@@ -38,19 +51,6 @@
       <news:publication_date>2025-08-26T00:15:00Z</news:publication_date>
       <news:title>Sevilla FC 1 - 2 Getafe CF / Les Andalous s’inclinent pour leur première à domicile</news:title>
       <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Getafe CF, Sevilla FC Getafe CF, Ramón Sánchez-Pizjuán</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/biris-norte-boycottera-son-tifo-face-a-getafe-cf</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-08-25T11:31:00Z</news:publication_date>
-      <news:title>Biris Norte boycottera son tifo face a getafe CF</news:title>
-      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, LaLiga, Biris Norte, Getafe CF, Sevilla FC Getafe CF, Ramón Sánchez-Pizjuán</news:keywords>
     </news:news>
 </url>
 
