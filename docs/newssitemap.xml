@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>hhttps://www.sevillava.fr/suazo-et-alfon-officiellement-inscrits-en-liga</loc>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-08-28T12:50:00Z</news:publication_date>
+      <news:title>Suazo et Alfon officiellement inscrits en Liga</news:title>
+      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Gabriel Suazo, Alfon González, Alfon, Mercato</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/chaos-au-sein-du-sevilla-fc</loc>
     <news:news>
       <news:publication>
