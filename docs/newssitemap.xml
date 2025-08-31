@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/matías-almeyda-les-victoires-apportent-toujours-du-bonheur</loc>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-08-31T09:48:00Z</news:publication_date>
+      <news:title>Matías Almeyda : « Les victoires apportent toujours du bonheur »</news:title>
+      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Girona FC, Matías Almeyda, Girona Sevilla</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/girona-fc-0-2-sevilla-fc</loc>
     <news:news>
       <news:publication>
