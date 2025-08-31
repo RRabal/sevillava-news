@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+      
+<url>
+    <loc>https://www.sevillava.fr/nyland-isaac-kike-salas-r%C3%A9actions-des-joueurs-apr%C3%A8s-la-victoire-face-%C3%A0-girona-fc</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-08-31T12:53:00+00:00</news:publication_date>
+      <news:title>Nyland, Isaac, Kike Salas... réactions des joueurs après la victoire face à Girona FC</news:title>
+      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Girona FC, Ørjan Nyland, Isaac Romero, Kike Salas, Girona Sevilla</news:keywords>
+    </news:news>
+</url>
 
 <url>
     <loc>https://www.sevillava.fr/matías-almeyda-les-victoires-apportent-toujours-du-bonheur</loc>
