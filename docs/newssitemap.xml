@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-      
+
+<url>
+    <loc>https://www.sevillava.fr/c%C3%A9sar-azpilicueta-j%E2%80%99ai-senti-une-grande-envie-de-me-voir-ici</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-09-01T13:26:00+00:00</news:publication_date>
+      <news:title>César Azpilicueta : « J’ai senti une grande envie de me voir ici »</news:title>
+      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, César Azpilicueta</news:keywords>
+    </news:news>
+</url>
+
 <url>
     <loc>https://www.sevillava.fr/nyland-isaac-kike-salas-r%C3%A9actions-des-joueurs-apr%C3%A8s-la-victoire-face-%C3%A0-girona-fc</loc>
     <news:news>
@@ -38,58 +51,6 @@
       <news:publication_date>2025-08-30T23:00:00Z</news:publication_date>
       <news:title>Girona FC 0 - 2 Sevilla FC / Le Sevilla FC s’impose à Montilivi et décroche ses premiers points</news:title>
       <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Girona Sevilla, Girona FC</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/girona-fc-sevilla-fc-presentation-diffusion-tv</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-08-30T11:07:00Z</news:publication_date>
-      <news:title>Girona FC - Sevilla FC : Presentation, diffusion TV...</news:title>
-      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Girona Sevilla, Girona FC</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/cesar-azpilicueta-sengage-avec-le-sevilla-fc</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-08-29T21:26:00Z</news:publication_date>
-      <news:title>César Azpilicueta s’engage avec le Sevilla FC</news:title>
-      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, César Azpilicueta, Azpilicueta, Mercato</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/matías-almeyda-il-faut-arrêter-de-penser-que-tout-va-mal</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-08-29T13:43:00Z</news:publication_date>
-      <news:title>Matías Almeyda : « Il faut arrêter de penser que tout va mal »</news:title>
-      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Matías Almeyda, Conference de presse, César Azpilicueta, Girona FC</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/chaos-au-sein-du-sevilla-fc</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-08-27T14:12:00Z</news:publication_date>
-      <news:title>Chaos au sein du Sevilla FC, entre blessés et non-inscrits, on fait le point</news:title>
-      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Matías Almeyda, Antonio Cordón, Mercato</news:keywords>
     </news:news>
 </url>
 
