@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/batista-mendy-s-engage-avec-le-sevilla-fc</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-09-01T23:09:00+00:00</news:publication_date>
+      <news:title>Batista Mendy s'engage avec le Sevilla FC</news:title>
+      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Batista Mendy, Mercato, Batista Adelino Mendy</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/césar-azpilicueta-j-ai-senti-une-grande-envie-de-me-voir-ici</loc>
     <news:news>
       <news:publication>
