@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/antonio-cord%C3%B3n-et-le-bilan-mercato-du-sevilla-fc</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-09-02T10:18:00+00:00</news:publication_date>
+      <news:title>Antonio Cordón et le bilan mercato du Sevilla FC</news:title>
+      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Antonio Cordón, Mercato</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/alexis-s%C3%A1nchez-s-engage-avec-le-sevilla-fc</loc>
     <news:news>
       <news:publication>
