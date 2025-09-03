@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/batista-mendy-je-suis-tr%C3%A8s-content-de-venir-dans-ce-grand-club</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-09-03T23:05:00+00:00</news:publication_date>
+      <news:title>Batista Mendy : « Je suis très content de venir dans ce grand club »</news:title>
+      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Batista Mendy</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/antonio-cord%C3%B3n-et-le-bilan-mercato-du-sevilla-fc</loc>
     <news:news>
       <news:publication>
