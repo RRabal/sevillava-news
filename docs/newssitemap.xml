@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/alexis-s%C3%A1nchez-nous-irons-tous-de-l-avant</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-09-05T17:26:00+00:00</news:publication_date>
+      <news:title>Alexis Sánchez : « Nous irons tous de l’avant »</news:title>
+      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Alexis Sánchez</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/batista-mendy-je-suis-tr%C3%A8s-content-de-venir-dans-ce-grand-club</loc>
     <news:news>
       <news:publication>
@@ -12,110 +25,6 @@
       <news:publication_date>2025-09-03T23:05:00+00:00</news:publication_date>
       <news:title>Batista Mendy : « Je suis très content de venir dans ce grand club »</news:title>
       <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Batista Mendy</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/antonio-cord%C3%B3n-et-le-bilan-mercato-du-sevilla-fc</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-09-02T10:18:00+00:00</news:publication_date>
-      <news:title>Antonio Cordón et le bilan mercato du Sevilla FC</news:title>
-      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Antonio Cordón, Mercato</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/alexis-s%C3%A1nchez-s-engage-avec-le-sevilla-fc</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-09-01T23:53:00+00:00</news:publication_date>
-      <news:title>Alexis Sánchez s'engage avec le Sevilla FC</news:title>
-      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Alexis Sánchez, Mercato</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/f%C3%A1bio-cardoso-s-engage-avec-le-sevilla-fc</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-09-01T23:32:00+00:00</news:publication_date>
-      <news:title>Fábio Cardoso s'engage avec le Sevilla FC</news:title>
-      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Fábio Rafael Rodrigues Cardoso, Mercato, Fábio Cardoso</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/batista-mendy-s-engage-avec-le-sevilla-fc</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-09-01T23:09:00+00:00</news:publication_date>
-      <news:title>Batista Mendy s'engage avec le Sevilla FC</news:title>
-      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Batista Mendy, Mercato, Batista Adelino Mendy</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/césar-azpilicueta-j-ai-senti-une-grande-envie-de-me-voir-ici</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-09-01T13:26:00+00:00</news:publication_date>
-      <news:title>César Azpilicueta : « J’ai senti une grande envie de me voir ici »</news:title>
-      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, César Azpilicueta</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/nyland-isaac-kike-salas-r%C3%A9actions-des-joueurs-apr%C3%A8s-la-victoire-face-%C3%A0-girona-fc</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-08-31T12:53:00+00:00</news:publication_date>
-      <news:title>Nyland, Isaac, Kike Salas... réactions des joueurs après la victoire face à Girona FC</news:title>
-      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Girona FC, Ørjan Nyland, Isaac Romero, Kike Salas, Girona Sevilla</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/matías-almeyda-les-victoires-apportent-toujours-du-bonheur</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-08-31T09:48:00Z</news:publication_date>
-      <news:title>Matías Almeyda : « Les victoires apportent toujours du bonheur »</news:title>
-      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Girona FC, Matías Almeyda, Girona Sevilla</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/girona-fc-0-2-sevilla-fc</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-08-30T23:00:00Z</news:publication_date>
-      <news:title>Girona FC 0 - 2 Sevilla FC / Le Sevilla FC s’impose à Montilivi et décroche ses premiers points</news:title>
-      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Girona Sevilla, Girona FC</news:keywords>
     </news:news>
 </url>
 
