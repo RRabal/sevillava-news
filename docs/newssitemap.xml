@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  
+<url>
+    <loc>https://www.sevillava.fr/f%C3%A1bio-cardoso-j-ai-de-l-exp%C3%A9rience-et-je-suis-pr%C3%AAt</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-09-05T18:05:00+00:00</news:publication_date>
+      <news:title>Fábio Cardoso : « J'ai de l'expérience et je suis prêt »</news:title>
+      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Fábio Cardoso</news:keywords>
+    </news:news>
+</url>
 
 <url>
     <loc>https://www.sevillava.fr/alexis-s%C3%A1nchez-nous-irons-tous-de-l-avant</loc>
