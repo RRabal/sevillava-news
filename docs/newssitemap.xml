@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/c%C3%A9sar-azpilicueta-je-vois-le-vestiaire-et-je-me-battrai-avec-eux</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-09-09T19:55:00+00:00</news:publication_date>
+      <news:title>César Azpilicueta : « Je vois le vestiaire et je me battrai avec eux »</news:title>
+      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, César Azpilicueta</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/trois-mois-plus-tard-jos%C3%A9-mar%C3%ADa-del-nido-carrasco-rompt-son-silence</loc>
     <news:news>
       <news:publication>
