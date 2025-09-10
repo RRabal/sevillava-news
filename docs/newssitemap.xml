@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+
+<url>
+    <loc>https://www.sevillava.fr/jos%C3%A9-mar%C3%ADa-del-nido-carrasco-conference-du-10-septembre-2025</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-09-10T18:23:00+00:00</news:publication_date>
+      <news:title>José María del Nido Carrasco rassure : la dette nette du Sevilla FC tombe à 66 millions d’euros</news:title>
+      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, José María del Nido Carrasco</news:keywords>
+    </news:news>
+</url>
    
 <url>
     <loc>https://www.sevillava.fr/alexis-s%C3%A1nchez-j-ai-envie-de-jouer-dans-ce-stade-et-de-donner-une-joie-aux-supporters</loc>
