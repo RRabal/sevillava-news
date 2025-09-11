@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-il-nous-appartient-de-convaincre-les-gens-qui-viennent-nous-soutenir</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-09-12T00:54:00+00:00</news:publication_date>
+      <news:title>Matías Almeyda : « Il nous appartient de convaincre les gens qui viennent nous soutenir »</news:title>
+      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Matías Almeyda, Elche CF</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/jos%C3%A9-mar%C3%ADa-del-nido-carrasco-conference-du-10-septembre-2025</loc>
     <news:news>
       <news:publication>
