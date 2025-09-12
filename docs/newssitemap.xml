@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/sevilla-fc-2-2-elche-cf-le-sevilla-sauve-un-point-face-%C3%A0-l-elche-mais-reste-sur-sa-faim</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-09-12T23:52:00+00:00</news:publication_date>
+      <news:title>Sevilla FC 2 - 2 Elche CF / Le Sevilla sauve un point face à l’Elche mais reste sur sa faim</news:title>
+      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Elche CF, Sevilla Elche, #SevillaElcheCF</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/sevilla-fc-elche-cf-presentation-diffusion-tv</loc>
     <news:news>
       <news:publication>
