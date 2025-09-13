@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-je-garde-un-go%C3%BBt-positif-malgr%C3%A9-le-nul</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-09-13T09:34:00+00:00</news:publication_date>
+      <news:title>Matías Almeyda : « Je garde un goût positif malgré le nul »</news:title>
+      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Elche CF, Sevilla Elche, #SevillaElcheCF, Matías Almeyda</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/sevilla-fc-2-2-elche-cf-le-sevilla-sauve-un-point-face-%C3%A0-l-elche-mais-reste-sur-sa-faim</loc>
     <news:news>
       <news:publication>
@@ -38,97 +51,6 @@
       <news:publication_date>2025-09-12T00:54:00+00:00</news:publication_date>
       <news:title>Matías Almeyda : « Il nous appartient de convaincre les gens qui viennent nous soutenir »</news:title>
       <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Matías Almeyda, Elche CF</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/jos%C3%A9-mar%C3%ADa-del-nido-carrasco-conference-du-10-septembre-2025</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-09-10T18:23:00+00:00</news:publication_date>
-      <news:title>José María del Nido Carrasco rassure : la dette nette du Sevilla FC tombe à 66 millions d’euros</news:title>
-      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, José María del Nido Carrasco</news:keywords>
-    </news:news>
-</url>
-   
-<url>
-    <loc>https://www.sevillava.fr/alexis-s%C3%A1nchez-j-ai-envie-de-jouer-dans-ce-stade-et-de-donner-une-joie-aux-supporters</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-09-09T21:31:00+00:00</news:publication_date>
-      <news:title>Alexis Sánchez : « J’ai envie de jouer dans ce stade et de donner une joie aux supporters »</news:title>
-      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Alexis Sánchez</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/c%C3%A9sar-azpilicueta-je-vois-le-vestiaire-et-je-me-battrai-avec-eux</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-09-09T19:55:00+00:00</news:publication_date>
-      <news:title>César Azpilicueta : « Je vois le vestiaire et je me battrai avec eux »</news:title>
-      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, César Azpilicueta</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/trois-mois-plus-tard-jos%C3%A9-mar%C3%ADa-del-nido-carrasco-rompt-son-silence</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-09-07T12:12:00+00:00</news:publication_date>
-      <news:title>Trois mois plus tard, José María del Nido Carrasco rompt son silence</news:title>
-      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, José María del Nido Carrasco</news:keywords>
-    </news:news>
-</url>
-  
-<url>
-    <loc>https://www.sevillava.fr/f%C3%A1bio-cardoso-j-ai-de-l-exp%C3%A9rience-et-je-suis-pr%C3%AAt</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-09-05T18:05:00+00:00</news:publication_date>
-      <news:title>Fábio Cardoso : « J'ai de l'expérience et je suis prêt »</news:title>
-      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Fábio Cardoso</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/alexis-s%C3%A1nchez-nous-irons-tous-de-l-avant</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-09-05T17:26:00+00:00</news:publication_date>
-      <news:title>Alexis Sánchez : « Nous irons tous de l’avant »</news:title>
-      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Alexis Sánchez</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/batista-mendy-je-suis-tr%C3%A8s-content-de-venir-dans-ce-grand-club</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-09-03T23:05:00+00:00</news:publication_date>
-      <news:title>Batista Mendy : « Je suis très content de venir dans ce grand club »</news:title>
-      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Batista Mendy</news:keywords>
     </news:news>
 </url>
 
