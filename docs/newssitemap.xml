@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/le-sevilla-fc-renouvelle-son-offrande-%C3%A0-la-vierge-des-rois</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-09-16T22:19:00+00:00</news:publication_date>
+      <news:title>Le Sevilla FC renouvelle son offrande à la Vierge des Rois</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, SevillaFC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Offrande à la Vierge des Rois</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/sevilla-fc-la-plateforme-ott-du-club-nomin%C3%A9e-aux-sportspro-media-awards</loc>
     <news:news>
       <news:publication>
