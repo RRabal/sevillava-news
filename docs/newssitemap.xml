@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+        
+<url>
+    <loc>https://www.sevillava.fr/jos%C3%A9-mar%C3%ADa-del-nido-benavente-sort-du-silence-un-retour-qui-secoue-le-sevilla-fc</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-09-18T22:30:00+00:00</news:publication_date>
+      <news:title>José María del Nido Benavente sort du silence : un retour qui secoue le Sevilla FC</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, SevillaFC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, José María del Nido Benavente</news:keywords>
+    </news:news>
+</url>
 
 <url>
     <loc>https://www.sevillava.fr/le-sevilla-fc-renouvelle-son-offrande-%C3%A0-la-vierge-des-rois</loc>
@@ -12,97 +25,6 @@
       <news:publication_date>2025-09-16T22:19:00+00:00</news:publication_date>
       <news:title>Le Sevilla FC renouvelle son offrande à la Vierge des Rois</news:title>
       <news:keywords>Sevilla FC, Sevilla FC+, SevillaFC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Offrande à la Vierge des Rois</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/sevilla-fc-la-plateforme-ott-du-club-nomin%C3%A9e-aux-sportspro-media-awards</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-09-15T23:04:00+00:00</news:publication_date>
-      <news:title>Sevilla FC+ : la plateforme OTT du club nominée aux SportsPro Media Awards</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, SevillaFC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Stanis Idumbo, Idumbo</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/stanis-idumbo-rompt-son-silence-et-revient-sur-son-d%C3%A9part-du-sevilla-fc</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-09-14T11:21:00+00:00</news:publication_date>
-      <news:title>Stanis Idumbo rompt son silence et revient sur son départ du Sevilla FC</news:title>
-      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Stanis Idumbo, Idumbo</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/peque-isaac-r%C3%A9actions-des-joueurs-apr%C3%A8s-le-nul-face-%C3%A0-elche-cf</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-09-13T18:25:00+00:00</news:publication_date>
-      <news:title>Peque, Isaac... réactions des joueurs après le nul face à Elche CF</news:title>
-      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Elche CF, Sevilla Elche, #SevillaElcheCF, Peque Fernández, Isaac Romero</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-je-garde-un-go%C3%BBt-positif-malgr%C3%A9-le-nul</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-09-13T09:34:00+00:00</news:publication_date>
-      <news:title>Matías Almeyda : « Je garde un goût positif malgré le nul »</news:title>
-      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Elche CF, Sevilla Elche, #SevillaElcheCF, Matías Almeyda</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/sevilla-fc-2-2-elche-cf-le-sevilla-sauve-un-point-face-%C3%A0-l-elche-mais-reste-sur-sa-faim</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-09-12T23:52:00+00:00</news:publication_date>
-      <news:title>Sevilla FC 2 - 2 Elche CF / Le Sevilla sauve un point face à l’Elche mais reste sur sa faim</news:title>
-      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Elche CF, Sevilla Elche, #SevillaElcheCF</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/sevilla-fc-elche-cf-presentation-diffusion-tv</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-09-12T17:05:00+00:00</news:publication_date>
-      <news:title>Sevilla FC - Elche CF : Presentation, diffusion TV...</news:title>
-      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Elche CF, Sevilla Elche</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-il-nous-appartient-de-convaincre-les-gens-qui-viennent-nous-soutenir</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-09-12T00:54:00+00:00</news:publication_date>
-      <news:title>Matías Almeyda : « Il nous appartient de convaincre les gens qui viennent nous soutenir »</news:title>
-      <news:keywords>Sevilla FC, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Matías Almeyda, Elche CF</news:keywords>
     </news:news>
 </url>
 
