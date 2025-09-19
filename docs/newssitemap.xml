@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+
+<url>
+    <loc>https://www.sevillava.fr/isaac-romero-almeyda-m-a-dit-que-je-vais-marquer-beaucoup-de-buts</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-09-19T14:20:00+00:00</news:publication_date>
+      <news:title>Isaac Romero : « Almeyda m'a dit que je vais marquer beaucoup de buts »</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, SevillaFC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Isaac Romero</news:keywords>
+    </news:news>
+</url>
         
 <url>
     <loc>https://www.sevillava.fr/jos%C3%A9-mar%C3%ADa-del-nido-benavente-sort-du-silence-un-retour-qui-secoue-le-sevilla-fc</loc>
