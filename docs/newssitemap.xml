@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/deportivo-alav%C3%A9s-sevilla-fc-pr%C3%A9sentation-diffusion-tv</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-09-19T23:49:00+00:00</news:publication_date>
+      <news:title>Deportivo Alavés - Sevilla FC : présentation, diffusion TV...</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, SevillaFC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Deportivo Alavés Sevilla FC, Alavés Sevilla</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-analyse-le-sevilla-fc-avant-d-affronter-alav%C3%A9s</loc>
     <news:news>
       <news:publication>
