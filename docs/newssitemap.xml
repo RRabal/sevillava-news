@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-analyse-le-sevilla-fc-avant-d-affronter-alav%C3%A9s</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-09-19T23:10:00+00:00</news:publication_date>
+      <news:title>Matías Almeyda analyse le Sevilla FC avant d’affronter Alavés : le onze, respect du rival et l'autocritique</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, SevillaFC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Matías Almeyda</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/isaac-romero-almeyda-m-a-dit-que-je-vais-marquer-beaucoup-de-buts</loc>
     <news:news>
       <news:publication>
