@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-nous-allons-dans-la-bonne-direction</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-09-21T11:26:00+00:00</news:publication_date>
+      <news:title>Matías Almeyda : « Nous allons dans la bonne direction »</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Deportivo Alavés Sevilla FC, Matías Almeyda, Deportivo Alavés, Alavés Sevilla</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/deportivo-alav%C3%A9s-1-2-sevilla-fc-une-victoire-de-caract%C3%A8re-du-sevilla-fc-%C3%A0-mendizorroza</loc>
     <news:news>
       <news:publication>
