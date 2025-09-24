@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-les-r%C3%A9sultats-arriveront-je-n-ai-aucun-doute</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-09-24T11:28:00+00:00</news:publication_date>
+      <news:title>Matías Almeyda : « Les résultats arriveront, je n’ai aucun doute »</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Villarreal CF, Sevilla Villarreal, Sevilla FC Villarreal CF</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/sevilla-fc-1-2-villarreal-cf-cruelle-d%C3%A9sillusion-en-inf%C3%A9riorit%C3%A9-num%C3%A9rique</loc>
     <news:news>
       <news:publication>
