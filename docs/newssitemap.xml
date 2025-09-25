@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/batista-mendy-nous-voulons-gagner-la-coupe-du-roi</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-09-25T13:09:00+00:00</news:publication_date>
+      <news:title>Batista Mendy : « Nous voulons gagner la Coupe du Roi »</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Batista Mendy</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-les-r%C3%A9sultats-arriveront-je-n-ai-aucun-doute</loc>
     <news:news>
       <news:publication>
