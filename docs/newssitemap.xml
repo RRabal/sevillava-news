@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/laliga-sevilla-fc-la-remont%C3%A9e-salariale-qui-ne-suffit-pas</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-09-25T22:28:00+00:00</news:publication_date>
+      <news:title>LaLiga : la remontée salariale du Sevilla FC qui ne suffit pas</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, LaLiga</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/batista-mendy-nous-voulons-gagner-la-coupe-du-roi</loc>
     <news:news>
       <news:publication>
