@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+      
+<url>
+    <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-personne-ne-veut-perdre</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-09-26T15:00:00+00:00</news:publication_date>
+      <news:title>Matías Almeyda : « Personne ne veut perdre de points, mais il ne faut pas être faible face à l’adversité »</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Matías Almeyda, Rayo Vallecano</news:keywords>
+    </news:news>
+</url>
 
 <url>
     <loc>https://www.sevillava.fr/laliga-sevilla-fc-la-remont%C3%A9e-salariale-qui-ne-suffit-pas</loc>
