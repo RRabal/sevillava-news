@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-le-football-c-est-11-contre-11</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-10-03T17:15:00+00:00</news:publication_date>
+      <news:title>Matías Almeyda : « Le football, c'est 11 contre 11. C'est difficile mais pas impossible »</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, FC Barcelona, Barça, Matías Almeyda</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/le-sevilla-fc-compte-4-bless%C3%A9s-avant-la-r%C3%A9ception-du-fc-barcelona</loc>
     <news:news>
       <news:publication>
