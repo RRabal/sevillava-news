@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/sevilla-fc-4-1-fc-barcelona-une-victoire-exceptionnelle</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-10-05T19:12:00+00:00</news:publication_date>
+      <news:title>Sevilla FC 4 - 1 FC Barcelona / une victoire exceptionnelle qui met UN TERME à 10 ans de malédiction en Liga</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, FC Barcelona, Barça, Sevilla Barcelona, Sevilla Barcelone</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/sevilla-fc-fc-barcelona-pr%C3%A9sentation-diffusion-tv</loc>
     <news:news>
       <news:publication>
