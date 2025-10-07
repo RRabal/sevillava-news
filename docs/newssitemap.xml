@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/le-sevilla-fc-conna%C3%AEt-son-premier-adversaire-en-coupe-du-roi</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-10-07T22:41:00+00:00</news:publication_date>
+      <news:title>Le Sevilla FC connaît son premier adversaire en Coupe du Roi</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, FC Barcelona, Barça, Sevilla Barcelona, Sevilla Barcelone, Matías Almeyda, Copa del Rey, Coupe du Roi</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-c-est-l-un-de-ces-jours-qu-on-ne-veut-jamais-voir-se-terminer</loc>
     <news:news>
       <news:publication>
