@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+
+<url>
+    <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-c-est-l-un-de-ces-jours-qu-on-ne-veut-jamais-voir-se-terminer</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-10-07T22:20:00+00:00</news:publication_date>
+      <news:title>Matías Almeyda : « C’est l’un de ces jours qu’on ne veut jamais voir se terminer »</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, FC Barcelona, Barça, Sevilla Barcelona, Sevilla Barcelone, Matías Almeyda</news:keywords>
+    </news:news>
+</url>
       
 <url>
     <loc>https://www.sevillava.fr/s%C3%A1nchez-azpilicueta-carmona-adams-et-romero-r%C3%A9actions</loc>
