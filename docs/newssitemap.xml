@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+
+<url>
+    <loc>https://www.sevillava.fr/c%C3%A9sar-azpilicueta-renouvellement-automatique</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-10-08T21:34:00+00:00</news:publication_date>
+      <news:title>César Azpilicueta proche d’un renouvellement automatique avec le Sevilla FC</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, FC Barcelona, Barça, Sevilla Barcelona, Sevilla Barcelone, Matías Almeyda, César Azpilicueta</news:keywords>
+    </news:news>
+</url>
         
 <url>
     <loc>https://www.sevillava.fr/jos%C3%A9-%C3%A1ngel-carmona-almeyda-nous-a-rendu-la-joie-et-la-grinta</loc>
