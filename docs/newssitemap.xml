@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+        
+<url>
+    <loc>https://www.sevillava.fr/jos%C3%A9-%C3%A1ngel-carmona-almeyda-nous-a-rendu-la-joie-et-la-grinta</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-10-08T21:19:00+00:00</news:publication_date>
+      <news:title>José Ángel Carmona : « Almeyda nous a rendu la joie et la grinta »</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, FC Barcelona, Barça, Sevilla Barcelona, Sevilla Barcelone, Matías Almeyda, José Ángel Carmona</news:keywords>
+    </news:news>
+</url>
 
 <url>
     <loc>https://www.sevillava.fr/le-sevilla-fc-conna%C3%AEt-son-premier-adversaire-en-coupe-du-roi</loc>
@@ -25,97 +38,6 @@
       <news:publication_date>2025-10-07T22:20:00+00:00</news:publication_date>
       <news:title>Matías Almeyda : « C’est l’un de ces jours qu’on ne veut jamais voir se terminer »</news:title>
       <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, FC Barcelona, Barça, Sevilla Barcelona, Sevilla Barcelone, Matías Almeyda</news:keywords>
-    </news:news>
-</url>
-      
-<url>
-    <loc>https://www.sevillava.fr/s%C3%A1nchez-azpilicueta-carmona-adams-et-romero-r%C3%A9actions</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-10-06T13:30:00+00:00</news:publication_date>
-      <news:title>Sánchez, Azpilicueta, Carmona, Adams et Romero... réactions des joueurs après la victoire face au FC Barcelona</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, FC Barcelona, Barça, Sevilla Barcelona, Sevilla Barcelone, Sánchez, Azpilicueta, Carmona, Adams, Romero</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/sevilla-fc-4-1-fc-barcelona-une-victoire-exceptionnelle</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-10-05T19:12:00+00:00</news:publication_date>
-      <news:title>Sevilla FC 4 - 1 FC Barcelona / une victoire exceptionnelle qui met UN TERME à 10 ans de malédiction en Liga</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, FC Barcelona, Barça, Sevilla Barcelona, Sevilla Barcelone</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/sevilla-fc-fc-barcelona-pr%C3%A9sentation-diffusion-tv</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-10-05T09:36:00+00:00</news:publication_date>
-      <news:title>Sevilla FC - FC Barcelona / présentation, diffusion TV...</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, FC Barcelona, Barça, Sevilla Barcelona, Lamine Yamal</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/coup-dur-pour-le-bar%C3%A7a-lamine-yamal-forfait-contre-le-sevilla-fc</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-10-03T17:55:00+00:00</news:publication_date>
-      <news:title>Coup dur pour le Barça : Lamine Yamal forfait contre le Sevilla FC</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, FC Barcelona, Barça, Lamine Yamal</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/aseer-time-group-nouveau-sponsor-pour-le-sevilla-fc-face-au-bar%C3%A7a</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-10-03T17:35:00+00:00</news:publication_date>
-      <news:title>Aseer Time Group, nouveau sponsor pour le Sevilla FC face au Barça</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, FC Barcelona, Barça, Aseer Time Group</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-le-football-c-est-11-contre-11</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-10-03T17:15:00+00:00</news:publication_date>
-      <news:title>Matías Almeyda : « Le football, c'est 11 contre 11. C'est difficile mais pas impossible »</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, FC Barcelona, Barça, Matías Almeyda</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/le-sevilla-fc-compte-4-bless%C3%A9s-avant-la-r%C3%A9ception-du-fc-barcelona</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-10-01T21:51:00+00:00</news:publication_date>
-      <news:title>le Sevilla FC compte 4 blessés avant la réception du FC Barcelona</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Infirmerie, Blessure, 4 blessés, FC Barcelona</news:keywords>
     </news:news>
 </url>
         
