@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/le-sevilla-fc-cherche-une-solution-d%C3%A8s-janvier-pour-%C3%A1lvaro-fern%C3%A1ndez</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-10-10T17:17:00+00:00</news:publication_date>
+      <news:title>Le Sevilla FC cherche une solution dès janvier pour Álvaro Fernández</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Álvaro Fernández</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/c%C3%A9sar-azpilicueta-renouvellement-automatique</loc>
     <news:news>
       <news:publication>
