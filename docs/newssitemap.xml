@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/sevilla-fc-la-transformation-num%C3%A9rique-du-club-mise-%C3%A0-l%E2%80%99honneur-%C3%A0-merge-madrid-2025</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-10-11T09:20:00+00:00</news:publication_date>
+      <news:title>Sevilla FC+ : la transformation numérique du club mise à l’honneur à Merge Madrid 2025</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/le-sevilla-fc-cherche-une-solution-d%C3%A8s-janvier-pour-%C3%A1lvaro-fern%C3%A1ndez</loc>
     <news:news>
       <news:publication>
