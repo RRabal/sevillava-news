@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/sevilla-fc-1-3-rcd-mallorca-dix-minutes-fatidiques-ont-tout-fait-basculer</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-10-18T22:45:00+00:00</news:publication_date>
+      <news:title>Sevilla FC 1 - 3 RCD Mallorca / Dix minutes fatidiques ont tout fait basculer</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, RCD Mallorca, Sevilla FC RCD Mallorca</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-ils-ont-les-pieds-sur-terre</loc>
     <news:news>
       <news:publication>
