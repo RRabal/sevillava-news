@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-nous-avons-laiss%C3%A9-des-options-%C3%A0-ladversaire</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-10-18T23:02:00+00:00</news:publication_date>
+      <news:title>Matías Almeyda : « Nous avons laissé des options à l’adversaire »</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, RCD Mallorca, Sevilla FC RCD Mallorca, Matías Almeyda</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/sevilla-fc-1-3-rcd-mallorca-dix-minutes-fatidiques-ont-tout-fait-basculer</loc>
     <news:news>
       <news:publication>
