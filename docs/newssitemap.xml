@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/hommage-%C3%A0-sandra-pe%C3%B1a</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-10-20T22:19:00+00:00</news:publication_date>
+      <news:title>Séville unie dans la douleur : le geste fort du Sevilla FC en hommage à Sandra Peña</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Sandra Peña</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/blessure-de-c%C3%A9sar-azpilicueta-communiqu%C3%A9</loc>
     <news:news>
       <news:publication>
