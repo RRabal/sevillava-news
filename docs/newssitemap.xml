@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/real-sociedad-de-f%C3%BAtbol-sevilla-fc-pr%C3%A9sentation-diffusion-tv</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-10-23T23:28:00+00:00</news:publication_date>
+      <news:title>Real Sociedad de Fútbol - Sevilla FC / présentation, diffusion TV...</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Sandra Peña, Ramón Sánchez-Pizjuán, Real Sociedad de Fútbol Sevilla FC, Matías Almeyda</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-cest-un-adversaire-qui-peut-se-r%C3%A9veiller-%C3%A0-tout-moment</loc>
     <news:news>
       <news:publication>
