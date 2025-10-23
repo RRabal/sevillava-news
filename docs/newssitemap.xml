@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-cest-un-adversaire-qui-peut-se-r%C3%A9veiller-%C3%A0-tout-moment</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-10-23T18:14:00+00:00</news:publication_date>
+      <news:title>Matías Almeyda : « C’est un adversaire qui peut se réveiller à tout moment »</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Sandra Peña, Ramón Sánchez-Pizjuán, Matías Almeyda</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/le-ram%C3%B3n-s%C3%A1nchez-pizju%C3%A1n-f%C3%AAte-son-50e-anniversaire</loc>
     <news:news>
       <news:publication>
