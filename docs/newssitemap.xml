@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-tous-les-regards-sont-tourn%C3%A9s-vers-ce-que-nous-faisons</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-10-25T22:20:00+00:00</news:publication_date>
+      <news:title>Matías Almeyda : « Tous les regards sont tournés vers ce que nous faisons »</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Sandra Peña, Ramón Sánchez-Pizjuán, Real Sociedad de Fútbol Sevilla FC, Matías Almeyda</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/real-sociedad-de-f%C3%BAtbol-2-1-sevilla-fc</loc>
     <news:news>
       <news:publication>
