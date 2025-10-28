@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/le-cas-kike-salas-de-titulaire-%C3%A0-oubli%C3%A9</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-10-28T14:10:00+00:00</news:publication_date>
+      <news:title>Le cas Kike Salas : de titulaire à oublié</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Kike Salas</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/cd-toledo-sevilla-fc-pr%C3%A9sentation-diffusion-tv</loc>
     <news:news>
       <news:publication>
