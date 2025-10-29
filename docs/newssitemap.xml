@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-je-valorise-leur-d%C3%A9pense-d%C3%A9nergie-et-leur-envie</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-10-29T08:03:00+00:00</news:publication_date>
+      <news:title>Matías Almeyda : « Je valorise leur dépense d’énergie et leur envie »</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, CD Toledo</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/cd-toledo-1-4-sevilla-fc-les-andalous-assurent-lessentiel-%C3%A0-tol%C3%A8de</loc>
     <news:news>
       <news:publication>
