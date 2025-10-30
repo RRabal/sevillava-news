@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/azpilicueta-mendy-et-nianzou-de-retour-aux-entra%C3%AEnements-collectifs</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-10-30T21:00:00+00:00</news:publication_date>
+      <news:title>Azpilicueta, Mendy et Nianzou de retour aux entraînements collectifs</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Azpilicueta, Mendy et Nianzou</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-je-valorise-leur-d%C3%A9pense-d%C3%A9nergie-et-leur-envie</loc>
     <news:news>
       <news:publication>
