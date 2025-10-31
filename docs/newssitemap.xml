@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-pour-nous-ce-sont-tous-des-finales</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-10-31T16:31:00+00:00</news:publication_date>
+      <news:title>Matías Almeyda : « Pour nous ce sont tous des finales »</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/jos%C3%A9-gonz%C3%A1lez-dans-quitte-la-direction-g%C3%A9n%C3%A9rale-du-sevilla-fc</loc>
     <news:news>
       <news:publication>
@@ -38,214 +51,6 @@
       <news:publication_date>2025-10-30T21:00:00+00:00</news:publication_date>
       <news:title>Azpilicueta, Mendy et Nianzou de retour aux entraînements collectifs</news:title>
       <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Azpilicueta, Mendy et Nianzou</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-je-valorise-leur-d%C3%A9pense-d%C3%A9nergie-et-leur-envie</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-10-29T08:03:00+00:00</news:publication_date>
-      <news:title>Matías Almeyda : « Je valorise leur dépense d’énergie et leur envie »</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, CD Toledo</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/cd-toledo-1-4-sevilla-fc-les-andalous-assurent-lessentiel-%C3%A0-tol%C3%A8de</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-10-29T07:40:00+00:00</news:publication_date>
-      <news:title>CD Toledo 1 - 4 Sevilla FC / Les andalous assurent l’essentiel à Tolède et poursuivent leur route en Coupe du Roi</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, CD Toledo</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/le-cas-kike-salas-de-titulaire-%C3%A0-oubli%C3%A9</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-10-28T14:10:00+00:00</news:publication_date>
-      <news:title>Le cas Kike Salas : de titulaire à oublié</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Kike Salas</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/cd-toledo-sevilla-fc-pr%C3%A9sentation-diffusion-tv</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-10-27T20:53:00+00:00</news:publication_date>
-      <news:title>CD Toledo - Sevilla FC / présentation, diffusion TV...</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, CD Toledo, CD Toledo Sevilla FC, Copa del Rey, Coupe du Roi</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-il-faut-aborder-la-coupe-avec-une-concentration-maximale-elle-peut-nous-apporter-beaucoup</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-10-27T20:05:00+00:00</news:publication_date>
-      <news:title>Matías Almeyda : « Il faut aborder la coupe avec une concentration maximale, elle peut nous apporter beaucoup »</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, CD Toledo, Matías Almeyda</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-tous-les-regards-sont-tourn%C3%A9s-vers-ce-que-nous-faisons</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-10-25T22:20:00+00:00</news:publication_date>
-      <news:title>Matías Almeyda : « Tous les regards sont tournés vers ce que nous faisons »</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Sandra Peña, Ramón Sánchez-Pizjuán, Real Sociedad de Fútbol Sevilla FC, Matías Almeyda</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/real-sociedad-de-f%C3%BAtbol-2-1-sevilla-fc</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-10-24T23:29:00+00:00</news:publication_date>
-      <news:title>Real Sociedad de Fútbol 2 - 1 Sevilla FC / Un nouveau coup dur</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Sandra Peña, Ramón Sánchez-Pizjuán, Real Sociedad de Fútbol Sevilla FC, Matías Almeyda</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/real-sociedad-de-f%C3%BAtbol-sevilla-fc-pr%C3%A9sentation-diffusion-tv</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-10-23T23:28:00+00:00</news:publication_date>
-      <news:title>Real Sociedad de Fútbol - Sevilla FC / présentation, diffusion TV...</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Sandra Peña, Ramón Sánchez-Pizjuán, Real Sociedad de Fútbol Sevilla FC, Matías Almeyda</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-cest-un-adversaire-qui-peut-se-r%C3%A9veiller-%C3%A0-tout-moment</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-10-23T18:14:00+00:00</news:publication_date>
-      <news:title>Matías Almeyda : « C’est un adversaire qui peut se réveiller à tout moment »</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Sandra Peña, Ramón Sánchez-Pizjuán, Matías Almeyda</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/le-ram%C3%B3n-s%C3%A1nchez-pizju%C3%A1n-f%C3%AAte-son-50e-anniversaire</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-10-22T10:44:00+00:00</news:publication_date>
-      <news:title>Le Ramón Sánchez-Pizjuán fête son 50E anniversaire avec une exposition spéciale</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Sandra Peña, Ramón Sánchez-Pizjuán</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/hommage-%C3%A0-sandra-pe%C3%B1a</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-10-20T22:19:00+00:00</news:publication_date>
-      <news:title>Séville unie dans la douleur : le geste fort du Sevilla FC en hommage à Sandra Peña</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Sandra Peña</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/blessure-de-c%C3%A9sar-azpilicueta-communiqu%C3%A9</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-10-20T13:56:00+00:00</news:publication_date>
-      <news:title>Blessure de César Azpilicueta : communiqué médical et durée d’indisponibilité</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, César Azpilicueta, Matías Almeyda</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-nous-avons-laiss%C3%A9-des-options-%C3%A0-ladversaire</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-10-18T23:02:00+00:00</news:publication_date>
-      <news:title>Matías Almeyda : « Nous avons laissé des options à l’adversaire »</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, RCD Mallorca, Sevilla FC RCD Mallorca, Matías Almeyda</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/sevilla-fc-1-3-rcd-mallorca-dix-minutes-fatidiques-ont-tout-fait-basculer</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-10-18T22:45:00+00:00</news:publication_date>
-      <news:title>Sevilla FC 1 - 3 RCD Mallorca / Dix minutes fatidiques ont tout fait basculer</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, RCD Mallorca, Sevilla FC RCD Mallorca</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-ils-ont-les-pieds-sur-terre</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-10-17T15:45:00+00:00</news:publication_date>
-      <news:title>Matías Almeyda : « Ils ont les pieds sur terre, c’est un groupe humble qui veut continuer »</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, RCD Mallorca, Sevilla FC RCD Mallorca, Matías Almeyda</news:keywords>
-    </news:news>
-</url>
-        
-<url>
-    <loc>https://www.sevillava.fr/sevilla-fc-rcd-mallorca-pr%C3%A9sentation-diffusion-tv</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-10-17T14:59:00+00:00</news:publication_date>
-      <news:title>Sevilla FC - RCD Mallorca / présentation, diffusion TV...</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, RCD Mallorca, Sevilla FC RCD Mallorca</news:keywords>
     </news:news>
 </url>
         
