@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/possibles-adversaires-du-sevilla-fc-en-coupe-du-roi</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-11-03T11:59:00+00:00</news:publication_date>
+      <news:title>Les possibles adversaires du Sevilla FC au deuxième tour de la Coupe du Roi</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Copa del Rey, Coupe du Roi</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-en-premi%C3%A8re-p%C3%A9riode-nous-avons-bien-rivalis%C3%A9-avec-une-%C3%A9quipe-tr%C3%A8s-forte</loc>
     <news:news>
       <news:publication>
