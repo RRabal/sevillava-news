@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/c%C3%A9sar-azpilicueta-on-travaille-ensemble-pour-retrouver-cette-solidit%C3%A9</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-11-06T21:09:00+00:00</news:publication_date>
+      <news:title>César Azpilicueta : « On travaille ensemble pour retrouver cette solidité »</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, César Azpilicueta</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/isaac-romero-bless%C3%A9-les-options</loc>
     <news:news>
       <news:publication>
