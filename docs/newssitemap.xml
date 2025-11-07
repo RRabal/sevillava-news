@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+      
+<url>
+    <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-nous-savons-l-importance-quil-y-a-%C3%A0-recommencer-%C3%A0-prendre-des-points-demain</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-11-07T17:41:00+00:00</news:publication_date>
+      <news:title>Matías Almeyda : « Nous savons l'importance qu'il y a à recommencer à prendre des points demain »</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Matías Almeyda, CA Osasuna</news:keywords>
+    </news:news>
+</url>
 
 <url>
     <loc>https://www.sevillava.fr/c%C3%A9sar-azpilicueta-on-travaille-ensemble-pour-retrouver-cette-solidit%C3%A9</loc>
