@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+
+<url>
+    <loc>https://www.sevillava.fr/sevilla-fc-1-0-ca-osasuna-enfin-de-retour-sur-le-chemin-de-la-victoire</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-11-08T20:16:00+00:00</news:publication_date>
+      <news:title>Sevilla FC 1 - 0 CA Osasuna / Enfin de retour sur le chemin de la victoire</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, CA Osasuna, Sevilla Osasuna</news:keywords>
+    </news:news>
+</url>
         
 <url>
     <loc>https://www.sevillava.fr/del-nido-benavente-vise-un-retour-%C3%A0-la-pr%C3%A9sidence-du-sevilla-fc</loc>
