@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-jaborde-la-reconstruction-avec-une-immense-joie</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-11-13T23:18:00+00:00</news:publication_date>
+      <news:title>Matías Almeyda : « J’aborde la reconstruction avec une immense joie et un profond sens des responsabilités »</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/del-nido-carrasco-cette-derni%C3%A8re-victoire-nous-apporte-beaucoup-de-s%C3%A9r%C3%A9nit%C3%A9-pour-travailler</loc>
     <news:news>
       <news:publication>
