@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/la-date-de-lassembl%C3%A9e-g%C3%A9n%C3%A9rale-du-sevilla-fc-est-d%C3%A9sormais-officielle</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-11-15T16:16:00+00:00</news:publication_date>
+      <news:title>La date de l’Assemblée Générale du Sevilla FC est désormais officielle</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Assemblée Générale</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-jaborde-la-reconstruction-avec-une-immense-joie</loc>
     <news:news>
       <news:publication>
