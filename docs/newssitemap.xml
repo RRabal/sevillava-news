@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/disparition-d-un-pionnier-xabier-azkargorta-ancien-entra%C3%AEneur-du-sevilla-fc</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-11-16T15:13:00+00:00</news:publication_date>
+      <news:title>Disparition d'un pionnier : Xabier Azkargorta, ancien entraîneur du Sevilla FC</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Xabier Azkargorta</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/rafa-mir-plus-proche-que-jamais-dun-d%C3%A9part</loc>
     <news:news>
       <news:publication>
