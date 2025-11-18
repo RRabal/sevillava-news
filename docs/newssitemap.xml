@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+        
+<url>
+    <loc>https://www.sevillava.fr/coupe-du-roi-les-supporters-du-sevilla-fc-font-le-plein-%C3%A0-almendralejo</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-11-18T13:58:00+00:00</news:publication_date>
+      <news:title>Coupe du Roi : Les supporters du Sevilla FC font le plein à Almendralejo</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Almendralejo, CD Extremadura</news:keywords>
+    </news:news>
+</url>
 
 <url>
     <loc>https://www.sevillava.fr/50-ans-de-passion-les-biris-norte-illuminent-s%C3%A9ville-pour-leur-anniversaire</loc>
