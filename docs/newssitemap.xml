@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/isaac-romero-cette-ann%C3%A9e-tout-est-diff%C3%A9rent-nous-avons-construit-un-groupe-soud%C3%A9</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-11-20T16:34:00+00:00</news:publication_date>
+      <news:title>Isaac Romero : « Cette année, tout est différent, nous avons construit un groupe soudé dans et hors du vestiaire »</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Isaac Romero</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/antonio-cord%C3%B3n-sevilla-fc-%C3%A9voque-l%C3%A9quilibre-la-construction-solide-et-le-futur-du-club</loc>
     <news:news>
       <news:publication>
