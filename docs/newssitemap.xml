@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/sevilla-fc-et-le-real-betis-balompi%C3%A9-unis-dans-une-campagne-contre-le-harc%C3%A8lement-scolaire</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-11-23T11:20:00+00:00</news:publication_date>
+      <news:title>Sevilla FC et le Real Betis Balompié unis dans une campagne contre le harcèlement scolaire</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Real Betis Balompié, Harcelement scolaire</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/alfon-gonz%C3%A1lez-je-veux-que-les-supporters-voient-le-joueur-que-je-suis</loc>
     <news:news>
       <news:publication>
