@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/alfon-gonz%C3%A1lez-je-veux-que-les-supporters-voient-le-joueur-que-je-suis</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-11-23T11:01:00+00:00</news:publication_date>
+      <news:title>Alfon González : « Je veux que les supporters voient le joueur que je suis et qu'ils prennent plaisir »</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Alfon González</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/25e-anniversaire-de-muchodeporte</loc>
     <news:news>
       <news:publication>
