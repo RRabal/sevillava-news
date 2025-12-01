@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/gol-norte-sous-tension-le-sevilla-fc-risque-la-sanction</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-12-01T17:23:00+00:00</news:publication_date>
+      <news:title>Gol Norte sous tension : le Sevilla FC risque la sanction</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Gran Derbi, Sevilla FC Real Betis Balompié, Sevilla Betis, Gol Norte</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/carmona-azpilicueta-adams-peque-r%C3%A9actions-des-joueurs-apr%C3%A8s-la-d%C3%A9faite-face-au-real-betis</loc>
     <news:news>
       <news:publication>
