@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-il-faudra-me-sortir-dici-moi-je-ne-partirai-pas</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-12-03T22:18:00+01:00</news:publication_date>
+      <news:title>Matías Almeyda : « Il faudra me sortir d’ici, moi je ne partirai pas. »</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, CD Extremadura</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/marcao-ko-le-sevilla-fc-perd-un-pilier-en-pleine-semaine-d%C3%A9cisive</loc>
     <news:news>
       <news:publication>
