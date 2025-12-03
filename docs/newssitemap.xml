@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/marcao-ko-le-sevilla-fc-perd-un-pilier-en-pleine-semaine-d%C3%A9cisive</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-12-03T12:52:00+00:00</news:publication_date>
+      <news:title>Marcao, KO : le Sevilla FC perd un pilier en pleine semaine décisive</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Marcao</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/sevilla-fc-x-roc%C3%ADo-osorno-l%C3%A9dition-limit%C3%A9e-dun-maillot-exclusif</loc>
     <news:news>
       <news:publication>
