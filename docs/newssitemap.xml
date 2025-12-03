@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/sevilla-fc-x-roc%C3%ADo-osorno-l%C3%A9dition-limit%C3%A9e-dun-maillot-exclusif</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-12-03T12:36:00+00:00</news:publication_date>
+      <news:title>Sevilla FC x Rocío Osorno, l'édition limitée d'un maillot exclusif</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Adidas, Rocío Osorno</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/communiqu%C3%A9-officiel-du-sevilla-fc-concernant-les-incidents-lors-du-gran-derbi</loc>
     <news:news>
       <news:publication>
