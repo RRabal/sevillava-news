@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/cd-extremadura-1-2-sevilla-fc-le-sevilla-fc-impose-sa-loi-avant-la-pause-et-tient-bon</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-12-05T00:06:00+01:00</news:publication_date>
+      <news:title>CD Extremadura 1 - 2 Sevilla FC / Le Sevilla FC impose sa loi avant la pause et tient bon jusqu’au bout</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, CD Extremadura</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/cd-extremadura-sevilla-fc-pr%C3%A9sentation-o%C3%B9-voir-la-rencontre</loc>
     <news:news>
       <news:publication>
