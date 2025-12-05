@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/copa-del-rey-les-paroles-de-mat%C3%ADas-almeyda-cd-extremadura</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-12-05T09:39:00+01:00</news:publication_date>
+      <news:title>Copa del Rey : les paroles de Matías Almeyda aprÈs la victoire face au CD Extremadura et les potentiels futurs adversaires</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, CD Extremadura</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/cd-extremadura-1-2-sevilla-fc-le-sevilla-fc-impose-sa-loi-avant-la-pause-et-tient-bon</loc>
     <news:news>
       <news:publication>
