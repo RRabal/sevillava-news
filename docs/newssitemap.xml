@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/le-sevilla-fc-connait-son-adversaire-pour-les-seizi%C3%A8mes-de-finale-de-la-copa-del-rey</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-12-09T14:05:00+01:00</news:publication_date>
+      <news:title>Le Sevilla FC connait son adversaire pour les seizièmes de finale de la Copa del Rey</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Copa del Rey, Deportivo Alavés, Alavés Sevilla</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/l-%C3%A9quipe-apr%C3%A8s-mestalla-nous-faisons-le-point-avant-la-r%C3%A9ception-du-real-oviedo</loc>
     <news:news>
       <news:publication>
