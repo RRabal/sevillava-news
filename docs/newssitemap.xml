@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/la-visite-traditionnelle-%C3%A0-lh%C3%B4pital-infantil-virgen-del-roc%C3%ADo</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-12-10T23:18:00+01:00</news:publication_date>
+      <news:title>La visite traditionnelle à l’Hôpital Infantil Virgen del Rocío</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Hôpital Infantil Virgen del Rocío</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/le-sevilla-fc-connait-son-adversaire-pour-les-seizi%C3%A8mes-de-finale-de-la-copa-del-rey</loc>
     <news:news>
       <news:publication>
