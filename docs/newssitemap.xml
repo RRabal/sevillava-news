@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/le-comit%C3%A9-dappel-suspend-la-fermeture-de-gol-norte-un-soulagement-provisoire</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-12-13T09:53:00+01:00</news:publication_date>
+      <news:title>Le Comité d'appel suspend la fermeture de Gol Norte : un soulagement provisoire</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Comité d'appel, Gol Norte</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-pour-nous-ce-sont-toutes-des-finales</loc>
     <news:news>
       <news:publication>
