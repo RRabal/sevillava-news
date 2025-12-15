@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/le-sevilla-fc-et-la-fondation-1890-poursuivent-les-actions-solidaires-des-f%C3%AAtes-de-fin-d-ann%C3%A9e</loc>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-12-15T18:18:00+01:00</news:publication_date>
+      <news:title>Le Sevilla FC et la Fondation 1890 poursuivent les actions solidaires des fêtes de fin d'année</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Fondation 1890, Fundación 1890</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-une-grande-victoire-devant-un-public-qui-soutient-vraiment-l%C3%A9quipe</loc>
     <news:news>
       <news:publication>
