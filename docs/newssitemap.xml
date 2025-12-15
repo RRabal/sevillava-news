@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/sevilla-fc-bilan-complet-de-lassembl%C3%A9e-g%C3%A9n%C3%A9rale-2025</loc>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-12-15T21:02:00+01:00</news:publication_date>
+      <news:title>Sevilla FC : Bilan complet de l’Assemblée Générale 2025</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Fondation 1890, Fundación 1890, Assemblée Générale</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/le-sevilla-fc-et-la-fondation-1890-poursuivent-les-actions-solidaires-des-f%C3%AAtes-de-fin-d-ann%C3%A9e</loc>
     <news:news>
       <news:publication>
