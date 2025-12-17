@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/deportivo-alav%C3%A9s-1-0-sevilla-fc-les-andalous-sont-%C3%A9limin%C3%A9s-honteusement-de-la-copa-del-rey</loc>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-12-17T23:12:00+01:00</news:publication_date>
+      <news:title>Deportivo Alavés 1 - 0 Sevilla FC / Les andalous sont éliminés honteusement de la Copa del Rey...</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Deportivo Alavés - Sevilla FC, Copa del Rey, Coupe du Roi</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/deportivo-alav%C3%A9s-sevilla-fc-pr%C3%A9sentation-o%C3%B9-voir-la-rencontre</loc>
     <news:news>
       <news:publication>
