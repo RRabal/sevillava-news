@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/le-sevilla-fc-r%C3%A9uni-pour-c%C3%A9l%C3%A9brer-no%C3%ABl-en-famille</loc>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-12-24T21:44:00+01:00</news:publication_date>
+      <news:title>Le Sevilla FC réuni pour célébrer Noël en famille</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Antonio Cordón, Joyeux Noël, Feliz Navidad</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/vente-du-sevilla-fc-neuf-offres</loc>
     <news:news>
       <news:publication>
