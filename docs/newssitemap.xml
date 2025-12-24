@@ -3,6 +3,19 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
 <url>
+    <loc>https://www.sevillava.fr/vente-du-sevilla-fc-neuf-offres</loc>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-12-24T21:25:00+01:00</news:publication_date>
+      <news:title>Vente du Sevilla FC : neuf offres, un fonds américain favori et une bataille actionnariale historique</news:title>
+      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Antonio Cordón, neuf offres, vente du Sevilla FC</news:keywords>
+    </news:news>
+</url>
+
+<url>
     <loc>https://www.sevillava.fr/r%C3%A9union-cl%C3%A9-entre-mat%C3%ADas-almeyda-et-la-direction-du-sevilla-fc-pour-d%C3%A9cider-du-mercato-hivernal</loc>
     <news:news>
       <news:publication>
