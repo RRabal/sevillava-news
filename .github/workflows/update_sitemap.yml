@@ -10,25 +10,31 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Checkout repository avec token persistant
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
           persist-credentials: true
 
+      # 2️⃣ Installer Python
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
+      # 3️⃣ Installer les dépendances Python
       - name: Install dependencies
         run: pip install feedparser
 
+      # 4️⃣ Récupérer le flux RSS Wix
       - name: Fetch RSS from Wix
         run: curl -s https://www.sevillava.fr/blog-feed.xml -o feed.xml
 
+      # 5️⃣ Générer le sitemap
       - name: Generate news sitemap
         run: python generate_sitemap.py feed.xml docs/newssitemap.xml
 
+      # 6️⃣ Commit & push avec PAT
       - name: Commit & Push
         env:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
@@ -36,5 +42,7 @@ jobs:
           git config --global user.name "RRabal"
           git config --global user.email "RRabal@users.noreply.github.com"
           git add docs/newssitemap.xml
+          # commit uniquement si le fichier a changé
           git diff-index --quiet HEAD || git commit -m "Update newssitemap.xml"
+          # push avec PAT
           git push https://x-access-token:${PAT_TOKEN}@github.com/RRabal/sevillava-news.git
