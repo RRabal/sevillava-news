@@ -1,0 +1,36 @@
+name: Update News Sitemap
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'  # toutes les 5 minutes
+  workflow_dispatch:        # permet déclenchement manuel
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: pip install feedparser
+
+    - name: Fetch RSS from Wix
+      run: curl -s https://www.sevillava.fr/blog-feed.xml -o feed.xml
+
+    - name: Generate news sitemap
+      run: python generate_sitemap.py feed.xml docs/newssitemap.xml
+
+    - name: Commit & push
+      run: |
+        git config --global user.name "RRabal"
+        git config --global user.email "tonemail@example.com"
+        git add docs/newssitemap.xml
+        git commit -m "Update newssitemap.xml"
+        git push
