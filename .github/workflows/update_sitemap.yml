@@ -30,7 +30,7 @@ jobs:
     - name: Commit & push
       run: |
         git config --global user.name "RRabal"
-        git config --global user.email "contact@rabal.fr"
+        git config --global user.email "RRabal@users.noreply.github.com"
         git add docs/newssitemap.xml
         git commit -m "Update newssitemap.xml"
         git push
