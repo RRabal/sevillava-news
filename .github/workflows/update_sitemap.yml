@@ -23,7 +23,7 @@ jobs:
         run: pip install feedparser
 
       - name: Update sitemap file
-        run: python update_sitemap.py
+        run: python generate_sitemap.py
 
       - name: Commit and Push
         run: |
