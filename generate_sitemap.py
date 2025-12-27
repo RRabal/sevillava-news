@@ -1,19 +1,43 @@
-import xml.etree.ElementTree as ET
 import feedparser
+from datetime import datetime
+import os
 
-# Charger le flux RSS Wix
-feed = feedparser.parse('feed.xml')
+RSS_URL = "https://www.sevillava.fr/blog-feed.xml"
+# Chemin précis vers votre fichier dans le dépôt
+SITEMAP_PATH = "docs/newssitemap.xml"
 
-# Créer la structure du sitemap
-urlset = ET.Element('urlset', xmlns="http://www.sitemaps.org/schemas/sitemap/0.9")
+def generate_sitemap():
+    feed = feedparser.parse(RSS_URL)
+    
+    sitemap_content = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+    ]
 
-for entry in feed.entries:
-    url = ET.SubElement(urlset, 'url')
-    loc = ET.SubElement(url, 'loc')
-    loc.text = entry.link
-    lastmod = ET.SubElement(url, 'lastmod')
-    lastmod.text = entry.published  # date du flux RSS
+    for entry in feed.entries:
+        url = entry.link
+        try:
+            # Formatage de la date pour Google (YYYY-MM-DD)
+            date_str = datetime(*entry.published_parsed[:6]).strftime('%Y-%m-%d')
+            lastmod = f"    <lastmod>{date_str}</lastmod>"
+        except:
+            lastmod = ""
 
-# Sauvegarder le sitemap dans docs/
-tree = ET.ElementTree(urlset)
-tree.write('docs/newssitemap.xml', encoding='utf-8', xml_declaration=True)
+        item = [
+            "  <url>",
+            f"    <loc>{url}</loc>",
+            lastmod,
+            "  </url>"
+        ]
+        sitemap_content.extend([line for line in item if line.strip()])
+
+    sitemap_content.append('</urlset>')
+
+    # Créer le dossier docs s'il n'existe pas (sécurité)
+    os.makedirs(os.path.dirname(SITEMAP_PATH), exist_ok=True)
+
+    with open(SITEMAP_PATH, "w", encoding="utf-8") as f:
+        f.write("\n".join(sitemap_content))
+
+if __name__ == "__main__":
+    generate_sitemap()
