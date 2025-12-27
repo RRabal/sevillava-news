@@ -2,47 +2,33 @@ name: Update News Sitemap
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # toutes les 5 minutes
-  workflow_dispatch:        # déclenchement manuel possible
+    - cron: '0 0 * * *' # Mise à jour auto chaque nuit à minuit
+  workflow_dispatch:      # Permet de cliquer sur un bouton pour forcer la mise à jour
 
 jobs:
-  build:
+  update-rss:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
     steps:
-      # 1️⃣ Checkout repository avec token persistant
       - name: Checkout repository
-        uses: actions/checkout@v3
-        with:
-          persist-credentials: true
+        uses: actions/checkout@v4
 
-      # 2️⃣ Installer Python
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
-      # 3️⃣ Installer les dépendances Python
-      - name: Install dependencies
+      - name: Install feedparser
         run: pip install feedparser
 
-      # 4️⃣ Récupérer le flux RSS Wix
-      - name: Fetch RSS from Wix
-        run: curl -s https://www.sevillava.fr/blog-feed.xml -o feed.xml
+      - name: Update sitemap file
+        run: python update_sitemap.py
 
-      # 5️⃣ Générer le sitemap
-      - name: Generate news sitemap
-        run: python generate_sitemap.py feed.xml docs/newssitemap.xml
-
-      # 6️⃣ Commit & push avec PAT
-      - name: Commit & Push
-        env:
-          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+      - name: Commit and Push
         run: |
-          git config --global user.name "RRabal"
-          git config --global user.email "RRabal@users.noreply.github.com"
+          git config --global user.name "Sitemap Bot"
+          git config --global user.email "actions@github.com"
           git add docs/newssitemap.xml
-          # commit uniquement si le fichier a changé
-          git diff-index --quiet HEAD || git commit -m "Update newssitemap.xml"
-          # push avec PAT
-          git push https://x-access-token:${PAT_TOKEN}@github.com/RRabal/sevillava-news.git
+          git commit -m "auto: update newssitemap.xml from RSS" || echo "Aucun changement détecté"
+          git push
