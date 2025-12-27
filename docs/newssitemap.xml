@@ -1,382 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-
-<url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
     <loc>https://www.sevillava.fr/le-sevilla-fc-r%C3%A9uni-pour-c%C3%A9l%C3%A9brer-no%C3%ABl-en-famille</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-24T21:44:00+01:00</news:publication_date>
-      <news:title>Le Sevilla FC réuni pour célébrer Noël en famille</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Antonio Cordón, Joyeux Noël, Feliz Navidad</news:keywords>
-    </news:news>
-</url>
-
-<url>
+    <lastmod>2025-12-24</lastmod>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/vente-du-sevilla-fc-neuf-offres</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-24T21:25:00+01:00</news:publication_date>
-      <news:title>Vente du Sevilla FC : neuf offres, un fonds américain favori et une bataille actionnariale historique</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Antonio Cordón, neuf offres, vente du Sevilla FC</news:keywords>
-    </news:news>
-</url>
-
-<url>
+    <lastmod>2025-12-24</lastmod>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/r%C3%A9union-cl%C3%A9-entre-mat%C3%ADas-almeyda-et-la-direction-du-sevilla-fc-pour-d%C3%A9cider-du-mercato-hivernal</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-22T11:02:00+01:00</news:publication_date>
-      <news:title>Réunion clé entre Matías Almeyda et la direction du Sevilla FC pour décider du mercato hivernal</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Antonio Cordón</news:keywords>
-    </news:news>
-</url>
-
-<url>
+    <lastmod>2025-12-22</lastmod>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-cest-triste-tant-de-suffisance</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-21T11:53:00+01:00</news:publication_date>
-      <news:title>Matías Almeyda : « C’est triste tant de suffisance. »</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Real Madrid CF, Real Madrid Sevilla FC, Real Madrid FC Séville, Madrid Sevilla</news:keywords>
-    </news:news>
-</url>
-
-<url>
+    <lastmod>2025-12-21</lastmod>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/real-madrid-cf-2-0-sevilla-fc-manque-defficacite-et-decisions-discutees</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-20T23:22:00+01:00</news:publication_date>
-      <news:title>Real Madrid CF 2 - 0 Sevilla FC / Manque d’efficacité et décisions discutées...</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Real Madrid CF, Real Madrid Sevilla FC, Real Madrid FC Séville, Madrid Sevilla</news:keywords>
-    </news:news>
-</url>
-
-<url>
+    <lastmod>2025-12-20</lastmod>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/real-madrid-cf-sevilla-fc-pr%C3%A9sentation-o%C3%B9-voir-la-rencontre</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-19T22:03:00+01:00</news:publication_date>
-      <news:title>Real Madrid CF - Sevilla FC / Présentation, où voir la rencontre ?</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Real Madrid CF, Real Madrid Sevilla FC, Real Madrid FC Séville, Madrid Sevilla</news:keywords>
-    </news:news>
-</url>
-     
-<url>
+    <lastmod>2025-12-19</lastmod>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/le-spot-publicitaire-du-sevilla-fc-no%C3%ABl-appartient-%C3%A0-ceux-qui-ne-renoncent-jamais</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-19T16:45:00+01:00</news:publication_date>
-      <news:title>Le spot publicitaire du Sevilla FC : « Noël appartient à ceux qui ne renoncent jamais »</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Navidad, Noël</news:keywords>
-    </news:news>
-</url>
-
-<url>
+    <lastmod>2025-12-19</lastmod>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-l-%C3%A9quipe-que-nous-affronterons-poss%C3%A8de-les-trois-meilleurs-joueurs-du-monde</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-19T16:07:00+01:00</news:publication_date>
-      <news:title>Matías Almeyda : « L'équipe que nous affronterons possède les trois meilleurs joueurs du monde actuellement »</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Real Madrid CF, Madrid Séville, Madrid Sevilla</news:keywords>
-    </news:news>
-</url>
-   
-<url>
+    <lastmod>2025-12-19</lastmod>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/retour-sur-le-world-football-summit-riyadh-2025</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-18T22:48:00+01:00</news:publication_date>
-      <news:title>Retour sur le World Football Summit Riyadh 2025</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, World Football Summit Riyadh 2025</news:keywords>
-    </news:news>
-</url>
-
-<url>
+    <lastmod>2025-12-18</lastmod>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-il-faut-garder-les-pieds-sur-terre-et-se-concentrer-sur-le-championnat</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-18T12:36:00+01:00</news:publication_date>
-      <news:title>Matías Almeyda : « Il faut garder les pieds sur terre et se concentrer sur le championnat »</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Deportivo Alavés - Sevilla FC, Copa del Rey, Coupe du Roi</news:keywords>
-    </news:news>
-</url>
-
-<url>
+    <lastmod>2025-12-18</lastmod>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/deportivo-alav%C3%A9s-1-0-sevilla-fc-les-andalous-sont-%C3%A9limin%C3%A9s-honteusement-de-la-copa-del-rey</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-17T23:12:00+01:00</news:publication_date>
-      <news:title>Deportivo Alavés 1 - 0 Sevilla FC / Les andalous sont éliminés honteusement de la Copa del Rey...</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Deportivo Alavés - Sevilla FC, Copa del Rey, Coupe du Roi</news:keywords>
-    </news:news>
-</url>
-
-<url>
+    <lastmod>2025-12-17</lastmod>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/deportivo-alav%C3%A9s-sevilla-fc-pr%C3%A9sentation-o%C3%B9-voir-la-rencontre</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-16T22:10:00+01:00</news:publication_date>
-      <news:title>Deportivo Alavés - Sevilla FC / Présentation, où voir la rencontre ?</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Deportivo Alavés - Sevilla FC, Copa del Rey, Coupe du Roi</news:keywords>
-    </news:news>
-</url>
-
-<url>
+    <lastmod>2025-12-16</lastmod>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/jos%C3%A9-mar%C3%ADa-del-nido-carrasco-je-me-sens-tr%C3%A8s-satisfait</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-16T16:41:00+01:00</news:publication_date>
-      <news:title>José María del Nido Carrasco : « Je me sens très satisfait. »</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, José María del Nido Carrasco</news:keywords>
-    </news:news>
-</url>
-       
-<url>
+    <lastmod>2025-12-16</lastmod>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-nous-aborderons-ce-match-avec-responsabilit%C3%A9-et-envie-car-cest-une-finale</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-16T15:49:00+01:00</news:publication_date>
-      <news:title>Matías Almeyda : « Nous aborderons ce match avec responsabilité et envie, car c’est une finale »</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Deportivo Alavés, Copa del Rey, Coupe du Roi</news:keywords>
-    </news:news>
-</url>
-
-<url>
+    <lastmod>2025-12-16</lastmod>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/antonio-lapp%C3%AD-personne-ne-ma-dit-que-mon-offre-%C3%A9tait-mauvaise</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-16T10:47:00+01:00</news:publication_date>
-      <news:title>Antonio Lappí : « Personne ne m’a dit que mon offre était mauvaise »</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Assemblée Générale, Antonio Lappí, José María del Nido Benavente</news:keywords>
-    </news:news>
-</url>
-
-<url>
+    <lastmod>2025-12-16</lastmod>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/jos%C3%A9-mar%C3%ADa-del-nido-benavente-faire-une-ench%C3%A8re-du-sevilla-fc-me-para%C3%AEt-obsc%C3%A8ne</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-16T10:20:00+01:00</news:publication_date>
-      <news:title>José María del Nido Benavente : « Faire une enchère du Sevilla FC me paraît obscène »</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Assemblée Générale, José María del Nido Benavente</news:keywords>
-    </news:news>
-</url>
-
-<url>
+    <lastmod>2025-12-16</lastmod>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/sevilla-fc-bilan-complet-de-lassembl%C3%A9e-g%C3%A9n%C3%A9rale-2025</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-15T21:02:00+01:00</news:publication_date>
-      <news:title>Sevilla FC : Bilan complet de l’Assemblée Générale 2025</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Fondation 1890, Fundación 1890, Assemblée Générale</news:keywords>
-    </news:news>
-</url>
-
-<url>
+    <lastmod>2025-12-15</lastmod>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/le-sevilla-fc-et-la-fondation-1890-poursuivent-les-actions-solidaires-des-f%C3%AAtes-de-fin-d-ann%C3%A9e</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-15T18:18:00+01:00</news:publication_date>
-      <news:title>Le Sevilla FC et la Fondation 1890 poursuivent les actions solidaires des fêtes de fin d'année</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Fondation 1890, Fundación 1890</news:keywords>
-    </news:news>
-</url>
-
-<url>
+    <lastmod>2025-12-15</lastmod>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-une-grande-victoire-devant-un-public-qui-soutient-vraiment-l%C3%A9quipe</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-14T22:59:00+01:00</news:publication_date>
-      <news:title>Matías Almeyda : « Une grande victoire devant un public qui soutient vraiment l’équipe »</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Real Oviedo, Sevilla Oviedo</news:keywords>
-    </news:news>
-</url>
- 
-<url>
+    <lastmod>2025-12-14</lastmod>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/sevilla-fc-4-0-real-oviedo-une-efficacit%C3%A9-maximale-pour-conclure-lann%C3%A9e-%C3%A0-nervi%C3%B3n</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-14T17:45:00+01:00</news:publication_date>
-      <news:title>Sevilla FC 4 - 0 Real Oviedo / Une efficacité maximale pour conclure l’année à Nervión</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Real Oviedo, Sevilla Oviedo</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/sevilla-fc-real-oviedo-présentation-où-voir-la-rencontre</loc>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-13T22:36:00+01:00</news:publication_date>
-      <news:title>Sevilla FC - Real Oviedo / Présentation, où voir la rencontre ?</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Real Oviedo, Sevilla Oviedo</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/le-comit%C3%A9-dappel-suspend-la-fermeture-de-gol-norte-un-soulagement-provisoire</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-13T09:53:00+01:00</news:publication_date>
-      <news:title>Le Comité d'appel suspend la fermeture de Gol Norte : un soulagement provisoire</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Comité d'appel, Gol Norte</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-pour-nous-ce-sont-toutes-des-finales</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-13T00:24:00+01:00</news:publication_date>
-      <news:title>Matías Almeyda : « Pour nous, ce sont toutes des finales »</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Real Oviedo, Oviedo Sevilla</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/communiqu%C3%A9-officiel-du-club-concernant-la-proposition-de-sanction-antiviolencia</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-11T22:02:00+01:00</news:publication_date>
-      <news:title>Communiqué officiel du club concernant la proposition de sanction antiviolencia</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Antiviolencia, Commission disciple</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/la-vente-du-sevilla-fc-les-derni%C3%A8res-infos</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-11T11:05:00+01:00</news:publication_date>
-      <news:title>La vente du Sevilla FC, les dernières infos</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Redbird Capital, Vente du Sevilla FC, Vente du FC Séville, Biris Norte</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/la-visite-traditionnelle-%C3%A0-lh%C3%B4pital-infantil-virgen-del-roc%C3%ADo</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-10T23:18:00+01:00</news:publication_date>
-      <news:title>La visite traditionnelle à l’Hôpital Infantil Virgen del Rocío</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Hôpital Infantil Virgen del Rocío</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/le-sevilla-fc-connait-son-adversaire-pour-les-seizi%C3%A8mes-de-finale-de-la-copa-del-rey</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-09T14:05:00+01:00</news:publication_date>
-      <news:title>Le Sevilla FC connait son adversaire pour les seizièmes de finale de la Copa del Rey</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Copa del Rey, Deportivo Alavés, Alavés Sevilla</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/l-%C3%A9quipe-apr%C3%A8s-mestalla-nous-faisons-le-point-avant-la-r%C3%A9ception-du-real-oviedo</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-08T13:24:00+01:00</news:publication_date>
-      <news:title>L'équipe après Mestalla, nous faisons le point avant la réception du Real Oviedo...</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Valencia CF, Real Oviedo, Faisons le point</news:keywords>
-    </news:news>
-</url>
-
-<url>
-    <loc>https://www.sevillava.fr/valencia-cf-1-1-sevilla-fc-coup-dur-dans-le-temps-additionnel</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-07T20:23:00+01:00</news:publication_date>
-      <news:title>Valencia CF 1 - 1 Sevilla FC / Coup dur dans le temps additionnel</news:title>
-      <news:keywords>Sevilla FC, Sevilla FC+, FC Séville, Sevilla Va, Seville FC France, SevillaVa, Ramón Sánchez-Pizjuán, Matías Almeyda, Valencia CF, FC Valence, Valencia Sevilla</news:keywords>
-    </news:news>
-</url>
-
+    <lastmod>2025-12-14</lastmod>
+  </url>
 </urlset>
