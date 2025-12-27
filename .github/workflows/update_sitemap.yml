@@ -2,7 +2,7 @@ name: Update News Sitemap
 
 on:
   schedule:
-    - cron: '*/5 * * * *' # Mise à jour auto chaque nuit à minuit
+    - cron: '*/5 * * * *' # Mise à jour auto 5 minutes
   workflow_dispatch:      # Permet de cliquer sur un bouton pour forcer la mise à jour
 
 jobs:
