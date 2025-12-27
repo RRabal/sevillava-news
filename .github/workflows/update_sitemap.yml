@@ -27,10 +27,24 @@ jobs:
         run: python generate_sitemap.py
 
       - name: Commit and Push changes
+        id: commit_step
         run: |
           git config --global user.name "GoogleNews-Bot"
           git config --global user.email "actions@github.com"
           git add docs/newssitemap.xml
-          # Le script ne fera un commit que s'il y a de nouveaux articles
-          git commit -m "auto: mise à jour sitemap Google News" || echo "Aucun nouvel article détecté"
-          git push
+          # On vérifie s'il y a un nouvel article
+          if git commit -m "auto: mise à jour sitemap Google News"; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+            git push
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "Aucun nouvel article détecté"
+          fi
+
+      - name: Ping Search Engines
+        # On ne prévient Google que si le fichier a été modifié (nouveauté détectée)
+        if: steps.commit_step.outputs.changed == 'true'
+        run: |
+          echo "Nouvel article publié ! Envoi des pings..."
+          curl "https://www.google.com/ping?sitemap=https://www.sevillava.fr/sitemapnews.xml"
+          curl "https://www.bing.com/ping?sitemap=https://www.sevillava.fr/sitemapnews.xml"
