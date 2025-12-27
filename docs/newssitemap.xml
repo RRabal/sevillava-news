@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/sevilla-fc-et-mtp-sunissent-pour-devenir-des-r%C3%A9f%C3%A9rences-de-laccessibilit%C3%A9-num%C3%A9rique-dans-le-sport</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-12-27T11:48:35+00:00</news:publication_date>
+      <news:title>Sevilla FC et MTP s’unissent pour devenir des références de l’accessibilité numérique dans le sport</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/le-sevilla-fc-r%C3%A9uni-pour-c%C3%A9l%C3%A9brer-no%C3%ABl-en-famille</loc>
     <news:news>
       <news:publication>
@@ -208,17 +219,6 @@
       </news:publication>
       <news:publication_date>2025-12-14T21:59:12+00:00</news:publication_date>
       <news:title>Matías Almeyda : « Une grande victoire devant un public qui soutient vraiment l’équipe »</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/sevilla-fc-4-0-real-oviedo-une-efficacit%C3%A9-maximale-pour-conclure-lann%C3%A9e-%C3%A0-nervi%C3%B3n</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-14T16:45:07+00:00</news:publication_date>
-      <news:title>Sevilla FC 4 - 0 Real Oviedo / Une efficacité maximale pour conclure l’année à Nervión</news:title>
     </news:news>
   </url>
 </urlset>
