@@ -1,17 +1,18 @@
-name: Update News Sitemap
+name: Update Google News Sitemap
 
 on:
   schedule:
-    - cron: '*/5 * * * *' # Mise à jour auto 5 minutes
-  workflow_dispatch:      # Permet de cliquer sur un bouton pour forcer la mise à jour
+    - cron: '*/5 * * * *' # S'exécute environ toutes les 5 minutes
+  workflow_dispatch:      # Permet de le lancer manuellement pour test
 
 jobs:
-  update-rss:
+  update-sitemap:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write # Indispensable pour que le robot puisse publier le fichier
+
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v4
 
       - name: Set up Python
@@ -19,16 +20,17 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install feedparser
+      - name: Install dependencies
         run: pip install feedparser
 
-      - name: Update sitemap file
-        run: python generate_sitemap.py
+      - name: Run update script
+        run: python update_sitemap.py
 
-      - name: Commit and Push
+      - name: Commit and Push changes
         run: |
-          git config --global user.name "Sitemap Bot"
+          git config --global user.name "GoogleNews-Bot"
           git config --global user.email "actions@github.com"
           git add docs/newssitemap.xml
-          git commit -m "auto: update newssitemap.xml from RSS" || echo "Aucun changement détecté"
+          # Le script ne fera un commit que s'il y a de nouveaux articles
+          git commit -m "auto: mise à jour sitemap Google News" || echo "Aucun nouvel article détecté"
           git push
