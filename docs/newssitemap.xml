@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/fausse-alerte-mat%C3%ADas-almeyda-reste-bien-au-sevilla-fc</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-12-27T12:27:25+00:00</news:publication_date>
+      <news:title>Fausse alerte : Matías Almeyda reste bien au Sevilla FC</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/sevilla-fc-et-mtp-sunissent-pour-devenir-des-r%C3%A9f%C3%A9rences-de-laccessibilit%C3%A9-num%C3%A9rique-dans-le-sport</loc>
     <news:news>
       <news:publication>
@@ -208,17 +219,6 @@
       </news:publication>
       <news:publication_date>2025-12-15T17:18:04+00:00</news:publication_date>
       <news:title>Le Sevilla FC et la Fondation 1890 poursuivent les actions solidaires des fêtes de fin d'année</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-une-grande-victoire-devant-un-public-qui-soutient-vraiment-l%C3%A9quipe</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-14T21:59:12+00:00</news:publication_date>
-      <news:title>Matías Almeyda : « Une grande victoire devant un public qui soutient vraiment l’équipe »</news:title>
     </news:news>
   </url>
 </urlset>
