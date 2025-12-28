@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/la-nota-esencial-du-28-d%C3%A9cembre-2025</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-12-28T14:02:25+00:00</news:publication_date>
+      <news:title>La Nota Esencial du 28 décembre 2025</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/fausse-alerte-mat%C3%ADas-almeyda-reste-bien-au-sevilla-fc</loc>
     <news:news>
       <news:publication>
@@ -208,17 +219,6 @@
       </news:publication>
       <news:publication_date>2025-12-15T20:02:39+00:00</news:publication_date>
       <news:title>Sevilla FC : Bilan complet de l’Assemblée Générale 2025</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/le-sevilla-fc-et-la-fondation-1890-poursuivent-les-actions-solidaires-des-f%C3%AAtes-de-fin-d-ann%C3%A9e</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-15T17:18:04+00:00</news:publication_date>
-      <news:title>Le Sevilla FC et la Fondation 1890 poursuivent les actions solidaires des fêtes de fin d'année</news:title>
     </news:news>
   </url>
 </urlset>
