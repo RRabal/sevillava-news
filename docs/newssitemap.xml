@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/antonio-tramullas-nouveau-directeur-de-la-m%C3%A9decine-du-sport-et-de-la-performance-au-sein-du-club</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-12-29T10:04:40+00:00</news:publication_date>
+      <news:title>Antonio Tramullas, nouveau Directeur de la Médecine du Sport et de la Performance au sein du club</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/la-nota-esencial-du-28-d%C3%A9cembre-2025</loc>
     <news:news>
       <news:publication>
@@ -208,17 +219,6 @@
       </news:publication>
       <news:publication_date>2025-12-16T09:20:12+00:00</news:publication_date>
       <news:title>José María del Nido Benavente : « Faire une enchère du Sevilla FC me paraît obscène »</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/sevilla-fc-bilan-complet-de-lassembl%C3%A9e-g%C3%A9n%C3%A9rale-2025</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-15T20:02:39+00:00</news:publication_date>
-      <news:title>Sevilla FC : Bilan complet de l’Assemblée Générale 2025</news:title>
     </news:news>
   </url>
 </urlset>
