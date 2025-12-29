@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/mercato-hivernal-2026-d%C3%A9parts-arriv%C3%A9es-rumeurs</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-12-29T16:26:45+00:00</news:publication_date>
+      <news:title>Mercato hivernal 2026 : départs, arrivées, rumeurs...</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/%C3%A1lvaro-ferllo-quitte-officiellement-le-sevilla-fc-et-rebondit-au-deportivo</loc>
     <news:news>
       <news:publication>
