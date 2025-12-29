@@ -2,6 +2,7 @@ import feedparser
 from datetime import datetime, timedelta, timezone
 import os
 import time
+from xml.sax.saxutils import escape
 
 RSS_URL = "https://www.sevillava.fr/blog-feed.xml"
 SITEMAP_PATH = "docs/newssitemap.xml"
@@ -19,42 +20,12 @@ def generate_news_sitemap():
         '        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">',
     ]
 
-    for entry in feed.entries:
-        # Conversion de la date de l'article en objet datetime conscient du fuseau horaire (UTC)
+    for entry in feed.entries[:1000]:  # max 1000 URLs par sitemap
+        # Conversion de la date de l'article en objet datetime UTC
         try:
-            # On transforme le struct_time en timestamp puis en datetime UTC
             published_time = datetime.fromtimestamp(time.mktime(entry.published_parsed), timezone.utc)
         except Exception:
-            continue # Si on ne peut pas lire la date, on ignore l'article
+            continue  # Si la date est invalide, on ignore l'article
 
-        # --- FILTRE : On ne garde que si l'article a moins de 48h ---
-        if published_time < limit_date:
-            continue 
-
-        url = entry.link
-        title = entry.title
-        date_iso = published_time.strftime('%Y-%m-%dT%H:%M:%S+00:00')
-
-        item = [
-            "  <url>",
-            f"    <loc>{url}</loc>",
-            "    <news:news>",
-            "      <news:publication>",
-            "        <news:name>Sevilla Va</news:name>",
-            "        <news:language>fr</news:language>",
-            "      </news:publication>",
-            f"      <news:publication_date>{date_iso}</news:publication_date>",
-            f"      <news:title>{title}</news:title>",
-            "    </news:news>",
-            "  </url>"
-        ]
-        sitemap_content.extend(item)
-
-    sitemap_content.append('</urlset>')
-
-    os.makedirs(os.path.dirname(SITEMAP_PATH), exist_ok=True)
-    with open(SITEMAP_PATH, "w", encoding="utf-8") as f:
-        f.write("\n".join(sitemap_content))
-
-if __name__ == "__main__":
-    generate_news_sitemap()
+        # --- FILTRE : articles publiés dans les 48 dernières heures ---
+        if published_time < limit_
