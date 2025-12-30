@@ -13,6 +13,17 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.sevillava.fr/comit%C3%A9-dappel-sanction-partiellement-all%C3%A9g%C3%A9e-pour-le-club-andalou</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-12-30T14:20:12+00:00</news:publication_date>
+      <news:title>Comité d'Appel : sanction partiellement allégée pour le club andalou</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/%C3%A1lvaro-ferllo-quitte-officiellement-le-sevilla-fc-et-rebondit-au-deportivo</loc>
     <news:news>
       <news:publication>
@@ -32,17 +43,6 @@
       </news:publication>
       <news:publication_date>2025-12-29T10:04:40+00:00</news:publication_date>
       <news:title>Antonio Tramullas, nouveau Directeur de la Médecine du Sport et de la Performance au sein du club</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/la-nota-esencial-du-28-d%C3%A9cembre-2025</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-28T14:02:25+00:00</news:publication_date>
-      <news:title>La Nota Esencial du 28 décembre 2025</news:title>
     </news:news>
   </url>
 </urlset>
