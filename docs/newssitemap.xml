@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/un-toast-pour-une-heureuse-ann%C3%A9e-2026</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-12-31T19:27:43+00:00</news:publication_date>
+      <news:title>Un toast pour une heureuse année 2026</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/comit%C3%A9-dappel-sanction-partiellement-all%C3%A9g%C3%A9e-pour-le-club-andalou</loc>
     <news:news>
       <news:publication>
