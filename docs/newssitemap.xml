@@ -34,15 +34,4 @@
       <news:title>Álvaro Ferllo quitte officiellement le Sevilla FC et rebondit au Deportivo</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://www.sevillava.fr/antonio-tramullas-nouveau-directeur-de-la-m%C3%A9decine-du-sport-et-de-la-performance-au-sein-du-club</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-29T10:04:40+00:00</news:publication_date>
-      <news:title>Antonio Tramullas, nouveau Directeur de la Médecine du Sport et de la Performance au sein du club</news:title>
-    </news:news>
-  </url>
 </urlset>
