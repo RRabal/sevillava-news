@@ -23,15 +23,4 @@
       <news:title>Comité d'Appel : sanction partiellement allégée pour le club andalou</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://www.sevillava.fr/%C3%A1lvaro-ferllo-quitte-officiellement-le-sevilla-fc-et-rebondit-au-deportivo</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-29T15:50:10+00:00</news:publication_date>
-      <news:title>Álvaro Ferllo quitte officiellement le Sevilla FC et rebondit au Deportivo</news:title>
-    </news:news>
-  </url>
 </urlset>
