@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/feliz-a%C3%B1o-nuevo-2026-a-todos</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-12-31T22:59:04+00:00</news:publication_date>
+      <news:title>Feliz Año Nuevo 2026 a todos</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/un-toast-pour-une-heureuse-ann%C3%A9e-2026</loc>
     <news:news>
       <news:publication>
