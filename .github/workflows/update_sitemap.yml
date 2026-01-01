@@ -46,5 +46,5 @@ jobs:
         run: |
           echo "Mise à jour détectée ! Envoi des pings..."
           # Vérifiez bien que cette URL est celle accessible publiquement :
-          curl "https://www.google.com/ping?sitemap=https://www.sevillava.fr/newssitemap.xml"
-          curl "https://www.bing.com/ping?sitemap=https://www.sevillava.fr/newssitemap.xml"
+          curl "https://www.google.com/ping?sitemap=https://news.sevillava.fr/newssitemap.xml"
+          curl "https://www.bing.com/ping?sitemap=https://news.sevillava.fr/newssitemap.xml"
