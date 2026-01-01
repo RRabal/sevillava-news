@@ -1,48 +1,41 @@
+import os
 import json
 import logging
-import os
 import feedparser
-from google.oauth2 import service_account
 from googleapiclient.discovery import build
+from google.oauth2 import service_account
 
-# Configuration du logging pour voir ce qui se passe dans GitHub Actions
-logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
+logging.basicConfig(level=logging.INFO)
 
-RSS_URL = "https://www.sevillava.fr/blog-feed.xml"
-
-def notify_google():
-    # 1. Récupérer la clé JSON depuis la variable d'environnement (Secret GitHub)
-    service_account_info = os.getenv('GSC_JSON_KEY')
-    if not service_account_info:
-        logging.error("Le secret GSC_JSON_KEY est vide ou introuvable.")
+def index_new_urls():
+    # 1. Récupérer la clé depuis les secrets GitHub
+    key_data = os.getenv('GSC_JSON_KEY')
+    if not key_data:
+        logging.error("La variable GSC_JSON_KEY est vide !")
         return
 
-    try:
-        info = json.loads(service_account_info)
-        scopes = ["https://www.googleapis.com/auth/indexing"]
-        credentials = service_account.Credentials.from_service_account_info(info, scopes=scopes)
-        service = build('indexing', 'v3', credentials=credentials)
-    except Exception as e:
-        logging.error(f"Erreur d'authentification : {e}")
+    # 2. Authentification
+    scopes = ["https://www.googleapis.com/auth/indexing"]
+    credentials_info = json.loads(key_data)
+    credentials = service_account.Credentials.from_service_account_info(
+        credentials_info, scopes=scopes
+    )
+    service = build('indexing', 'v1', credentials=credentials)
+
+    # 3. Récupérer l'URL à indexer (on reprend le flux RSS pour avoir l'URL exacte)
+    feed = feedparser.parse("https://www.sevillava.fr/blog-feed.xml")
+    if not feed.entries:
         return
 
-    # 2. Récupérer les derniers articles du flux RSS
-    feed = feedparser.parse(RSS_URL)
+    # On indexe l'article le plus récent
+    latest_url = feed.entries[0].link.split('?')[0]
     
-    # On prend les 3 derniers articles pour ne pas saturer les quotas
-    for entry in feed.entries[:3]:
-        url = entry.link.split('?')[0] # URL propre
-        
-        body = {
-            "url": url,
-            "type": "URL_UPDATED"
-        }
-        
-        try:
-            response = service.urlNotifications().publish(body=body).execute()
-            logging.info(f"Succès ! Google va indexer : {url}")
-        except Exception as e:
-            logging.error(f"Erreur pour l'URL {url} : {e}")
+    body = {"url": latest_url, "type": "URL_UPDATED"}
+    try:
+        service.urlNotifications().publish(body=body).execute()
+        logging.info(f"Notification envoyée à Google pour : {latest_url}")
+    except Exception as e:
+        logging.error(f"Erreur Indexing API : {e}")
 
 if __name__ == "__main__":
-    notify_google()
+    index_new_urls()
