@@ -25,16 +25,4 @@
       <news:title>Un toast pour une heureuse année 2026</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://www.sevillava.fr/comit%C3%A9-dappel-sanction-partiellement-all%C3%A9g%C3%A9e-pour-le-club-andalou</loc>
-    <lastmod>2025-12-30T14:20:12+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-30T14:20:12+00:00</news:publication_date>
-      <news:title>Comité d'Appel : sanction partiellement allégée pour le club andalou</news:title>
-    </news:news>
-  </url>
 </urlset>
