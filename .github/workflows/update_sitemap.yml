@@ -47,23 +47,16 @@ jobs:
             echo "changed=true" >> $GITHUB_OUTPUT
           fi
 
-      - name: Run Google Indexing API (Force Indexing)
-        # On ne lance cette étape QUE s'il y a un nouvel article
-        if: steps.commit_step.outputs.changed == 'true'
+- name: Run Google Indexing API (Force Indexing)
+        # SUPPRIMEZ OU COMMENTEZ LA LIGNE CI-DESSOUS POUR TESTER :
+        # if: steps.commit_step.outputs.changed == 'true' 
         env:
           GSC_JSON_KEY: ${{ secrets.GSC_JSON_KEY }}
         run: |
-          echo "::group::Notification API Google"
           python index_news.py
-          echo "::endgroup::"
 
       - name: Ping Bing
-        if: steps.commit_step.outputs.changed == 'true'
+        # SUPPRIMEZ OU COMMENTEZ LA LIGNE CI-DESSOUS POUR TESTER :
+        # if: steps.commit_step.outputs.changed == 'true'
         run: |
-          echo "::group::Notification des moteurs de recherche"
-          # Ping Google (Note: renvoie parfois 404 car déprécié, mais ne bloque pas le script)
-          curl -I "https://www.google.com/ping?sitemap=https://news.sevillava.fr/newssitemap.xml" || echo "Google Ping échoué"
-          
-          # Ping Bing
           curl -I "https://www.bing.com/ping?sitemap=https://news.sevillava.fr/newssitemap.xml"
-          echo "::endgroup::"
