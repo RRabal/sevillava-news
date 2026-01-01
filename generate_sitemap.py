@@ -3,14 +3,21 @@ from datetime import datetime, timedelta, timezone
 import os
 import time
 from xml.sax.saxutils import escape
+import logging
+
+# Configuration du logging
+logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
 RSS_URL = "https://www.sevillava.fr/blog-feed.xml"
 SITEMAP_PATH = "docs/newssitemap.xml"
 
 def generate_news_sitemap():
+    logging.info(f"Lecture du flux RSS : {RSS_URL}")
     feed = feedparser.parse(RSS_URL)
     
-    # Seuil de 48 heures
+    if feed.bozo:
+        logging.warning("Le flux RSS semble avoir des problèmes de format, mais on continue...")
+
     now = datetime.now(timezone.utc)
     limit_date = now - timedelta(hours=48)
 
@@ -20,24 +27,23 @@ def generate_news_sitemap():
         '        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">',
     ]
 
-    # Google News limite à 1000 URLs par sitemap news
+    count = 0
     for entry in feed.entries[:1000]:
         try:
-            # Conversion de la date de l'article en datetime UTC
             published_time = datetime.fromtimestamp(time.mktime(entry.published_parsed), timezone.utc)
         except Exception:
             continue
 
-        # --- FILTRE : Uniquement les articles de moins de 48h ---
         if published_time >= limit_date:
-            url = entry.link
-            # escape() permet de gérer les caractères comme & ou < dans les titres
+            # Nettoyage de l'URL (enlève les paramètres ?utm...)
+            url = entry.link.split('?')[0]
             title = escape(entry.title)
             date_iso = published_time.strftime('%Y-%m-%dT%H:%M:%S+00:00')
 
             item = [
                 "  <url>",
                 f"    <loc>{url}</loc>",
+                f"    <lastmod>{date_iso}</lastmod>",
                 "    <news:news>",
                 "      <news:publication>",
                 "        <news:name>Sevilla Va</news:name>",
@@ -49,14 +55,15 @@ def generate_news_sitemap():
                 "  </url>"
             ]
             sitemap_content.extend(item)
+            count += 1
 
     sitemap_content.append('</urlset>')
-
-    # Création du dossier docs si inexistant
+    
     os.makedirs(os.path.dirname(SITEMAP_PATH), exist_ok=True)
-
     with open(SITEMAP_PATH, "w", encoding="utf-8") as f:
         f.write("\n".join(sitemap_content))
+    
+    logging.info(f"Sitemap généré avec {count} articles récents.")
 
 if __name__ == "__main__":
     generate_news_sitemap()
