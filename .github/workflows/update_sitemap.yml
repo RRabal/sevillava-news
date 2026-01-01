@@ -2,8 +2,8 @@ name: Update Google News Sitemap
 
 on:
   schedule:
-    - cron: '17 * * * *' # S'exécute toutes les heures à la 17ème minute
-  workflow_dispatch:      # Permet de le lancer manuellement pour tester
+    - cron: '17 * * * *'
+  workflow_dispatch:
 
 jobs:
   update-sitemap:
@@ -22,7 +22,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install feedparser google-api-python-client google-auth
+          pip install feedparser google-api-python-client google-auth requests
 
       - name: Run Sitemap Generator
         run: |
@@ -35,28 +35,25 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
           git add docs/newssitemap.xml
-          
           if git diff --staged --quiet; then
             echo "changed=false" >> $GITHUB_OUTPUT
-            echo "Aucun changement détecté."
           else
             git commit -m "auto: mise à jour sitemap Google News"
             git push
             echo "changed=true" >> $GITHUB_OUTPUT
           fi
 
-- name: Run Google Indexing API (Force Indexing)
-        # SUPPRIMEZ OU COMMENTEZ LA LIGNE CI-DESSOUS POUR TESTER :
-        # if: steps.commit_step.outputs.changed == 'true' 
+      - name: Run Google Indexing API
         env:
           GSC_JSON_KEY: ${{ secrets.GSC_JSON_KEY }}
         run: |
+          echo "::group::Notification API Google"
           python index_news.py
+          echo "::endgroup::"
 
       - name: Ping Bing
-        # SUPPRIMEZ OU COMMENTEZ LA LIGNE CI-DESSOUS POUR TESTER :
-        # if: steps.commit_step.outputs.changed == 'true'
         run: |
+          echo "::group::Notification Bing"
           curl -I "https://www.bing.com/ping?sitemap=https://news.sevillava.fr/newssitemap.xml"
+          echo "::endgroup::"
