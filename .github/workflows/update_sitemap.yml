@@ -2,8 +2,8 @@ name: Update Google News Sitemap
 
 on:
   schedule:
-    - cron: '17 * * * *' # Exécution à la 17ème minute de chaque heure (évite la surcharge de la minute 0)
-  workflow_dispatch:      # Permet le lancement manuel
+    - cron: '17 * * * *' # S'exécute toutes les heures à la 17ème minute
+  workflow_dispatch:      # Permet de le lancer manuellement pour tester
 
 jobs:
   update-sitemap:
@@ -22,9 +22,9 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install feedparser
+          pip install feedparser google-api-python-client google-auth
 
-      - name: Run update script
+      - name: Run Sitemap Generator
         run: |
           echo "::group::Génération du Sitemap"
           python generate_sitemap.py
@@ -38,18 +38,26 @@ jobs:
           
           git add docs/newssitemap.xml
           
-          # Vérification propre des changements
           if git diff --staged --quiet; then
             echo "changed=false" >> $GITHUB_OUTPUT
-            echo "Aucun nouvel article détecté."
+            echo "Aucun changement détecté."
           else
             git commit -m "auto: mise à jour sitemap Google News"
             git push
             echo "changed=true" >> $GITHUB_OUTPUT
-            echo "Changements poussés sur le dépôt."
           fi
 
-      - name: Ping Search Engines
+      - name: Run Google Indexing API (Force Indexing)
+        # On ne lance cette étape QUE s'il y a un nouvel article
+        if: steps.commit_step.outputs.changed == 'true'
+        env:
+          GSC_JSON_KEY: ${{ secrets.GSC_JSON_KEY }}
+        run: |
+          echo "::group::Notification API Google"
+          python index_news.py
+          echo "::endgroup::"
+
+      - name: Ping Bing
         if: steps.commit_step.outputs.changed == 'true'
         run: |
           echo "::group::Notification des moteurs de recherche"
