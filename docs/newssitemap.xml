@@ -25,16 +25,4 @@
       <news:title>Feliz Año Nuevo 2026 a todos</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://www.sevillava.fr/un-toast-pour-une-heureuse-ann%C3%A9e-2026</loc>
-    <lastmod>2025-12-31T19:27:43+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2025-12-31T19:27:43+00:00</news:publication_date>
-      <news:title>Un toast pour une heureuse année 2026</news:title>
-    </news:news>
-  </url>
 </urlset>
