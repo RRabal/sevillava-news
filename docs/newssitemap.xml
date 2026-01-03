@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-nous-sommes-conscients-de-limportance-de-chaque-chose</loc>
+    <lastmod>2026-01-03T09:07:46+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-01-03T09:07:46+00:00</news:publication_date>
+      <news:title>Matías Almeyda : « Nous sommes conscients de l’importance de chaque chose »</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/sevilla-fc-la-vente-se-complique</loc>
     <lastmod>2026-01-01T18:45:25+00:00</lastmod>
     <news:news>
