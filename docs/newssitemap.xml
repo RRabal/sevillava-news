@@ -49,16 +49,4 @@
       <news:title>Sevilla FC - Levante UD / Présentation de la rencontre, où voir le match ?</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://www.sevillava.fr/plusieurs-semaines-d-absence-pour-alfon-gonz%C3%A1lez</loc>
-    <lastmod>2026-01-03T15:24:18+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-01-03T15:24:18+00:00</news:publication_date>
-      <news:title>Plusieurs semaines d'absence pour Alfon González</news:title>
-    </news:news>
-  </url>
 </urlset>
