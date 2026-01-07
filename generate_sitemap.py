@@ -9,7 +9,7 @@ import logging
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
 RSS_URL = "https://www.sevillava.fr/blog-feed.xml"
-SITEMAP_PATH = "docs/newssitemap.xml"
+SITEMAP_PATH = "newssitemap.xml"
 
 def generate_news_sitemap():
     logging.info(f"Lecture du flux RSS : {RSS_URL}")
