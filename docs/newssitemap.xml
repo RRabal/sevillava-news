@@ -1,16 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-  <url>
-    <loc>https://www.sevillava.fr/bronca-au-s%C3%A1nchez-pizju%C3%A1n-et-vestiaire-sous-tension</loc>
-    <lastmod>2026-01-05T11:29:24+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-01-05T11:29:24+00:00</news:publication_date>
-      <news:title>Bronca au Sánchez-Pizjuán et vestiaire sous tension</news:title>
-    </news:news>
-  </url>
 </urlset>
