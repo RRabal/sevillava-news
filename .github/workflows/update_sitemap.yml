@@ -2,7 +2,7 @@ name: Update Google News Sitemap
 
 on:
   schedule:
-    - cron: '17 * * * *'
+    - cron: '17 * * * *' # S'exécute à la minute 17 de chaque heure
   workflow_dispatch:
 
 jobs:
@@ -24,10 +24,12 @@ jobs:
         run: |
           pip install feedparser google-api-python-client google-auth requests
 
-      - name: Run Sitemap Generator
+      - name: Run SEO Workflow (Sitemap + Indexing)
+        env:
+          GSC_JSON_KEY: ${{ secrets.GSC_JSON_KEY }}
         run: |
-          echo "::group::Génération du Sitemap"
-          python generate_sitemap.py
+          echo "::group::Exécution du Workflow Python"
+          python main.py
           echo "::endgroup::"
 
       - name: Commit and Push changes
@@ -43,14 +45,6 @@ jobs:
             git push
             echo "changed=true" >> $GITHUB_OUTPUT
           fi
-
-      - name: Run Google Indexing API
-        env:
-          GSC_JSON_KEY: ${{ secrets.GSC_JSON_KEY }}
-        run: |
-          echo "::group::Notification API Google"
-          python index_news.py
-          echo "::endgroup::"
 
       - name: Ping Bing
         run: |
