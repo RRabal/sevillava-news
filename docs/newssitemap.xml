@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-on-gagne-en-marquant-des-buts</loc>
+    <lastmod>2026-01-13T08:37:14+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-01-13T08:37:14+00:00</news:publication_date>
+      <news:title>Matías Almeyda : « on gagne en marquant des buts »</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/sevilla-fc-0-0-rc-celta-de-vigo-le-sevilla-fc-puni-par-un-penalty-en-fin-de-match</loc>
     <lastmod>2026-01-12T22:23:26+00:00</lastmod>
     <news:news>
