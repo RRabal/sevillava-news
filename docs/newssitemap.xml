@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/une-exposition-temporaire-pour-les-100-ans-de-la-coupe-dandalousie-1925-26</loc>
+    <lastmod>2026-01-15T08:42:35+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-01-15T08:42:35+00:00</news:publication_date>
+      <news:title>Une exposition temporaire pour les 100 ans de la Coupe d'Andalousie 1925/26</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/nouveau-contretemps-musculaire-pour-rub%C3%A9n-vargas</loc>
     <lastmod>2026-01-14T21:38:36+00:00</lastmod>
     <news:news>
@@ -23,18 +35,6 @@
       </news:publication>
       <news:publication_date>2026-01-13T09:24:26+00:00</news:publication_date>
       <news:title>Frustration et colère après la défaite contre le Celta, un vestiaire touché mais déterminé</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-on-gagne-en-marquant-des-buts</loc>
-    <lastmod>2026-01-13T08:37:14+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-01-13T08:37:14+00:00</news:publication_date>
-      <news:title>Matías Almeyda : « on gagne en marquant des buts »</news:title>
     </news:news>
   </url>
 </urlset>
