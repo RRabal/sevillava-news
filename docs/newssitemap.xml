@@ -25,16 +25,4 @@
       <news:title>Une exposition temporaire pour les 100 ans de la Coupe d'Andalousie 1925/26</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://www.sevillava.fr/nouveau-contretemps-musculaire-pour-rub%C3%A9n-vargas</loc>
-    <lastmod>2026-01-14T21:38:36+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-01-14T21:38:36+00:00</news:publication_date>
-      <news:title>Nouveau contretemps musculaire pour Rubén Vargas</news:title>
-    </news:news>
-  </url>
 </urlset>
