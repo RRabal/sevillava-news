@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/nouvelle-collection-r%C3%A9tro-pour-c%C3%A9l%C3%A9brer-les-136-ans-du-sevilla-fc</loc>
+    <lastmod>2026-01-20T12:07:18+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-01-20T12:07:18+00:00</news:publication_date>
+      <news:title>Nouvelle collection rétro pour célébrer les 136 ans du sevilla fc</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/le-club-pr%C3%A9occup%C3%A9-par-la-situation-de-nianzou</loc>
     <lastmod>2026-01-20T10:37:22+00:00</lastmod>
     <news:news>
