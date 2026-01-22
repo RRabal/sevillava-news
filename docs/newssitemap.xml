@@ -25,28 +25,4 @@
       <news:title>Nouvelle collection rétro pour célébrer les 136 ans du sevilla fc</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://www.sevillava.fr/le-club-pr%C3%A9occup%C3%A9-par-la-situation-de-nianzou</loc>
-    <lastmod>2026-01-20T10:37:22+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-01-20T10:37:22+00:00</news:publication_date>
-      <news:title>Le club préoccupé par la situation de Nianzou</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-ce-point-pour-nous-vaut-de-l-or</loc>
-    <lastmod>2026-01-20T10:00:35+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-01-20T10:00:35+00:00</news:publication_date>
-      <news:title>Matías Almeyda : « Ce point, pour nous, vaut de l’or »</news:title>
-    </news:news>
-  </url>
 </urlset>
