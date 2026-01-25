@@ -61,28 +61,4 @@
       <news:title>Sevilla FC - Athletic Club / Présentation de la rencontre, comment voir le match ?</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://www.sevillava.fr/minute-de-silence-et-brassards-noirs-en-hommage-aux-victimes-des-drames-ferroviaires</loc>
-    <lastmod>2026-01-23T17:09:48+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-01-23T17:09:48+00:00</news:publication_date>
-      <news:title>Minute de silence et brassards noirs en hommage aux victimes des drames ferroviaires et à Fernando Huerta</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-cest-une-%C3%A9quipe-de-ligue-des-champions-et-tous-les-matchs-sont-difficiles</loc>
-    <lastmod>2026-01-23T16:50:50+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-01-23T16:50:50+00:00</news:publication_date>
-      <news:title>Matías Almeyda : « C’est une équipe de Ligue des Champions et tous les matchs sont difficiles. »</news:title>
-    </news:news>
-  </url>
 </urlset>
