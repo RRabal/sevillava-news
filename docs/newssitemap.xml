@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/sergio-ramos-se-tient-pr%C3%AAt-%C3%A0-r%C3%A9pondre-pr%C3%A9sent-pour-le-sevilla-fc</loc>
+    <lastmod>2026-02-03T14:32:34+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-02-03T14:32:34+00:00</news:publication_date>
+      <news:title>Sergio Ramos se tient prêt à répondre présent pour le Sevilla FC</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-maintenant-on-travaille-on-parle-et-on-continuera-dinsister</loc>
     <lastmod>2026-02-03T08:38:56+00:00</lastmod>
     <news:news>
@@ -35,18 +47,6 @@
       </news:publication>
       <news:publication_date>2026-02-01T21:07:20+00:00</news:publication_date>
       <news:title>RCD Mallorca - Sevilla FC / Présentation de la rencontre, comment voir le match ?</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-je-soutiens-mes-joueurs-%C3%A0-mort</loc>
-    <lastmod>2026-02-01T14:02:16+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-02-01T14:02:16+00:00</news:publication_date>
-      <news:title>Matías Almeyda : « Je soutiens mes joueurs à mort »</news:title>
     </news:news>
   </url>
 </urlset>
