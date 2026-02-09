@@ -37,16 +37,4 @@
       <news:title>Sevilla FC 1 - 1 Girona FC / Un match nul qui laisse un goût amer</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://www.sevillava.fr/sevilla-fc-girona-fc-report-de-la-rencontre-en-raison-des-conditions-m%C3%A9t%C3%A9orologiques</loc>
-    <lastmod>2026-02-07T14:59:45+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-02-07T14:59:45+00:00</news:publication_date>
-      <news:title>Sevilla FC - Girona FC : report de la rencontre en raison des conditions météorologiques</news:title>
-    </news:news>
-  </url>
 </urlset>
