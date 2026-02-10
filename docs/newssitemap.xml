@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/biris-norte-annonce-un-ram%C3%B3n-s%C3%A1nchez-pizju%C3%A1n-bouillant-pour-la-r%C3%A9ception-du-d%C3%A9portivo-alav%C3%A9s</loc>
+    <lastmod>2026-02-10T19:10:10+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-02-10T19:10:10+00:00</news:publication_date>
+      <news:title>Biris Norte annonce un Ramón Sánchez-Pizjuán bouillant pour la réception du Déportivo Alavés</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/sevilla-fc-sillustre-au-spobis-2026-%C3%A0-hambourg</loc>
     <lastmod>2026-02-10T10:58:28+00:00</lastmod>
     <news:news>
@@ -35,18 +47,6 @@
       </news:publication>
       <news:publication_date>2026-02-08T21:09:22+00:00</news:publication_date>
       <news:title>Matías Almeyda : « J’étais au bord de craquer en voyant ça »</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/sevilla-fc-1-1-girona-fc-un-match-nul-qui-laisse-un-go%C3%BBt-amer</loc>
-    <lastmod>2026-02-08T17:38:15+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-02-08T17:38:15+00:00</news:publication_date>
-      <news:title>Sevilla FC 1 - 1 Girona FC / Un match nul qui laisse un goût amer</news:title>
     </news:news>
   </url>
 </urlset>
