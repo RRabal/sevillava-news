@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/nemanja-gudelj-nous-avons-besoin-dun-soutien-total</loc>
+    <lastmod>2026-02-11T14:55:30+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-02-11T14:55:30+00:00</news:publication_date>
+      <news:title>Nemanja Gudelj : « Nous avons besoin d'un soutien total »</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/biris-norte-annonce-un-ram%C3%B3n-s%C3%A1nchez-pizju%C3%A1n-bouillant-pour-la-r%C3%A9ception-du-d%C3%A9portivo-alav%C3%A9s</loc>
     <lastmod>2026-02-10T19:10:10+00:00</lastmod>
     <news:news>
