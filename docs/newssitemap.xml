@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/kike-salas-nous-sommes-pr%C3%AAts-%C3%A0-mourir-avec-lui</loc>
+    <lastmod>2026-02-18T15:49:12+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-02-18T15:49:12+00:00</news:publication_date>
+      <news:title>Kike Salas : « Nous sommes prêts à mourir avec lui »</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/communiqu%C3%A9-officiel-le-sevilla-fc-r%C3%A9agit-%C3%A0-la-sanction-historique-inflig%C3%A9e-%C3%A0-mat%C3%ADas-almeyda</loc>
     <lastmod>2026-02-18T14:37:36+00:00</lastmod>
     <news:news>
