@@ -37,16 +37,4 @@
       <news:title>Matías Almeyda : « C’est l’unité qui va permettre de faire avancer la situation »</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://www.sevillava.fr/juanlu-s%C3%A1nchez-nous-sommes-une-famille</loc>
-    <lastmod>2026-02-20T08:38:06+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-02-20T08:38:06+00:00</news:publication_date>
-      <news:title>Juanlu Sánchez : « Nous sommes une famille »</news:title>
-    </news:news>
-  </url>
 </urlset>
