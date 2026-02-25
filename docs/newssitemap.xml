@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/isaac-romero-cest-une-semaine-sp%C3%A9ciale-ici-%C3%A0-s%C3%A9ville</loc>
+    <lastmod>2026-02-25T20:56:17+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-02-25T20:56:17+00:00</news:publication_date>
+      <news:title>Isaac Romero : « C’est une semaine spéciale ici à Séville »</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/jos%C3%A9-mar%C3%ADa-del-nido-benavente-jai-un-souhait-gagner</loc>
     <lastmod>2026-02-25T13:37:24+00:00</lastmod>
     <news:news>
