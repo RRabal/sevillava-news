@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/les-pr%C3%A9sidents-du-sevilla-fc-et-du-real-betis-balompi%C3%A9-multiplient-les-rendez-vous-institutionnels</loc>
+    <lastmod>2026-02-27T21:29:09+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-02-27T21:29:09+00:00</news:publication_date>
+      <news:title>Les présidents du Sevilla FC et du Real Betis Balompié multiplient les rendez-vous institutionnels avant le Gran derbi</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-gagner-un-derby-est-toujours-agr%C3%A9able</loc>
     <lastmod>2026-02-27T18:14:23+00:00</lastmod>
     <news:news>
@@ -23,18 +35,6 @@
       </news:publication>
       <news:publication_date>2026-02-26T14:44:50+00:00</news:publication_date>
       <news:title>Le Sevilla FC officialise le recrutement de Patrik Mercado</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/isaac-romero-cest-une-semaine-sp%C3%A9ciale-ici-%C3%A0-s%C3%A9ville</loc>
-    <lastmod>2026-02-25T20:56:17+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-02-25T20:56:17+00:00</news:publication_date>
-      <news:title>Isaac Romero : « C’est une semaine spéciale ici à Séville »</news:title>
     </news:news>
   </url>
 </urlset>
