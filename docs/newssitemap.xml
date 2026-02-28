@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/lucien-agoum%C3%A9-le-derby-de-s%C3%A9ville-est-tr%C3%A8s-sp%C3%A9cial</loc>
+    <lastmod>2026-02-28T10:45:20+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-02-28T10:45:20+00:00</news:publication_date>
+      <news:title>Lucien Agoumé : « Le derby de Séville est très spécial »</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/odysseas-vlachodimos-je-mets-lhymne-du-sevilla-parce-que-jaime-l%C3%A9couter</loc>
     <lastmod>2026-02-28T09:03:03+00:00</lastmod>
     <news:news>
