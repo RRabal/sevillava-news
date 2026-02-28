@@ -49,16 +49,4 @@
       <news:title>Matías Almeyda : « Gagner un derby est toujours agréable »</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://www.sevillava.fr/le-sevilla-fc-officialise-le-recrutement-de-patrik-mercado</loc>
-    <lastmod>2026-02-26T14:44:50+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-02-26T14:44:50+00:00</news:publication_date>
-      <news:title>Le Sevilla FC officialise le recrutement de Patrik Mercado</news:title>
-    </news:news>
-  </url>
 </urlset>
