@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/gran-derbi-le-choc-qui-met-s%C3%A9ville-en-apn%C3%A9e</loc>
+    <lastmod>2026-03-01T13:13:17+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-01T13:13:17+00:00</news:publication_date>
+      <news:title>Gran Derbi, le choc qui met Séville en apnée</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/real-betis-balompi%C3%A9-sevilla-fc-pr%C3%A9sentation-de-la-rencontre-sur-quelle-cha%C3%AEne-voir-le-match</loc>
     <lastmod>2026-02-28T20:10:02+00:00</lastmod>
     <news:news>
