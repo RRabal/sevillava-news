@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/le-stadium-tour-d%C3%A9voile-une-exposition-d%C3%A9di%C3%A9e-%C3%A0-spencer</loc>
+    <lastmod>2026-03-03T20:00:58+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-03T20:00:58+00:00</news:publication_date>
+      <news:title>Le Stadium Tour dévoile une exposition dédiée à Spencer</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/immersion-du-club-dentreprises-dans-les-coulisses-de-lindustrie-du-carnaval-de-c%C3%A1diz</loc>
     <lastmod>2026-03-02T19:59:03+00:00</lastmod>
     <news:news>
