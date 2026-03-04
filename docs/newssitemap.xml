@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/juanlu-s%C3%A1nchez-cest-ma-maison-et-je-suis-tr%C3%A8s-heureux-ici</loc>
+    <lastmod>2026-03-04T21:17:59+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-04T21:17:59+00:00</news:publication_date>
+      <news:title>Juanlu Sánchez : « C’est ma maison et je suis très heureux ici »</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/le-stadium-tour-d%C3%A9voile-une-exposition-d%C3%A9di%C3%A9e-%C3%A0-spencer</loc>
     <lastmod>2026-03-03T20:00:58+00:00</lastmod>
     <news:news>
