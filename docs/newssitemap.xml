@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-nous-valorisons-ce-point</loc>
+    <lastmod>2026-03-09T09:15:55+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-09T09:15:55+00:00</news:publication_date>
+      <news:title>Matías Almeyda : « Nous valorisons ce point »</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/sevilla-fc-1-1-rayo-vallecano-un-point-arrach%C3%A9-dans-la-douleur</loc>
     <lastmod>2026-03-08T19:49:44+00:00</lastmod>
     <news:news>
