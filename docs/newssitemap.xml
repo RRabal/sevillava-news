@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/k9win-devient-partenaire-officiel-de-paris-du-sevilla-fc-en-asie</loc>
+    <lastmod>2026-03-12T19:43:39+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-12T19:43:39+00:00</news:publication_date>
+      <news:title>K9Win devient partenaire officiel de paris du Sevilla FC en Asie</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/le-sevilla-fc-mise-fort-sur-arouna-sangante</loc>
     <lastmod>2026-03-12T17:15:46+00:00</lastmod>
     <news:news>
@@ -35,18 +47,6 @@
       </news:publication>
       <news:publication_date>2026-03-11T21:39:52+00:00</news:publication_date>
       <news:title>Adnan Januzaj : « Je vais donner le meilleur jusqu’au bout »</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/blessure-pour-kike-salas-le-d%C3%A9fenseur-souffre-d-une-l%C3%A9sion-mod%C3%A9r%C3%A9e-au-niveau-du-jumeau-interne</loc>
-    <lastmod>2026-03-10T19:16:19+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-03-10T19:16:19+00:00</news:publication_date>
-      <news:title>Blessure pour Kike Salas, le défenseur souffre d’une lésion modérée au niveau du jumeau interne</news:title>
     </news:news>
   </url>
 </urlset>
