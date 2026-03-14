@@ -49,16 +49,4 @@
       <news:title>Le Tribunal Administratif du Sport allège la sanction d’Almeyda, réaction du Sevilla FC</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://www.sevillava.fr/la-19e-%C3%A9dition-de-la-s%C3%A1cale-partido-al-cole</loc>
-    <lastmod>2026-03-12T20:54:47+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-03-12T20:54:47+00:00</news:publication_date>
-      <news:title>La XIXᵉ édition de la “Sácale partido al Cole”</news:title>
-    </news:news>
-  </url>
 </urlset>
