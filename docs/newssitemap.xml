@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/fc-barcelona-sevilla-fc-pr%C3%A9sentation-de-la-rencontre-sur-quelle-cha%C3%AEne-voir-le-match</loc>
+    <lastmod>2026-03-14T17:32:45+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-14T17:32:45+00:00</news:publication_date>
+      <news:title>FC Barcelona - Sevilla FC : Présentation de la rencontre, sur quelle chaîne voir le match ?</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-je-nenvoie-pas-un-message-pour-faire-bonne-figure</loc>
     <lastmod>2026-03-13T16:29:47+00:00</lastmod>
     <news:news>
@@ -47,18 +59,6 @@
       </news:publication>
       <news:publication_date>2026-03-12T19:43:39+00:00</news:publication_date>
       <news:title>K9Win devient partenaire officiel de paris du Sevilla FC en Asie</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/le-sevilla-fc-mise-fort-sur-arouna-sangante</loc>
-    <lastmod>2026-03-12T17:15:46+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-03-12T17:15:46+00:00</news:publication_date>
-      <news:title>Le Sevilla FC mise fort sur Arouna Sangante</news:title>
     </news:news>
   </url>
 </urlset>
