@@ -25,28 +25,4 @@
       <news:title>FC Barcelona 5 - 2 Sevilla FC / Les Blaugranas corrigent les Andalous et se vengent du match aller</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://www.sevillava.fr/pr%C3%A8s-de-100000-visiteurs-au-ram%C3%B3n-s%C3%A1nchez-pizju%C3%A1n-un-record-pour-le-stadium-tour-en-2025</loc>
-    <lastmod>2026-03-14T18:00:21+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-03-14T18:00:21+00:00</news:publication_date>
-      <news:title>Près de 100 000 visiteurs au Ramón Sánchez Pizjuán, un record pour le Stadium Tour en 2025</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/fc-barcelona-sevilla-fc-pr%C3%A9sentation-de-la-rencontre-sur-quelle-cha%C3%AEne-voir-le-match</loc>
-    <lastmod>2026-03-14T17:32:45+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-03-14T17:32:45+00:00</news:publication_date>
-      <news:title>FC Barcelona - Sevilla FC : Présentation de la rencontre, sur quelle chaîne voir le match ?</news:title>
-    </news:news>
-  </url>
 </urlset>
