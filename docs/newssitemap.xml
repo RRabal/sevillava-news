@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/c%C3%A9sar-azpilicueta-l%C3%A9quation-urgente-du-sevilla-fc</loc>
+    <lastmod>2026-03-16T21:04:15+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-16T21:04:15+00:00</news:publication_date>
+      <news:title>César Azpilicueta, l’équation urgente du Sevilla FC</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/mat%C3%ADas-almeyda-nous-devons-rester-calmes-et-aborder-ce-qui-vient-comme-des-finales</loc>
     <lastmod>2026-03-15T20:31:24+00:00</lastmod>
     <news:news>
