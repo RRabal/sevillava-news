@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/la-fundaci%C3%B3n-1890-multiplie-les-initiatives-sociales</loc>
+    <lastmod>2026-03-19T13:10:45+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-19T13:10:45+00:00</news:publication_date>
+      <news:title>La Fundación 1890 multiplie les initiatives sociales : trois actions marquantes autour du sport, de l’éducation et de l’inclusion</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/le-bar%C3%A7a-solde-d%C3%A9finitivement-le-dossier-jules-kound%C3%A9-avec-le-sevilla-fc</loc>
     <lastmod>2026-03-18T16:54:32+00:00</lastmod>
     <news:news>
