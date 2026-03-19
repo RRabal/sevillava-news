@@ -25,16 +25,4 @@
       <news:title>Rubén Vargas : « Actuellement, ma tête est ici »</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://www.sevillava.fr/juanlu-s%C3%A1nchez-entre-dans-le-club-des-centenaires-du-sevilla-fc</loc>
-    <lastmod>2026-03-17T10:27:32+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-03-17T10:27:32+00:00</news:publication_date>
-      <news:title>Juanlu Sánchez entre dans le club des centenaires du Sevilla FC</news:title>
-    </news:news>
-  </url>
 </urlset>
