@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/semaine-sainte-visites-et-offrandes-%C3%A0-la-a-concepci%C3%B3n-inmaculada-et-a-san-bernardo</loc>
+    <lastmod>2026-04-01T16:40:06+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-04-01T16:40:06+00:00</news:publication_date>
+      <news:title>Semaine Sainte : Visites et offrandes à la a Concepción Inmaculada et a San Bernardo</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/rtve-andaluc%C3%ADa-alerte-sur-la-situation-%C3%A9conomique-du-sevilla-fc</loc>
     <lastmod>2026-03-31T20:05:46+00:00</lastmod>
     <news:news>
