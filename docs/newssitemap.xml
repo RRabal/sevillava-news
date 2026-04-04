@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/luis-garc%C3%ADa-plaza-c-est-une-%C3%A9quipe-qui-a-encore-des-chances-de-se-maintenir</loc>
+    <lastmod>2026-04-04T13:46:05+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-04-04T13:46:05+00:00</news:publication_date>
+      <news:title>Luis García Plaza : « C’est une équipe qui a encore des chances de se maintenir »</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/le-projet-du-nouveau-stade-ram%C3%B3n-s%C3%A1nchez-pizju%C3%A1n-fixe-son-calendrier-de-d%C3%A9but-des-travaux</loc>
     <lastmod>2026-04-04T09:25:32+00:00</lastmod>
     <news:news>
