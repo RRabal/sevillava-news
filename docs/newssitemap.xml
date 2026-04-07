@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/ultimatum-pour-luis-garc%C3%ADa-plaza-pression-maximale-au-sevilla-fc</loc>
+    <lastmod>2026-04-07T19:28:37+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-04-07T19:28:37+00:00</news:publication_date>
+      <news:title>Ultimatum pour Luis García Plaza : pression maximale au Sevilla FC</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/nemanja-gudelj-nous-sortirons-de-cette-situation-ensemble-et-unis-lors-des-huit-finales</loc>
     <lastmod>2026-04-07T12:49:55+00:00</lastmod>
     <news:news>
@@ -35,18 +47,6 @@
       </news:publication>
       <news:publication_date>2026-04-05T21:15:06+00:00</news:publication_date>
       <news:title>Luis García Plaza : « Si c’était le premier match, ce serait différent »</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/real-oviedo-1-0-sevilla-fc-impuissance-totale-d-un-sevilla-domin%C3%A9-du-d%C3%A9but-%C3%A0-la-fin</loc>
-    <lastmod>2026-04-05T19:03:30+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-04-05T19:03:30+00:00</news:publication_date>
-      <news:title>Real Oviedo 1 - 0 Sevilla FC / Impuissance totale d’un Sevilla dominé du début à la fin</news:title>
     </news:news>
   </url>
 </urlset>
