@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/le-sevilla-fc-et-l-association-patrimonio-sevillista-s-unissent-pour-valoriser-l-histoire-du-club</loc>
+    <lastmod>2026-04-09T18:01:11+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-04-09T18:01:11+00:00</news:publication_date>
+      <news:title>Le Sevilla FC et l’association Patrimonio Sevillista s’unissent pour valoriser l’histoire du club</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/nouvelle-exposition-temporaire-au-stadium-tour-en-hommage-%C3%A0-la-saison-1946</loc>
     <lastmod>2026-04-08T10:51:12+00:00</lastmod>
     <news:news>
