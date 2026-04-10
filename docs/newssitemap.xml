@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/le-journal-l-%C3%A9quipe-annonce-un-accord-entre-arouna-sangante-et-le-sevilla-fc</loc>
+    <lastmod>2026-04-10T12:06:33+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-04-10T12:06:33+00:00</news:publication_date>
+      <news:title>Le journal L’Équipe annonce un accord entre Arouna Sangante et le Sevilla FC</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/inclusion-et-%C3%A9ducation-la-fundaci%C3%B3n-1890-multiplie-les-initiatives-solidaires</loc>
     <lastmod>2026-04-09T21:16:05+00:00</lastmod>
     <news:news>
