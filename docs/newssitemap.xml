@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/sevilla-fc-2-1-club-atl%C3%A9tico-de-madrid-une-victoire-importante-qui-permet-de-souffler</loc>
+    <lastmod>2026-04-11T21:24:45+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-04-11T21:24:45+00:00</news:publication_date>
+      <news:title>Sevilla FC 2 - 1 Club Atlético de Madrid / Une victoire importante qui permet de souffler</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/sevilla-fc-club-atl%C3%A9tico-de-madrid-pr%C3%A9sentation-de-la-rencontre-sur-quelle-cha%C3%AEne-voir-le-match</loc>
     <lastmod>2026-04-10T20:49:42+00:00</lastmod>
     <news:news>
@@ -35,18 +47,6 @@
       </news:publication>
       <news:publication_date>2026-04-10T12:06:33+00:00</news:publication_date>
       <news:title>Le journal L’Équipe annonce un accord entre Arouna Sangante et le Sevilla FC</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/inclusion-et-%C3%A9ducation-la-fundaci%C3%B3n-1890-multiplie-les-initiatives-solidaires</loc>
-    <lastmod>2026-04-09T21:16:05+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-04-09T21:16:05+00:00</news:publication_date>
-      <news:title>Inclusion et éducation : la Fundación 1890 multiplie les initiatives solidaires</news:title>
     </news:news>
   </url>
 </urlset>
