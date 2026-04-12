@@ -49,16 +49,4 @@
       <news:title>Luis García Plaza : « Demain, cela doit être un enfer pour l’Atlético »</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://www.sevillava.fr/le-journal-l-%C3%A9quipe-annonce-un-accord-entre-arouna-sangante-et-le-sevilla-fc</loc>
-    <lastmod>2026-04-10T12:06:33+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-04-10T12:06:33+00:00</news:publication_date>
-      <news:title>Le journal L’Équipe annonce un accord entre Arouna Sangante et le Sevilla FC</news:title>
-    </news:news>
-  </url>
 </urlset>
