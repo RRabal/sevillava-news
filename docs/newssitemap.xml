@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/le-sevilla-fc-renforce-son-engagement-social-gr%C3%A2ce-a-sa-fundaci%C3%B3n-1890</loc>
+    <lastmod>2026-04-17T20:51:12+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-04-17T20:51:12+00:00</news:publication_date>
+      <news:title>Le Sevilla FC renforce son engagement social grâce a sa Fundación 1890</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/miguel-sierra-prolonge-avec-le-sevilla-fc-jusqu-en-2029</loc>
     <lastmod>2026-04-17T15:32:17+00:00</lastmod>
     <news:news>
@@ -35,18 +47,6 @@
       </news:publication>
       <news:publication_date>2026-04-15T21:09:42+00:00</news:publication_date>
       <news:title>Décès de Curro Sanjosé, huitième Dorsal de Leyenda du Sevilla FC</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/manu-bueno-je-suis-content-d-%C3%AAtre-titulaire</loc>
-    <lastmod>2026-04-15T20:37:50+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-04-15T20:37:50+00:00</news:publication_date>
-      <news:title>Manu Bueno : « Je suis content d’être titulaire »</news:title>
     </news:news>
   </url>
 </urlset>
