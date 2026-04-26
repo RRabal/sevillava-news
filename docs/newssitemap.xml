@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/ca-osasuna-2-1-sevilla-fc-une-nouvelle-d%C3%A9sillusion-pour-les-andalous</loc>
+    <lastmod>2026-04-26T19:07:05+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-04-26T19:07:05+00:00</news:publication_date>
+      <news:title>CA Osasuna 2 - 1 Sevilla FC / une nouvelle désillusion pour les Andalous</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/luis-garc%C3%ADa-plaza-le-groupe-doit-tout-donner</loc>
     <lastmod>2026-04-25T17:58:26+00:00</lastmod>
     <news:news>
@@ -23,18 +35,6 @@
       </news:publication>
       <news:publication_date>2026-04-25T06:45:15+00:00</news:publication_date>
       <news:title>CA Osasuna - Sevilla FC : Présentation de la rencontre, sur quelle chaîne voir le match ?</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/ultimatum-pour-luis-garc%C3%ADa-plaza-des-alternatives-seraient-d%C3%A9j%C3%A0-envisag%C3%A9es-en-interne</loc>
-    <lastmod>2026-04-24T18:03:06+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-04-24T18:03:06+00:00</news:publication_date>
-      <news:title>Ultimatum pour Luis García Plaza, des alternatives seraient déjà envisagées en interne</news:title>
     </news:news>
   </url>
 </urlset>
