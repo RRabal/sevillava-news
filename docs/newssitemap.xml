@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/un-appel-vibrant-des-biris-norte-dans-un-communiqu%C3%A9-percutant</loc>
+    <lastmod>2026-04-27T19:12:21+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-04-27T19:12:21+00:00</news:publication_date>
+      <news:title>Un appel vibrant des Biris Norte dans un communiqué percutant</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/luis-garc%C3%ADa-plaza-on-est-en-train-d-%C3%AAtre-sanctionn%C3%A9s</loc>
     <lastmod>2026-04-26T19:38:31+00:00</lastmod>
     <news:news>
