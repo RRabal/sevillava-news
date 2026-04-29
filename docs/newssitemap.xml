@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/la-fundaci%C3%B3n-1890-du-sevilla-fc-se-mobilise-entre-%C3%A9ducation-et-inclusion</loc>
+    <lastmod>2026-04-29T20:50:57+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-04-29T20:50:57+00:00</news:publication_date>
+      <news:title>La Fundación 1890 du Sevilla FC se mobilise entre éducation et inclusion</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/jes%C3%BAs-navas-les-supporters-qui-sont-essentiels-nous-m%C3%A8neront-%C3%A0-la-victoire</loc>
     <lastmod>2026-04-29T15:48:52+00:00</lastmod>
     <news:news>
