@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/c%C3%A9sar-azpilicueta-c-est-le-moment-d-atteindre-l-objectif</loc>
+    <lastmod>2026-04-30T15:56:33+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-04-30T15:56:33+00:00</news:publication_date>
+      <news:title>César Azpilicueta : « C’est le moment d’atteindre l’objectif »</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/la-fundaci%C3%B3n-1890-du-sevilla-fc-se-mobilise-entre-%C3%A9ducation-et-inclusion</loc>
     <lastmod>2026-04-29T20:50:57+00:00</lastmod>
     <news:news>
