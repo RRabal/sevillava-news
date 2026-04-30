@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/utrera-rend-un-hommage-historique-%C3%A0-jos%C3%A9-antonio-reyes-en-rebaptisant-son-stade-municipal</loc>
+    <lastmod>2026-04-30T21:13:17+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-04-30T21:13:17+00:00</news:publication_date>
+      <news:title>Utrera rend un hommage historique à José Antonio Reyes en rebaptisant son stade municipal</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/c%C3%A9sar-azpilicueta-c-est-le-moment-d-atteindre-l-objectif</loc>
     <lastmod>2026-04-30T15:56:33+00:00</lastmod>
     <news:news>
@@ -35,18 +47,6 @@
       </news:publication>
       <news:publication_date>2026-04-29T15:48:52+00:00</news:publication_date>
       <news:title>Jesús Navas : « Les supporters, qui sont essentiels, nous mèneront à la victoire »</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/antonio-cord%C3%B3n-lundi-c-est-le-moment-nous-comptons-sur-nos-supporters</loc>
-    <lastmod>2026-04-28T20:25:05+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-04-28T20:25:05+00:00</news:publication_date>
-      <news:title>Antonio Cordón : « Lundi, c’est le moment, nous comptons sur nos supporters »</news:title>
     </news:news>
   </url>
 </urlset>
