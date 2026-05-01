@@ -49,16 +49,4 @@
       <news:title>César Azpilicueta : « C’est le moment d’atteindre l’objectif »</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://www.sevillava.fr/la-fundaci%C3%B3n-1890-du-sevilla-fc-se-mobilise-entre-%C3%A9ducation-et-inclusion</loc>
-    <lastmod>2026-04-29T20:50:57+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-04-29T20:50:57+00:00</news:publication_date>
-      <news:title>La Fundación 1890 du Sevilla FC se mobilise entre éducation et inclusion</news:title>
-    </news:news>
-  </url>
 </urlset>
