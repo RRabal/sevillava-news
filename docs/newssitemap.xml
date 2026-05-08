@@ -37,16 +37,4 @@
       <news:title>Nouvelle journée éducative de « Sácale partido al cole » organisée à Nervión</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://www.sevillava.fr/kike-salas-nous-avons-confiance-nous-allons-y-arriver</loc>
-    <lastmod>2026-05-06T15:52:14+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-06T15:52:14+00:00</news:publication_date>
-      <news:title>Kike Salas : « Nous avons confiance, nous allons y arriver »</news:title>
-    </news:news>
-  </url>
 </urlset>
