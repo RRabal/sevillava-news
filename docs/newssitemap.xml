@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/manuel-manzano-et-manuela-nieto-honneur-et-fiert%C3%A9-sevillista</loc>
+    <lastmod>2026-05-09T19:12:12+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-09T19:12:12+00:00</news:publication_date>
+      <news:title>Manuel Manzano et Manuela Nieto, honneur et fierté sevillista</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/luis-garc%C3%ADa-plaza-ce-n-aurait-pas-%C3%A9t%C3%A9-juste-de-perdre</loc>
     <lastmod>2026-05-09T18:37:31+00:00</lastmod>
     <news:news>
