@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  <url>
+    <loc>https://www.sevillava.fr/sevilla-fc-0-1-real-madrid-cf-battu-par-le-real-madrid-le-sevilla-fc-valide-son-maintien</loc>
+    <lastmod>2026-05-17T19:19:44+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-17T19:19:44+00:00</news:publication_date>
+      <news:title>Sevilla FC 0 - 1 Real Madrid CF / Battu par le Real Madrid, le Sévilla FC valide tout de même son maintien</news:title>
+    </news:news>
+  </url>
 </urlset>
