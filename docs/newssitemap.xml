@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/nouvelle-exposition-temporaire-au-stade-pour-les-20-ans-du-titre-%C3%A0-eindhoven</loc>
+    <lastmod>2026-05-21T17:48:51+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-21T17:48:51+00:00</news:publication_date>
+      <news:title>Nouvelle exposition temporaire au stade pour les 20 ans du titre à Eindhoven</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/le-mondialito-de-limmigration-pr%C3%A9pare-sa-19e-%C3%A9dition</loc>
     <lastmod>2026-05-21T17:32:46+00:00</lastmod>
     <news:news>
