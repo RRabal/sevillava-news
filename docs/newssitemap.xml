@@ -49,16 +49,4 @@
       <news:title>Le Mondialito de l’immigration prépare sa 19e édition</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://www.sevillava.fr/la-vente-du-sevilla-fc-entre-dans-une-phase-critique</loc>
-    <lastmod>2026-05-20T16:55:50+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-20T16:55:50+00:00</news:publication_date>
-      <news:title>La vente du Sevilla FC entre dans une phase critique</news:title>
-    </news:news>
-  </url>
 </urlset>
