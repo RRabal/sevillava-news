@@ -25,16 +25,4 @@
       <news:title>Luis García Plaza : « Nous devons essayer de rester à ce niveau-là  »</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://www.sevillava.fr/andr%C3%A9s-castr%C3%ADn-le-football-est-une-question-de-moments</loc>
-    <lastmod>2026-05-21T20:21:48+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-21T20:21:48+00:00</news:publication_date>
-      <news:title>Andrés Castrín : « Le football est une question de moments »</news:title>
-    </news:news>
-  </url>
 </urlset>
