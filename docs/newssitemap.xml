@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/le-sevilla-fc-officialise-le-d%C3%A9part-de-%C3%B8rjan-nyland</loc>
+    <lastmod>2026-05-25T20:00:58+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-25T20:00:58+00:00</news:publication_date>
+      <news:title>Le Sevilla FC officialise le départ de Ørjan Nyland</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/nemanja-gudelj-il-n-y-a-rien-de-plus-grand-que-l-unit%C3%A9-d-un-club</loc>
     <lastmod>2026-05-25T09:05:28+00:00</lastmod>
     <news:news>
