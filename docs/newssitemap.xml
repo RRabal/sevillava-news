@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/le-sevilla-fc-renforce-sa-collaboration-avec-l-association-paz-y-bien</loc>
+    <lastmod>2026-05-26T13:04:17+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-26T13:04:17+00:00</news:publication_date>
+      <news:title>Le Sevilla FC renforce sa collaboration avec l’Association Paz y Bien</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/le-sevilla-fc-officialise-le-d%C3%A9part-de-%C3%B8rjan-nyland</loc>
     <lastmod>2026-05-25T20:00:58+00:00</lastmod>
     <news:news>
@@ -23,42 +35,6 @@
       </news:publication>
       <news:publication_date>2026-05-25T09:05:28+00:00</news:publication_date>
       <news:title>Nemanja Gudelj : « Il n’y a rien de plus grand que l’unité d’un club »</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/%C3%B8rjan-nyland-le-sevilla-reviendra-l%C3%A0-o%C3%B9-il-m%C3%A9rite-d-%C3%AAtre</loc>
-    <lastmod>2026-05-24T10:31:09+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-24T10:31:09+00:00</news:publication_date>
-      <news:title>Ørjan Nyland : « Le Sevilla reviendra là où il mérite d’être. »</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/c%C3%A9sar-azpilicueta-je-pars-satisfait-d-avoir-d%C3%A9fendu-ces-couleurs-cette-saison</loc>
-    <lastmod>2026-05-24T09:48:31+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-24T09:48:31+00:00</news:publication_date>
-      <news:title>César Azpilicueta : « Je pars satisfait d’avoir défendu ces couleurs cette saison. »</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/luis-garc%C3%ADa-plaza-je-suis-tr%C3%A8s-satisfait-du-bilan-g%C3%A9n%C3%A9ral</loc>
-    <lastmod>2026-05-24T09:30:46+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-24T09:30:46+00:00</news:publication_date>
-      <news:title>Luis García Plaza : « Je suis très satisfait du bilan général »</news:title>
     </news:news>
   </url>
 </urlset>
