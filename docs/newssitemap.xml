@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/la-vente-du-sevilla-fc-au-bord-de-l-effondrement</loc>
+    <lastmod>2026-05-27T21:13:24+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-27T21:13:24+00:00</news:publication_date>
+      <news:title>La vente du Sevilla FC au bord de l’effondrement</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/nouvelle-proposition-de-sergio-ramos-pour-racheter-le-sevilla-fc</loc>
     <lastmod>2026-05-27T15:40:46+00:00</lastmod>
     <news:news>
@@ -47,18 +59,6 @@
       </news:publication>
       <news:publication_date>2026-05-26T13:04:17+00:00</news:publication_date>
       <news:title>Le Sevilla FC renforce sa collaboration avec l’Association Paz y Bien</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/le-sevilla-fc-officialise-le-d%C3%A9part-de-%C3%B8rjan-nyland</loc>
-    <lastmod>2026-05-25T20:00:58+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-25T20:00:58+00:00</news:publication_date>
-      <news:title>Le Sevilla FC officialise le départ de Ørjan Nyland</news:title>
     </news:news>
   </url>
 </urlset>
