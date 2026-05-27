@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/nouvelle-proposition-de-sergio-ramos-pour-racheter-le-sevilla-fc</loc>
+    <lastmod>2026-05-27T15:40:46+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-27T15:40:46+00:00</news:publication_date>
+      <news:title>Nouvelle proposition de Sergio Ramos pour racheter le Sevilla FC</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/luis-garc%C3%ADa-plaza-je-suis-l-entra%C3%AEneur-du-sevilla-pour-la-saison-prochaine</loc>
     <lastmod>2026-05-26T21:08:23+00:00</lastmod>
     <news:news>
