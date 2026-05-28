@@ -61,28 +61,4 @@
       <news:title>Nouvelle proposition de Sergio Ramos pour racheter le Sevilla FC</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://www.sevillava.fr/luis-garc%C3%ADa-plaza-je-suis-l-entra%C3%AEneur-du-sevilla-pour-la-saison-prochaine</loc>
-    <lastmod>2026-05-26T21:08:23+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-26T21:08:23+00:00</news:publication_date>
-      <news:title>Luis García Plaza : « Je suis l’entraîneur du Sevilla pour la saison prochaine cependant un contrat ne garantit rien »</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/c%C3%A9sar-azpilicueta-je-garde-l-affection-d-avoir-d%C3%A9fendu-ce-club</loc>
-    <lastmod>2026-05-26T20:46:54+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-26T20:46:54+00:00</news:publication_date>
-      <news:title>César Azpilicueta : « Je garde l’affection d’avoir défendu ce club »</news:title>
-    </news:news>
-  </url>
 </urlset>
