@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/luis-garc%C3%ADa-plaza-choisit-de-rester-la-d%C3%A9cision-reviendra-au-club</loc>
+    <lastmod>2026-05-29T18:27:29+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-29T18:27:29+00:00</news:publication_date>
+      <news:title>Luis García Plaza choisit de rester : la décision reviendra au club</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/le-sevilla-fc-affrontera-le-bayer-04-leverkusen-en-match-amical</loc>
     <lastmod>2026-05-29T16:09:09+00:00</lastmod>
     <news:news>
