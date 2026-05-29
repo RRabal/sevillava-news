@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/le-sevilla-fc-affrontera-le-bayer-04-leverkusen-en-match-amical</loc>
+    <lastmod>2026-05-29T16:09:09+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-29T16:09:09+00:00</news:publication_date>
+      <news:title>Le Sevilla FC affrontera le Bayer 04 Leverkusen en match amical le samedi 8 août</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/sevilla-fc-s-impose-comme-la-plateforme-audiovisuelle-du-club-au-cours-de-sa-premi%C3%A8re-ann%C3%A9e</loc>
     <lastmod>2026-05-28T19:11:57+00:00</lastmod>
     <news:news>
@@ -47,18 +59,6 @@
       </news:publication>
       <news:publication_date>2026-05-27T21:13:24+00:00</news:publication_date>
       <news:title>La vente du Sevilla FC au bord de l’effondrement</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/nouvelle-proposition-de-sergio-ramos-pour-racheter-le-sevilla-fc</loc>
-    <lastmod>2026-05-27T15:40:46+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-27T15:40:46+00:00</news:publication_date>
-      <news:title>Nouvelle proposition de Sergio Ramos pour racheter le Sevilla FC</news:title>
     </news:news>
   </url>
 </urlset>
