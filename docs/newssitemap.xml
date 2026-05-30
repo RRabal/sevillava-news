@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/mercato-estival-2026-27</loc>
+    <lastmod>2026-05-30T13:20:54+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-30T13:20:54+00:00</news:publication_date>
+      <news:title>Mercato estival 2026/27 : départs, arrivées, rumeurs...</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/villarreal-cf-ne-l%C3%A8vera-pas-son-option-d-achat-pour-alfon-gonz%C3%A1lez</loc>
     <lastmod>2026-05-30T12:50:47+00:00</lastmod>
     <news:news>
@@ -47,18 +59,6 @@
       </news:publication>
       <news:publication_date>2026-05-28T19:11:57+00:00</news:publication_date>
       <news:title>Sevilla FC+ s’impose comme la plateforme audiovisuelle du club au cours de sa première année d’existence</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/calendrier-officiel-saison-2026-27</loc>
-    <lastmod>2026-05-28T13:15:10+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-28T13:15:10+00:00</news:publication_date>
-      <news:title>Calendrier officiel saison 2026/27</news:title>
     </news:news>
   </url>
 </urlset>
