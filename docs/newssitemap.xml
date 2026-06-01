@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/communiqu%C3%A9-des-actionnaires-du-sevilla-fc-avant-la-prise-de-parole-de-sergio-ramos</loc>
+    <lastmod>2026-06-01T13:28:39+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-01T13:28:39+00:00</news:publication_date>
+      <news:title>Communiqué des actionnaires du Sevilla FC avant la prise de parole de Sergio Ramos</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/crise-du-sevilla-fc-les-supporters-r%C3%A9clament-la-chute-du-conseil-d-administration</loc>
     <lastmod>2026-05-31T11:43:33+00:00</lastmod>
     <news:news>
@@ -11,30 +23,6 @@
       </news:publication>
       <news:publication_date>2026-05-31T11:43:33+00:00</news:publication_date>
       <news:title>Crise du Sevilla FC : les supporters réclament la chute du Conseil d’Administration</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/mercato-estival-2026-27</loc>
-    <lastmod>2026-05-30T13:20:54+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-30T13:20:54+00:00</news:publication_date>
-      <news:title>Mercato estival 2026/27 : départs, arrivées, rumeurs...</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/villarreal-cf-ne-l%C3%A8vera-pas-son-option-d-achat-pour-alfon-gonz%C3%A1lez</loc>
-    <lastmod>2026-05-30T12:50:47+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-30T12:50:47+00:00</news:publication_date>
-      <news:title>Villarreal CF ne lèvera pas son option d’achat pour Alfon González</news:title>
     </news:news>
   </url>
 </urlset>
