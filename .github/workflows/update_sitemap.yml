@@ -2,7 +2,7 @@ name: Update Google News Sitemap
 
 on:
   schedule:
-    - cron: '17 * * * *'
+    - cron: '30 * * * *'
   push:
     branches:
       - main
