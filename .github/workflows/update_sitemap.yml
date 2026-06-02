@@ -41,11 +41,9 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add docs/newssitemap.xml
-          
-          # Vérifier s'il y a des changements à commiter
           if git diff --staged --quiet; then
             echo "changed=false" >> $GITHUB_OUTPUT
-            echo "Aucun changement détecté dans le sitemap."
+            echo "Aucun changement détecté."
           else
             git commit -m "auto: mise à jour sitemap Google News"
             git push
@@ -53,9 +51,15 @@ jobs:
           fi
 
       - name: Ping Bing
-        # Cette étape ne s'exécute que si le fichier a été modifié
         if: steps.commit_step.outputs.changed == 'true'
         run: |
           echo "::group::Notification Bing"
           curl -I "https://www.bing.com/ping?sitemap=https://news.sevillava.fr/newssitemap.xml"
+          echo "::endgroup::"
+
+      - name: Ping Google
+        if: steps.commit_step.outputs.changed == 'true'
+        run: |
+          echo "::group::Notification Google"
+          curl -I "https://www.google.com/ping?sitemap=https://news.sevillava.fr/newssitemap.xml"
           echo "::endgroup::"
