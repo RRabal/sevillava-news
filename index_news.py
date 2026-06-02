@@ -31,7 +31,7 @@ def index_and_submit_sitemap():
         feed = feedparser.parse("https://www.sevillava.fr/blog-feed.xml")
         
         if feed.entries:
-            for entry in feed.entries[:2]:
+            for entry in feed.entries[:5]:
                 url = entry.link.split('?')[0]
                 body = {"url": url, "type": "URL_UPDATED"}
                 idx_service.urlNotifications().publish(body=body).execute()
