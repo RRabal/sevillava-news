@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/l-accionistas-unidos-appelle-%C3%A0-un-tournant-urgent-du-sevilla-fc</loc>
+    <lastmod>2026-06-02T19:10:00+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-02T19:10:00+00:00</news:publication_date>
+      <news:title>L'Accionistas Unidos appelle à un tournant urgent du Sevilla FC</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/conf%C3%A9rence-de-presse-de-sergio-ramos-le-rachat-du-sevilla-fc-vire-au-clash-avec-laliga</loc>
     <lastmod>2026-06-01T19:21:41+00:00</lastmod>
     <news:news>
