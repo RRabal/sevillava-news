@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/le-sevilla-fc-genuine-participe-%C3%A0-une-journ%C3%A9e-de-formation-professionnelle-%C3%A0-isla-m%C3%A1gica</loc>
+    <lastmod>2026-06-04T19:20:48+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-04T19:20:48+00:00</news:publication_date>
+      <news:title>Le Sevilla FC Genuine participe à une journée de formation professionnelle à Isla Mágica</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/luis-garc%C3%ADa-plaza-et-la-nouvelle-direction-sportive-pr%C3%A9parent-d%C3%A9j%C3%A0-la-saison-2026-27</loc>
     <lastmod>2026-06-04T07:49:46+00:00</lastmod>
     <news:news>
@@ -35,18 +47,6 @@
       </news:publication>
       <news:publication_date>2026-06-02T19:30:35+00:00</news:publication_date>
       <news:title>Joyeux anniversaire à José Pradilla, le supporter le plus âgé du Sevilla FC</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/l-accionistas-unidos-appelle-%C3%A0-un-tournant-urgent-du-sevilla-fc</loc>
-    <lastmod>2026-06-02T19:10:00+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-02T19:10:00+00:00</news:publication_date>
-      <news:title>L'Accionistas Unidos appelle à un tournant urgent du Sevilla FC</news:title>
     </news:news>
   </url>
 </urlset>
