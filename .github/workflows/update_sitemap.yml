@@ -49,6 +49,7 @@ jobs:
             echo "Aucun changement détecté."
           else
             git commit -m "auto: mise à jour sitemap Google News"
+            git pull --rebase origin main
             git push
             echo "changed=true" >> $GITHUB_OUTPUT
           fi
