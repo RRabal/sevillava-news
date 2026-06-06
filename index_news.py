@@ -16,7 +16,6 @@ def index_and_submit_sitemap():
     try:
         credentials_info = json.loads(key_data)
         
-        # --- AJOUT DU SCOPE WEBMASTERS ---
         scopes = [
             "https://www.googleapis.com/auth/indexing",
             "https://www.googleapis.com/auth/webmasters" 
@@ -37,11 +36,10 @@ def index_and_submit_sitemap():
                 idx_service.urlNotifications().publish(body=body).execute()
                 logging.info(f"✅ Indexing API : {url}")
 
-        # 2. MISE À JOUR DU SITEMAP (Search Console API)
-        # Note : siteUrl doit être identique à la propriété dans GSC (avec / à la fin souvent)
+        # 2. SOUMISSION DU SITEMAP (Search Console API)
         gsc_service = build('webmasters', 'v3', credentials=credentials, static_discovery=False)
         site_url = "https://www.sevillava.fr/"
-        sitemap_url = "https://news.sevillava.fr/newssitemap.xml" # Assurez-vous du nom exact
+        sitemap_url = "https://www.sevillava.fr/newssitemap.xml"  # ← corrigé
 
         gsc_service.sitemaps().submit(
             siteUrl=site_url,
