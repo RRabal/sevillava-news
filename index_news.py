@@ -3,6 +3,7 @@ import json
 import logging
 import feedparser
 import calendar
+import urllib.request
 from datetime import datetime, timezone
 from googleapiclient.discovery import build
 from google.oauth2 import service_account
@@ -11,8 +12,8 @@ logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
 RSS_URL = "https://www.sevillava.fr/blog-feed.xml"
 SITEMAP_URL = "https://www.sevillava.fr/newssitemap.xml"
-# ### FIX : Assure-toi que cette URL est EXACTEMENT celle déclarée dans la Search Console (souvent sans slash final pour la propriété)
-SITE_URL = "https://www.sevillava.fr" 
+# ### FIX : Vérifie bien ce nom dans ta Search Console
+SITE_URL = "https://www.sevillava.fr/" 
 
 MAX_AGE_MINUTES = 60
 THROTTLE_MINUTES = 10
@@ -66,13 +67,12 @@ def get_credentials(key_data: str):
 def submit_to_indexing_api(credentials, urls: list) -> int:
     if not urls:
         return 0
-    # ### FIX : La version correcte pour l'Indexing API est 'v3', pas 'v1'
+    # Utilisation de la v3 qui est la plus stable pour l'indexing
     service = build('indexing', 'v3', credentials=credentials, static_discovery=False)
     sent = 0
     for url in urls[:MAX_URLS_PER_RUN]:
         try:
             body = {"url": url, "type": "URL_UPDATED"}
-            # ### FIX : Avec v3, urlNotifications() devient accessible
             service.urlNotifications().publish(body=body).execute()
             logging.info(f"⚡ Indexing API envoyé : {url}")
             sent += 1
@@ -81,53 +81,9 @@ def submit_to_indexing_api(credentials, urls: list) -> int:
     return sent
 
 def submit_sitemap(credentials):
+    """Soumet le sitemap via l'API Search Console ou par Ping HTTP en secours."""
     try:
-        # ### FIX : Pour éviter l'erreur 'webmasters v3', on utilise static_discovery=False 
-        # Et on s'assure que le siteUrl est bien formaté (sc-domain: ou URL simple)
-        service = build('webmasters', 'v3', credentials=credentials, static_discovery=False)
+        # Tentative via l'API moderne
+        service = build('searchconsole', 'v1', credentials=credentials, static_discovery=False)
         service.sitemaps().submit(siteUrl=SITE_URL, feedpath=SITEMAP_URL).execute()
-        logging.info(f"✅ Sitemap soumis à GSC : {SITEMAP_URL}")
-    except Exception as e:
-        logging.error(f"❌ Erreur soumission sitemap : {e}")
-
-def run():
-    key_data = os.getenv('GSC_JSON_KEY')
-    if not key_data:
-        logging.error("❌ Variable GSC_JSON_KEY manquante")
-        return
-
-    try:
-        credentials = get_credentials(key_data)
-        fresh_urls = []
-
-        injected_url = os.getenv('INPUT_URL', '').strip()
-        if injected_url:
-            clean_url = injected_url.split('?')[0].split('#')[0].rstrip('/')
-            fresh_urls.append(clean_url)
-            logging.info(f"🎯 URL injectée : {clean_url}")
-
-        if len(fresh_urls) < MAX_URLS_PER_RUN:
-            feed = feedparser.parse(RSS_URL)
-            if feed.entries:
-                for entry in feed.entries:
-                    if len(fresh_urls) >= MAX_URLS_PER_RUN:
-                        break
-                    if is_fresh(entry):
-                        url = entry.link.split('?')[0].split('#')[0].rstrip('/')
-                        if url not in fresh_urls:
-                            fresh_urls.append(url)
-
-        logging.info(f"📊 URLs fraîches détectées : {len(fresh_urls)}")
-
-        if fresh_urls and can_push():
-            sent = submit_to_indexing_api(credentials, fresh_urls)
-            if sent > 0:
-                update_last_push()
-
-        submit_sitemap(credentials)
-
-    except Exception as e:
-        logging.error(f"❌ Erreur générale : {e}")
-
-if __name__ == "__main__":
-    run()
+        logging.info(f"✅ Sitemap soumis via Search
