@@ -2,104 +2,78 @@ name: Update Google News Sitemap
 
 on:
   schedule:
-    # Toutes les 30 minutes
-    - cron: '*/30 * * * *'
+    - cron: '30 * * * *'
   push:
     branches:
       - main
   workflow_dispatch:
 
-# ✅ Empêche les runs parallèles qui créeraient des conflits git
 concurrency:
   group: sitemap-update
-  cancel-in-progress: false
-
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-  PYTHONUNBUFFERED: "1"
+  cancel-in-progress: true
 
 jobs:
   update-sitemap:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
 
     permissions:
       contents: write
 
     steps:
-      # ─────────────────────────────────────────
       - name: Checkout code
-        uses: actions/checkout@v4      # ✅ v4 = version stable actuelle
+        uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          node-version: '24'
 
-      # ─────────────────────────────────────────
       - name: Set up Python
-        uses: actions/setup-python@v5  # ✅ v5 = version stable actuelle
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.11'       # ✅ 3.10 EOL proche, 3.11 recommandé
-          cache: 'pip'                 # ✅ Cache pip = runs plus rapides
+          python-version: '3.11'
+          cache: 'pip'
 
-      # ─────────────────────────────────────────
       - name: Install dependencies
-        run: |
-          pip install --upgrade pip
-          pip install \
-            feedparser \
-            google-api-python-client \
-            google-auth \
-            requests
+        run: pip install -r requirements.txt
 
-      # ─────────────────────────────────────────
+      # ✅ Génération sitemap
       - name: Generate Sitemap
         run: python generate_sitemap.py
 
-      # ─────────────────────────────────────────
+      # ⚡ Indexation
       - name: Submit Sitemap + Indexing API
         env:
           GSC_JSON_KEY: ${{ secrets.GSC_JSON_KEY }}
         run: python index_news.py
 
-      # ─────────────────────────────────────────
+      # ✅ Commit si changement
       - name: Commit and Push changes
         id: commit_step
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add docs/newssitemap.xml
-
           if git diff --staged --quiet; then
             echo "changed=false" >> $GITHUB_OUTPUT
-            echo "ℹ️ Aucun changement détecté."
+            echo "Aucun changement détecté."
           else
             git commit -m "auto: mise à jour sitemap Google News [skip ci]"
-            # ✅ Rebase propre pour éviter les conflits de merge
             git pull --rebase origin main
             git push
             echo "changed=true" >> $GITHUB_OUTPUT
-            echo "✅ Sitemap mis à jour et poussé."
           fi
 
-      # ─────────────────────────────────────────
-      - name: Ping Google Search (sitemaps)
+      # ⚡ Ping Google
+      - name: Ping Google
         if: steps.commit_step.outputs.changed == 'true'
         run: |
-          echo "📡 Ping Google..."
-          curl -s -o /dev/null -w "Google News sitemap: %{http_code}\n" \
-            "https://www.google.com/ping?sitemap=https://www.sevillava.fr/newssitemap.xml"
-          curl -s -o /dev/null -w "Google sitemap: %{http_code}\n" \
-            "https://www.google.com/ping?sitemap=https://www.sevillava.fr/sitemap.xml"
+          curl -s "https://www.google.com/ping?sitemap=https://www.sevillava.fr/newssitemap.xml"
+          curl -s "https://www.google.com/ping?sitemap=https://www.sevillava.fr/sitemap.xml"
 
-      # ─────────────────────────────────────────
+      # ⚡ Ping Bing
       - name: Ping Bing
         if: steps.commit_step.outputs.changed == 'true'
         run: |
-          echo "📡 Ping Bing..."
-          curl -s -o /dev/null -w "Bing sitemap: %{http_code}\n" \
-            "https://www.bing.com/ping?sitemap=https://www.sevillava.fr/newssitemap.xml"
+          curl -s "https://www.bing.com/ping?sitemap=https://www.sevillava.fr/newssitemap.xml"
 
-      # ─────────────────────────────────────────
-      - name: Warm-up crawl
-        run: |
-          echo "🕷️ Warm-up crawl..."
-          curl -s -A "Googlebot/2.1" -o /dev/null -w "Homepage: %{http_code}\n" \
-            https://www.sevillava.fr/
+      # ✅ Soft crawl
+      - name: Soft crawl trigger
+        run: curl -s https://www.sevillava.fr/ > /dev/null
