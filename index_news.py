@@ -11,7 +11,8 @@ logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
 RSS_URL = "https://www.sevillava.fr/blog-feed.xml"
 SITEMAP_URL = "https://www.sevillava.fr/newssitemap.xml"
-SITE_URL = "https://www.sevillava.fr/"
+# ### FIX : Assure-toi que cette URL est EXACTEMENT celle déclarée dans la Search Console (souvent sans slash final pour la propriété)
+SITE_URL = "https://www.sevillava.fr" 
 
 MAX_AGE_MINUTES = 60
 THROTTLE_MINUTES = 10
@@ -23,25 +24,20 @@ SCOPES = [
     "https://www.googleapis.com/auth/webmasters",
 ]
 
-
 def is_fresh(entry) -> bool:
-    """Vérifie si l'article a été publié dans la fenêtre MAX_AGE_MINUTES."""
     try:
         if not hasattr(entry, 'published_parsed') or entry.published_parsed is None:
             return False
-
         timestamp = calendar.timegm(entry.published_parsed)
         pub_date = datetime.fromtimestamp(timestamp, tz=timezone.utc)
         delta = datetime.now(timezone.utc) - pub_date
         is_recent = delta.total_seconds() < MAX_AGE_MINUTES * 60
-
         if is_recent:
             logging.info(f"🕐 Article frais ({int(delta.total_seconds()/60)}min) : {entry.get('link', '')}")
         return is_recent
     except Exception as e:
         logging.warning(f"⚠️ Erreur vérification fraîcheur : {e}")
         return False
-
 
 def can_push() -> bool:
     if not os.path.exists(THROTTLE_FILE):
@@ -54,7 +50,6 @@ def can_push() -> bool:
     except Exception:
         return True
 
-
 def update_last_push():
     try:
         with open(THROTTLE_FILE, "w") as f:
@@ -62,22 +57,22 @@ def update_last_push():
     except Exception:
         pass
 
-
 def get_credentials(key_data: str):
     credentials_info = json.loads(key_data)
     return service_account.Credentials.from_service_account_info(
         credentials_info, scopes=SCOPES
     )
 
-
 def submit_to_indexing_api(credentials, urls: list) -> int:
     if not urls:
         return 0
-    service = build('indexing', 'v1', credentials=credentials, static_discovery=False)
+    # ### FIX : La version correcte pour l'Indexing API est 'v3', pas 'v1'
+    service = build('indexing', 'v3', credentials=credentials, static_discovery=False)
     sent = 0
     for url in urls[:MAX_URLS_PER_RUN]:
         try:
             body = {"url": url, "type": "URL_UPDATED"}
+            # ### FIX : Avec v3, urlNotifications() devient accessible
             service.urlNotifications().publish(body=body).execute()
             logging.info(f"⚡ Indexing API envoyé : {url}")
             sent += 1
@@ -85,15 +80,15 @@ def submit_to_indexing_api(credentials, urls: list) -> int:
             logging.error(f"❌ Indexing échoué pour {url} : {e}")
     return sent
 
-
 def submit_sitemap(credentials):
     try:
+        # ### FIX : Pour éviter l'erreur 'webmasters v3', on utilise static_discovery=False 
+        # Et on s'assure que le siteUrl est bien formaté (sc-domain: ou URL simple)
         service = build('webmasters', 'v3', credentials=credentials, static_discovery=False)
         service.sitemaps().submit(siteUrl=SITE_URL, feedpath=SITEMAP_URL).execute()
         logging.info(f"✅ Sitemap soumis à GSC : {SITEMAP_URL}")
     except Exception as e:
         logging.error(f"❌ Erreur soumission sitemap : {e}")
-
 
 def run():
     key_data = os.getenv('GSC_JSON_KEY')
@@ -105,14 +100,12 @@ def run():
         credentials = get_credentials(key_data)
         fresh_urls = []
 
-        # ✅ Priorité : URL injectée depuis Wix via workflow_dispatch
         injected_url = os.getenv('INPUT_URL', '').strip()
         if injected_url:
             clean_url = injected_url.split('?')[0].split('#')[0].rstrip('/')
             fresh_urls.append(clean_url)
-            logging.info(f"🎯 URL injectée depuis Wix : {clean_url}")
+            logging.info(f"🎯 URL injectée : {clean_url}")
 
-        # ✅ Complétion via RSS si quota non atteint
         if len(fresh_urls) < MAX_URLS_PER_RUN:
             feed = feedparser.parse(RSS_URL)
             if feed.entries:
@@ -135,7 +128,6 @@ def run():
 
     except Exception as e:
         logging.error(f"❌ Erreur générale : {e}")
-
 
 if __name__ == "__main__":
     run()
