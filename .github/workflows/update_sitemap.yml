@@ -12,92 +12,14 @@ on:
       - 'requirements.txt'
       - '.github/workflows/update_sitemap.yml'
   workflow_dispatch:
-    inputs:
-      title:
-        description: 'Titre de l article publié'
-        required: false
-        default: ''
-      url:
-        description: 'URL de l article publié'
-        required: false
-        default: ''
-      date:
-        description: 'Date ISO 8601 de publication'
-        required: false
-        default: ''
 
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
+# Empêche deux versions de courir en même temps et de s'annuler
 concurrency:
   group: sitemap-locking-group
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
-  update-sitemap:
+  build:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-    permissions:
-      contents: write
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-          cache: 'pip'
-
-      - name: Install dependencies
-        run: |
-          pip install --upgrade pip
-          pip install -r requirements.txt
-
-      - name: Inject article from Wix (si workflow_dispatch avec inputs)
-        if: >
-          github.event_name == 'workflow_dispatch' &&
-          inputs.title != '' &&
-          inputs.url != '' &&
-          inputs.date != ''
-        env:
-          INPUT_TITLE: ${{ inputs.title }}
-          INPUT_URL: ${{ inputs.url }}
-          INPUT_DATE: ${{ inputs.date }}
-        run: python main.py
-
-      - name: Generate Sitemap depuis RSS
-        run: python generate_sitemap.py
-
-      - name: Submit Sitemap + Indexing API
-        env:
-          GSC_JSON_KEY: ${{ secrets.GSC_JSON_KEY }}
-          # Transmission des inputs pour cibler l'URL fraîche si dispo
-          INPUT_URL: ${{ inputs.url }}
-        run: python index_news.py
-
-      - name: Commit and Push changes
-        id: commit_step
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/newssitemap.xml
-
-          if git diff --staged --quiet; then
-            echo "changed=false" >> $GITHUB_OUTPUT
-            echo "Rien à mettre à jour."
-          else
-            git commit -m "auto: mise à jour sitemap [skip ci]"
-            git pull --rebase origin main
-            git push origin main
-            echo "changed=true" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Ping Search Engines
-        if: steps.commit_step.outputs.changed == 'true'
-        run: |
-          curl -s "https://www.google.com/ping?sitemap=https://www.sevillava.fr/newssitemap.xml"
-          curl -s "https://www.bing.com/ping?sitemap=https://www.sevillava.fr/newssitemap.xml"
+      # ... la suite de tes étapes (checkout, setup python, etc.)
