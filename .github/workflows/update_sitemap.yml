@@ -7,16 +7,6 @@ on:
     branches:
       - main
   workflow_dispatch:
-    inputs:
-      title:
-        description: "Titre de l'article"
-        required: false
-      url:
-        description: "URL de l'article"
-        required: false
-      date:
-        description: "Date de publication"
-        required: false
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -40,16 +30,13 @@ jobs:
         run: |
           pip install feedparser google-api-python-client google-auth requests
 
-      - name: Run SEO Workflow (Sitemap + Indexing)
+      - name: Generate Sitemap
+        run: python generate_sitemap.py
+
+      - name: Submit Sitemap + Indexing
         env:
           GSC_JSON_KEY: ${{ secrets.GSC_JSON_KEY }}
-          INPUT_TITLE: ${{ github.event.inputs.title }}
-          INPUT_URL: ${{ github.event.inputs.url }}
-          INPUT_DATE: ${{ github.event.inputs.date }}
-        run: |
-          echo "::group::Exécution du Workflow Python"
-          python main.py
-          echo "::endgroup::"
+        run: python index_news.py
 
       - name: Commit and Push changes
         id: commit_step
@@ -57,6 +44,7 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add docs/newssitemap.xml
+
           if git diff --staged --quiet; then
             echo "changed=false" >> $GITHUB_OUTPUT
             echo "Aucun changement détecté."
@@ -69,14 +57,8 @@ jobs:
 
       - name: Ping Bing
         if: steps.commit_step.outputs.changed == 'true'
-        run: |
-          echo "::group::Notification Bing"
-          curl -I "https://www.bing.com/ping?sitemap=https://news.sevillava.fr/newssitemap.xml"
-          echo "::endgroup::"
+        run: curl -I "https://www.bing.com/ping?sitemap=https://www.sevillava.fr/newssitemap.xml"
 
       - name: Ping Google
         if: steps.commit_step.outputs.changed == 'true'
-        run: |
-          echo "::group::Notification Google"
-          curl -I "https://www.google.com/ping?sitemap=https://news.sevillava.fr/newssitemap.xml"
-          echo "::endgroup::"
+        run: curl -I "https://www.google.com/ping?sitemap=https://www.sevillava.fr/newssitemap.xml"
