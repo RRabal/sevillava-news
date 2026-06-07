@@ -95,24 +95,19 @@ def generate_news_sitemap():
   </url>"""))
 
     # ✅ Ajout des entrées du sitemap existant NON présentes dans le RSS
-    # (articles injectés manuellement depuis Wix, pas encore dans le RSS)
     import re
     for url, block in existing_entries.items():
         if url in seen_urls:
-            # Déjà traité via RSS → on ignore la version existante
             continue
 
-        # Vérification que l'article n'est pas trop vieux
         date_match = re.search(r'<news:publication_date>(.*?)</news:publication_date>', block)
         if date_match:
             try:
                 date_str = date_match.group(1).strip()
-                # Parse ISO 8601
                 pub_date = datetime.fromisoformat(date_str.replace('Z', '+00:00'))
                 if pub_date < limit_date:
                     logging.info(f"🗑️ Entrée expirée ignorée : {url}")
                     continue
-                # ✅ Préservation de l'entrée existante (ex: injectée depuis Wix)
                 seen_urls.add(url)
                 logging.info(f"♻️ Entrée préservée depuis sitemap existant : {url}")
                 sitemap_entries.append((pub_date, f"  {block.strip()}"))
@@ -122,7 +117,7 @@ def generate_news_sitemap():
         else:
             logging.warning(f"⚠️ Pas de date trouvée pour {url}, entrée ignorée")
 
-    # ✅ Tri par date décroissante (plus récent en premier)
+    # ✅ Tri par date décroissante
     sitemap_entries.sort(key=lambda x: x[0], reverse=True)
     entries_xml = [xml for _, xml in sitemap_entries]
 
@@ -135,7 +130,10 @@ def generate_news_sitemap():
         '</urlset>\n'
     )
 
+    # ✅ Création du dossier et désactivation de Jekyll
     os.makedirs(os.path.dirname(SITEMAP_PATH), exist_ok=True)
+    open("docs/.nojekyll", "a").close() # Empêche l'erreur de build Jekyll
+
     with open(SITEMAP_PATH, "w", encoding="utf-8") as f:
         f.write(sitemap_content)
 
