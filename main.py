@@ -42,9 +42,13 @@ def add_article_to_sitemap(title: str, url: str, date: str):
     </news:news>
   </url>"""
 
+    # ✅ Création du dossier docs si absent
     os.makedirs("docs", exist_ok=True)
 
-    # ✅ Création si absent
+    # ✅ CORRECTION : Désactive Jekyll pour éviter les erreurs de déploiement GitHub Pages
+    open("docs/.nojekyll", "a").close()
+
+    # ✅ Création du sitemap si absent
     if not os.path.exists(SITEMAP_PATH):
         logging.info("📄 Création nouveau sitemap")
         with open(SITEMAP_PATH, "w", encoding="utf-8") as f:
@@ -70,24 +74,4 @@ def add_article_to_sitemap(title: str, url: str, date: str):
     with open(SITEMAP_PATH, "w", encoding="utf-8") as f:
         f.write(content)
 
-    logging.info(f"✅ Article injecté dans le sitemap : {url}")
-
-
-def run_workflow():
-    title = os.environ.get("INPUT_TITLE", "").strip()
-    url = os.environ.get("INPUT_URL", "").strip()
-    date = os.environ.get("INPUT_DATE", "").strip()
-
-    logging.info("🔎 Lecture des inputs")
-
-    if not title or not url or not date:
-        logging.warning("⚠️ Inputs incomplets → aucun article injecté (mode cron/push)")
-        return
-
-    logging.info(f"📰 Article reçu depuis Wix : {title}")
-    add_article_to_sitemap(title, url, date)
-    logging.info("🎯 Injection terminée")
-
-
-if __name__ == "__main__":
-    run_workflow()
+    logging.info(
