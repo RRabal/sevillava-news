@@ -11,25 +11,17 @@ SITEMAP_PATH = "docs/newssitemap.xml"
 
 def generate_news_sitemap():
     logging.info(f"Lecture RSS : {RSS_URL}")
-
     feed = feedparser.parse(RSS_URL)
 
     if not feed.entries:
-        logging.error("RSS vide → aucun article détecté")
+        logging.error("RSS vide")
         return
 
     now = datetime.now(timezone.utc)
     limit_date = now - timedelta(hours=24)
 
-    logging.info(f"Articles RSS trouvés : {len(feed.entries)}")
-
-    sitemap = [
-        '<?xml version="1.0" encoding="UTF-8"?>',
-        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
-        'xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">',
-    ]
-
-    count = 0
+    seen_urls = set()
+    sitemap_entries = []
 
     for entry in feed.entries:
         try:
@@ -40,35 +32,47 @@ def generate_news_sitemap():
         except Exception:
             continue
 
-        logging.info(f"Article : {entry.title} | {published}")
+        if published < limit_date:
+            continue
 
-        if published >= limit_date:
-            url = entry.link.split('?')[0]
-            title = escape(entry.title)
-            date_iso = published.strftime('%Y-%m-%dT%H:%M:%S+00:00')
+        url = entry.link.split('?')[0]
 
-            sitemap += [
-                "  <url>",
-                f"    <loc>{url}</loc>",
-                f"    <lastmod>{date_iso}</lastmod>",
-                "    <news:news>",
-                "      <news:publication>",
-                "        <news:name>Sevilla Va</news:name>",
-                "        <news:language>fr</news:language>",
-                "      </news:publication>",
-                f"      <news:publication_date>{date_iso}</news:publication_date>",
-                f"      <news:title>{title}</news:title>",
-                "    </news:news>",
-                "  </url>"
-            ]
+        if url in seen_urls:
+            continue
+        seen_urls.add(url)
 
-            count += 1
+        title = escape(entry.title)
+        date_iso = published.strftime('%Y-%m-%dT%H:%M:%S+00:00')
 
-    sitemap.append('</urlset>')
+        sitemap_entries.append(f"""
+  <url>
+    <loc>{url}</loc>
+    <lastmod>{date_iso}</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>{date_iso}</news:publication_date>
+      <news:title>{title}</news:title>
+    </news:news>
+  </url>
+""")
+
+    sitemap_content = f"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+{''.join(sitemap_entries)}
+</urlset>
+"""
 
     os.makedirs(os.path.dirname(SITEMAP_PATH), exist_ok=True)
 
     with open(SITEMAP_PATH, "w", encoding="utf-8") as f:
-        f.write("\n".join(sitemap))
+        f.write(sitemap_content)
 
-    logging.info(f"Sitemap généré avec {count} articles")
+    logging.info(f"Sitemap généré avec {len(sitemap_entries)} articles")
+
+
+if __name__ == "__main__":
+    generate_news_sitemap()
