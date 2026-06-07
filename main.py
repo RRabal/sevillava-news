@@ -1,4 +1,5 @@
 import os
+import re
 import logging
 from xml.sax.saxutils import escape
 from datetime import datetime, timezone
@@ -8,13 +9,27 @@ logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 SITEMAP_PATH = "docs/newssitemap.xml"
 
 
-def add_article_to_sitemap(title, url, date):
-    logging.info("🚀 Ajout de l'article au sitemap")
+def url_already_exists(content: str, url: str) -> bool:
+    """Vérifie si l'URL est déjà présente dans le sitemap."""
+    return f"<loc>{url}</loc>" in content
 
-    title = escape(title)
 
-    entry = f"""
-  <url>
+def add_article_to_sitemap(title: str, url: str, date: str):
+    logging.info(f"🚀 Injection article : {title}")
+
+    # ✅ Nettoyage URL
+    url = url.split('?')[0].split('#')[0].rstrip('/')
+
+    # ✅ Validation date ISO 8601
+    try:
+        datetime.fromisoformat(date.replace('Z', '+00:00'))
+    except ValueError:
+        logging.error(f"❌ Date invalide : {date} → utilisation date courante")
+        date = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%S+00:00')
+
+    title_escaped = escape(title.strip())
+
+    entry = f"""  <url>
     <loc>{url}</loc>
     <lastmod>{date}</lastmod>
     <news:news>
@@ -23,49 +38,55 @@ def add_article_to_sitemap(title, url, date):
         <news:language>fr</news:language>
       </news:publication>
       <news:publication_date>{date}</news:publication_date>
-      <news:title>{title}</news:title>
+      <news:title>{title_escaped}</news:title>
     </news:news>
-  </url>
-"""
+  </url>"""
 
     os.makedirs("docs", exist_ok=True)
 
-    # Si sitemap n'existe pas encore → création propre
+    # ✅ Création si absent
     if not os.path.exists(SITEMAP_PATH):
         logging.info("📄 Création nouveau sitemap")
         with open(SITEMAP_PATH, "w", encoding="utf-8") as f:
-            f.write("""<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">\n</urlset>""")
+            f.write(
+                '<?xml version="1.0" encoding="UTF-8"?>\n'
+                '<urlset\n'
+                '  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n'
+                '  xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">\n'
+                '</urlset>\n'
+            )
 
-    # Lecture sitemap existant
     with open(SITEMAP_PATH, "r", encoding="utf-8") as f:
         content = f.read()
 
-    # Ajout nouvel article avant </urlset>
+    # ✅ Dédoublonnage : on n'ajoute pas si URL déjà présente
+    if url_already_exists(content, url):
+        logging.info(f"⏭️ URL déjà présente dans le sitemap, injection ignorée : {url}")
+        return
+
+    # ✅ Insertion avant </urlset>
     content = content.replace("</urlset>", entry + "\n</urlset>")
 
     with open(SITEMAP_PATH, "w", encoding="utf-8") as f:
         f.write(content)
 
-    logging.info("✅ Sitemap mis à jour avec succès")
+    logging.info(f"✅ Article injecté dans le sitemap : {url}")
 
 
 def run_workflow():
-    title = os.environ.get("INPUT_TITLE")
-    url = os.environ.get("INPUT_URL")
-    date = os.environ.get("INPUT_DATE")
+    title = os.environ.get("INPUT_TITLE", "").strip()
+    url = os.environ.get("INPUT_URL", "").strip()
+    date = os.environ.get("INPUT_DATE", "").strip()
 
-    logging.info("🔎 Lecture des inputs GitHub Actions")
+    logging.info("🔎 Lecture des inputs")
 
-    # Mode fallback si workflow cron (sans inputs)
     if not title or not url or not date:
-        logging.warning("⚠️ Mode fallback (cron ou push main) → aucun article injecté")
+        logging.warning("⚠️ Inputs incomplets → aucun article injecté (mode cron/push)")
         return
 
-    logging.info(f"📰 Article reçu : {title}")
-
+    logging.info(f"📰 Article reçu depuis Wix : {title}")
     add_article_to_sitemap(title, url, date)
-
-    logging.info("🎯 Workflow terminé")
+    logging.info("🎯 Injection terminée")
 
 
 if __name__ == "__main__":
