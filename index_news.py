@@ -3,7 +3,6 @@ import json
 import logging
 import feedparser
 import calendar
-import urllib.request
 import sys
 from datetime import datetime, timezone
 from googleapiclient.discovery import build
@@ -23,7 +22,7 @@ MAX_URLS_PER_RUN = 5
 
 SCOPES = [
     "https://www.googleapis.com/auth/indexing",
-    "https://www.googleapis.com/auth/webmasters",
+    "https://www.googleapis.com/auth/webmasters", # Requis pour Search Console
 ]
 
 def is_fresh(entry) -> bool:
@@ -37,8 +36,7 @@ def is_fresh(entry) -> bool:
         if is_recent:
             logging.info(f"🕐 Article frais ({int(delta.total_seconds()/60)}min) : {entry.get('link', '')}")
         return is_recent
-    except Exception as e:
-        logging.warning(f"⚠️ Erreur fraîcheur : {e}")
+    except Exception:
         return False
 
 def can_push() -> bool:
@@ -81,22 +79,18 @@ def submit_to_indexing_api(credentials, urls: list) -> int:
                 logging.error(f"❌ Indexing échoué pour {url} : {e}")
         return sent
     except Exception as e:
-        logging.error(f"❌ Erreur build Indexing API : {e}")
+        logging.error(f"❌ Erreur Indexing API : {e}")
         return 0
 
 def submit_sitemap(credentials):
+    """Soumet le sitemap via l'API Search Console."""
     try:
+        # Note: On utilise 'searchconsole' v1
         service = build('searchconsole', 'v1', credentials=credentials, static_discovery=False)
         service.sitemaps().submit(siteUrl=SITE_URL, feedpath=SITEMAP_URL).execute()
-        logging.info(f"✅ Sitemap soumis via Search Console API")
+        logging.info(f"✅ Sitemap soumis avec succès via l'API")
     except Exception as e:
-        logging.warning(f"⚠️ API Search Console refusée, tentative via Ping : {e}")
-        try:
-            ping_url = f"https://www.google.com/ping?sitemap={SITEMAP_URL}"
-            urllib.request.urlopen(ping_url)
-            logging.info(f"✅ Sitemap soumis via Ping Google")
-        except Exception as ping_e:
-            logging.error(f"❌ Échec total soumission sitemap : {ping_e}")
+        logging.error(f"❌ Erreur soumission sitemap : {e}")
 
 def run():
     key_data = os.getenv('GSC_JSON_KEY')
@@ -108,14 +102,13 @@ def run():
         credentials = get_credentials(key_data)
         fresh_urls = []
 
-        # 1. URL injectée manuellement
+        # 1. Check URL manuelle (GitHub Input)
         injected_url = os.getenv('INPUT_URL', '').strip()
         if injected_url:
             clean_url = injected_url.split('?')[0].split('#')[0].rstrip('/')
             fresh_urls.append(clean_url)
-            logging.info(f"🎯 URL manuelle : {clean_url}")
 
-        # 2. Scan du RSS
+        # 2. Check RSS
         feed = feedparser.parse(RSS_URL)
         if feed.entries:
             for entry in feed.entries:
@@ -134,12 +127,13 @@ def run():
                 if sent > 0:
                     update_last_push()
             else:
-                logging.info("⏳ Pause de 10min active (Throttling)")
+                logging.info("⏳ Throttling actif (10min)")
 
+        # Toujours essayer de soumettre le sitemap
         submit_sitemap(credentials)
 
     except Exception as e:
-        logging.error(f"❌ Erreur critique : {e}")
+        logging.error(f"❌ Erreur : {e}")
 
 if __name__ == "__main__":
     run()
