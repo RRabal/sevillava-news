@@ -1,5 +1,9 @@
 name: Update Google News Sitemap
 
+# Cette variable supprime l'avertissement Node.js 20
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 on:
   schedule:
     - cron: '30 * * * *'
