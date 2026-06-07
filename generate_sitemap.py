@@ -18,7 +18,7 @@ def generate_news_sitemap():
         return
 
     now = datetime.now(timezone.utc)
-    limit_date = now - timedelta(hours=24)
+    limit_date = now - timedelta(hours=48)
 
     seen_urls = set()
     sitemap_entries = []
