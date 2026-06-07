@@ -78,8 +78,17 @@ jobs:
           fi
 
       - name: 4. Ping Search Engines
-        # On ne ping que si le sitemap a été réellement mis à jour
         if: steps.commit_step.outputs.changed == 'true'
         run: |
           curl -s "https://www.google.com/ping?sitemap=https://www.sevillava.fr/newssitemap.xml"
           curl -s "https://www.bing.com/ping?sitemap=https://www.sevillava.fr/newssitemap.xml"
+
+      # --- LES DEUX ÉTAPES QUI RÉGLENT LE PROBLÈME JEKYLL ---
+      - name: 5. Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./docs  # Indique à GitHub de prendre le contenu du dossier docs
+
+      - name: 6. Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
