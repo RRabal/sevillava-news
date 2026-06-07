@@ -30,11 +30,11 @@ jobs:
         run: |
           pip install feedparser google-api-python-client google-auth requests
 
-      # ✅ Génération sitemap propre (24h)
+      # ✅ Génération sitemap
       - name: Generate Sitemap
         run: python generate_sitemap.py
 
-      # ⚡ Indexation ultra rapide
+      # ⚡ Indexation intelligente
       - name: Submit Sitemap + Indexing API
         env:
           GSC_JSON_KEY: ${{ secrets.GSC_JSON_KEY }}
@@ -59,7 +59,7 @@ jobs:
             echo "changed=true" >> $GITHUB_OUTPUT
           fi
 
-      # ⚡ Ping Google (double boost)
+      # ⚡ Ping Google
       - name: Ping Google (FAST)
         if: steps.commit_step.outputs.changed == 'true'
         run: |
@@ -73,7 +73,7 @@ jobs:
         run: |
           curl "https://www.bing.com/ping?sitemap=https://www.sevillava.fr/newssitemap.xml"
 
-      # ⚡ Force crawl (petit hack utile)
-      - name: Force crawl (homepage hit)
+      # ✅ Soft crawl (REMPLACE le force crawl)
+      - name: Soft crawl trigger (light)
         run: |
-          curl -A "Googlebot" https://www.sevillava.fr/
+          curl -s https://www.sevillava.fr/ > /dev/null
