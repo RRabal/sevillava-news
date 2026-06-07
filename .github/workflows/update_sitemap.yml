@@ -17,8 +17,8 @@ env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 concurrency:
-  group: sitemap-update
-  cancel-in-progress: true
+  group: sitemap-update-${{ github.run_id }}
+  cancel-in-progress: false
 
 jobs:
   update-sitemap:
@@ -28,6 +28,10 @@ jobs:
       contents: write
 
     steps:
+      - name: Wait for Pages to settle
+        if: github.event_name == 'push'
+        run: sleep 30
+
       - name: Checkout code
         uses: actions/checkout@v4
         with:
@@ -64,25 +68,4 @@ jobs:
             echo "changed=false" >> $GITHUB_OUTPUT
             echo "Aucun changement détecté."
           else
-            git commit -m "auto: mise à jour sitemap Google News [skip ci]"
-            git pull --rebase origin main
-            git push
-            echo "changed=true" >> $GITHUB_OUTPUT
-          fi
-
-      # ⚡ Ping Google
-      - name: Ping Google
-        if: steps.commit_step.outputs.changed == 'true'
-        run: |
-          curl -s "https://www.google.com/ping?sitemap=https://www.sevillava.fr/newssitemap.xml"
-          curl -s "https://www.google.com/ping?sitemap=https://www.sevillava.fr/sitemap.xml"
-
-      # ⚡ Ping Bing
-      - name: Ping Bing
-        if: steps.commit_step.outputs.changed == 'true'
-        run: |
-          curl -s "https://www.bing.com/ping?sitemap=https://www.sevillava.fr/newssitemap.xml"
-
-      # ✅ Soft crawl
-      - name: Soft crawl trigger
-        run: curl -s https://www.sevillava.fr/ > /dev/null
+            git commit -m "auto: mise à jour
