@@ -1,9 +1,11 @@
 name: Update Google News Sitemap
 
 on:
+  schedule:
+    - cron: '30 * * * *' # Se lance toutes les heures à la 30ème minute
+  workflow_dispatch: # Permet de le lancer manuellement avec le bouton "Run workflow"
   repository_dispatch:
-    types: [publish-event]
-  workflow_dispatch: # Permet de le lancer manuellement pour tester
+    types: [publish-event] # Pour Wix (si configuré)
 
 permissions:
   contents: write
@@ -13,31 +15,35 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       - name: Update Sitemap
         env:
-          # On ajoute des guillemets pour éviter l'erreur si Wix envoie un texte vide
-          POST_TITLE: "${{ github.event.client_payload.title }}"
-          POST_URL: "${{ github.event.client_payload.url }}"
-          POST_DATE: "${{ github.event.client_payload.date }}"
-        run: |
-          python scripts/update_sitemap.py
+          # Ces variables seront lues par ton script Python
+          INPUT_TITLE: "${{ github.event.client_payload.title }}"
+          INPUT_URL: "${{ github.event.client_payload.url }}"
+          INPUT_DATE: "${{ github.event.client_payload.date }}"
+        run: python generate_sitemap.py
 
       - name: Commit and Push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/newssitemap.xml
-          # On vérifie s'il y a des changements avant de commit
+          git add .
           if git diff --staged --quiet; then
-            echo "Aucun changement à commiter."
+            echo "Aucun changement à enregistrer."
           else
-            git commit -m "auto: mise à jour sitemap [skip ci]"
-            git push origin main
+            git commit -m "Auto: Mise à jour du sitemap"
+            git push
           fi
