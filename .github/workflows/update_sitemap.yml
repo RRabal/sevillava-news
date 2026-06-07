@@ -2,13 +2,25 @@ name: Update Google News Sitemap
 
 on:
   schedule:
-    - cron: '30 * * * *' # Se lance toutes les heures à la 30ème minute
-  workflow_dispatch: # Permet de le lancer manuellement avec le bouton "Run workflow"
+    - cron: '30 * * * *'
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      title:
+        description: 'Titre de l article'
+      url:
+        description: 'URL de l article'
+      date:
+        description: 'Date ISO'
   repository_dispatch:
-    types: [publish-event] # Pour Wix (si configuré)
+    types: [publish-event]
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   update-sitemap:
@@ -16,6 +28,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -28,22 +42,40 @@ jobs:
           pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-      - name: Update Sitemap
+      - name: 1. Generate Sitemap
         env:
-          # Ces variables seront lues par ton script Python
-          INPUT_TITLE: "${{ github.event.client_payload.title }}"
-          INPUT_URL: "${{ github.event.client_payload.url }}"
-          INPUT_DATE: "${{ github.event.client_payload.date }}"
+          INPUT_TITLE: "${{ github.event.client_payload.title || github.event.inputs.title }}"
+          INPUT_URL: "${{ github.event.client_payload.url || github.event.inputs.url }}"
+          INPUT_DATE: "${{ github.event.client_payload.date || github.event.inputs.date }}"
         run: python generate_sitemap.py
 
-      - name: Commit and Push changes
+      - name: 2. Commit and Push Sitemap changes
+        id: commit_step
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add .
           if git diff --staged --quiet; then
-            echo "Aucun changement à enregistrer."
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "Aucun changement détecté."
           else
-            git commit -m "Auto: Mise à jour du sitemap"
+            git commit -m "Auto: Mise à jour sitemap"
             git push
+            echo "changed=true" >> $GITHUB_OUTPUT
           fi
+
+      - name: 3. Submit to Google Indexing API
+        env:
+          GSC_JSON_KEY: ${{ secrets.GSC_JSON_KEY }}
+          INPUT_URL: "${{ github.event.client_payload.url || github.event.inputs.url }}"
+        run: |
+          if [ -f index_news.py ]; then
+            python index_news.py
+          fi
+
+      - name: 4. Ping Search Engines
+        # On ne ping que si le sitemap a été réellement mis à jour
+        if: steps.commit_step.outputs.changed == 'true'
+        run: |
+          curl -s "https://www.google.com/ping?sitemap=https://www.sevillava.fr/newssitemap.xml"
+          curl -s "https://www.bing.com/ping?sitemap=https://www.sevillava.fr/newssitemap.xml"
