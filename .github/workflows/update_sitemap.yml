@@ -30,19 +30,23 @@ jobs:
         run: |
           pip install feedparser google-api-python-client google-auth requests
 
+      # ✅ Génération sitemap propre (24h)
       - name: Generate Sitemap
         run: python generate_sitemap.py
 
-      - name: Submit Sitemap + Indexing
+      # ⚡ Indexation ultra rapide
+      - name: Submit Sitemap + Indexing API
         env:
           GSC_JSON_KEY: ${{ secrets.GSC_JSON_KEY }}
         run: python index_news.py
 
+      # ✅ Commit si changement
       - name: Commit and Push changes
         id: commit_step
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
           git add docs/newssitemap.xml
 
           if git diff --staged --quiet; then
@@ -55,13 +59,21 @@ jobs:
             echo "changed=true" >> $GITHUB_OUTPUT
           fi
 
-      - name: Ping Bing
-        if: steps.commit_step.outputs.changed == 'true'
-        run: curl -I "https://www.bing.com/ping?sitemap=https://www.sevillava.fr/newssitemap.xml"
+      # ⚡ Ping Google (double boost)
       - name: Ping Google (FAST)
         if: steps.commit_step.outputs.changed == 'true'
         run: |
-        curl "https://www.google.com/ping?sitemap=https://www.sevillava.fr/newssitemap.xml"
-        curl "https://www.google.com/ping?sitemap=https://www.sevillava.fr/sitemap.xml"
-        curl "https://www.google.com/ping?sitemap=https://news.sevillava.fr/newssitemap.xml"
+          curl "https://www.google.com/ping?sitemap=https://www.sevillava.fr/newssitemap.xml"
+          curl "https://www.google.com/ping?sitemap=https://www.sevillava.fr/sitemap.xml"
+          curl "https://www.google.com/ping?sitemap=https://news.sevillava.fr/newssitemap.xml"
 
+      # ⚡ Ping Bing
+      - name: Ping Bing
+        if: steps.commit_step.outputs.changed == 'true'
+        run: |
+          curl "https://www.bing.com/ping?sitemap=https://www.sevillava.fr/newssitemap.xml"
+
+      # ⚡ Force crawl (petit hack utile)
+      - name: Force crawl (homepage hit)
+        run: |
+          curl -A "Googlebot" https://www.sevillava.fr/
