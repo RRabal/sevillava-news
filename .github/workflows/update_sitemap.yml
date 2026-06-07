@@ -58,7 +58,10 @@ jobs:
       - name: Ping Bing
         if: steps.commit_step.outputs.changed == 'true'
         run: curl -I "https://www.bing.com/ping?sitemap=https://www.sevillava.fr/newssitemap.xml"
-
-      - name: Ping Google
+      - name: Ping Google (FAST)
         if: steps.commit_step.outputs.changed == 'true'
-        run: curl -I "https://www.google.com/ping?sitemap=https://www.sevillava.fr/newssitemap.xml"
+        run: |
+        curl "https://www.google.com/ping?sitemap=https://www.sevillava.fr/newssitemap.xml"
+        curl "https://www.google.com/ping?sitemap=https://www.sevillava.fr/sitemap.xml"
+        curl "https://www.google.com/ping?sitemap=https://news.sevillava.fr/newssitemap.xml"
+
