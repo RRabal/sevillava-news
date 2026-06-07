@@ -13,7 +13,10 @@ on:
       - '.github/workflows/update_sitemap.yml'
   workflow_dispatch:
 
-# Verrouillage : Si une action est déjà lancée, la nouvelle attendra (ne l'annulera pas)
+# ✅ Force l'utilisation de Node 24 pour supprimer les alertes de dépréciation
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 concurrency:
   group: sitemap-locking-group
   cancel-in-progress: false
@@ -29,7 +32,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Récupère tout l'historique pour éviter les erreurs de push
+          fetch-depth: 0 
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -62,7 +65,6 @@ jobs:
             echo "Rien à mettre à jour."
           else
             git commit -m "auto: mise à jour sitemap [skip ci]"
-            # On récupère les changements distants juste avant de push pour éviter le conflit
             git pull --rebase origin main
             git push origin main
             echo "changed=true" >> $GITHUB_OUTPUT
