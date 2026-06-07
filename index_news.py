@@ -13,7 +13,7 @@ logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
 RSS_URL = "https://www.sevillava.fr/blog-feed.xml"
 SITEMAP_URL = "https://www.sevillava.fr/newssitemap.xml"
-SITE_URL = "https://www.sevillava.fr/" 
+SITE_URL = "sc-domain:sevillava.fr" 
 
 MAX_AGE_MINUTES = 60
 THROTTLE_MINUTES = 10
