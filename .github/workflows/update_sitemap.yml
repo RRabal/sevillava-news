@@ -7,6 +7,16 @@ on:
     branches:
       - main
   workflow_dispatch:
+    inputs:
+      title:
+        description: "Titre de l'article"
+        required: false
+      url:
+        description: "URL de l'article"
+        required: false
+      date:
+        description: "Date de publication"
+        required: false
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -33,6 +43,9 @@ jobs:
       - name: Run SEO Workflow (Sitemap + Indexing)
         env:
           GSC_JSON_KEY: ${{ secrets.GSC_JSON_KEY }}
+          INPUT_TITLE: ${{ github.event.inputs.title }}
+          INPUT_URL: ${{ github.event.inputs.url }}
+          INPUT_DATE: ${{ github.event.inputs.date }}
         run: |
           echo "::group::Exécution du Workflow Python"
           python main.py
