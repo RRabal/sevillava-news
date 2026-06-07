@@ -14,7 +14,6 @@ logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
 RSS_URL = "https://www.sevillava.fr/blog-feed.xml"
 SITEMAP_URL = "https://www.sevillava.fr/newssitemap.xml"
-# SITE_URL doit correspondre à ta propriété dans la Search Console
 SITE_URL = "https://www.sevillava.fr/" 
 
 MAX_AGE_MINUTES = 60
@@ -28,7 +27,6 @@ SCOPES = [
 ]
 
 def is_fresh(entry) -> bool:
-    """Vérifie si l'article a été publié il y a moins de MAX_AGE_MINUTES."""
     try:
         if not hasattr(entry, 'published_parsed') or entry.published_parsed is None:
             return False
@@ -40,11 +38,10 @@ def is_fresh(entry) -> bool:
             logging.info(f"🕐 Article frais ({int(delta.total_seconds()/60)}min) : {entry.get('link', '')}")
         return is_recent
     except Exception as e:
-        logging.warning(f"⚠️ Erreur vérification fraîcheur : {e}")
+        logging.warning(f"⚠️ Erreur fraîcheur : {e}")
         return False
 
 def can_push() -> bool:
-    """Évite les envois trop fréquents via un fichier temporaire."""
     if not os.path.exists(THROTTLE_FILE):
         return True
     try:
@@ -56,7 +53,6 @@ def can_push() -> bool:
         return True
 
 def update_last_push():
-    """Met à jour l'horodatage du dernier envoi."""
     try:
         with open(THROTTLE_FILE, "w") as f:
             f.write(str(datetime.now(timezone.utc).timestamp()))
@@ -64,14 +60,12 @@ def update_last_push():
         pass
 
 def get_credentials(key_data: str):
-    """Initialise les identifiants Google."""
     credentials_info = json.loads(key_data)
     return service_account.Credentials.from_service_account_info(
         credentials_info, scopes=SCOPES
     )
 
 def submit_to_indexing_api(credentials, urls: list) -> int:
-    """Envoie les URLs à l'API d'indexation Google."""
     if not urls:
         return 0
     try:
@@ -91,40 +85,61 @@ def submit_to_indexing_api(credentials, urls: list) -> int:
         return 0
 
 def submit_sitemap(credentials):
-    """Notifie Google de la mise à jour du sitemap."""
     try:
-        # On tente via la nouvelle API Search Console
         service = build('searchconsole', 'v1', credentials=credentials, static_discovery=False)
         service.sitemaps().submit(siteUrl=SITE_URL, feedpath=SITEMAP_URL).execute()
         logging.info(f"✅ Sitemap soumis via Search Console API")
     except Exception as e:
         logging.warning(f"⚠️ API Search Console refusée, tentative via Ping : {e}")
-        # Secours : Le Ping HTTP classique
         try:
             ping_url = f"https://www.google.com/ping?sitemap={SITEMAP_URL}"
             urllib.request.urlopen(ping_url)
-            logging.info(f"✅ Sitemap soumis avec succès via Ping Google")
+            logging.info(f"✅ Sitemap soumis via Ping Google")
         except Exception as ping_e:
             logging.error(f"❌ Échec total soumission sitemap : {ping_e}")
 
 def run():
-    """Point d'entrée principal."""
     key_data = os.getenv('GSC_JSON_KEY')
     if not key_data:
-        logging.error("❌ Variable GSC_JSON_KEY manquante dans les Secrets")
+        logging.error("❌ Variable GSC_JSON_KEY manquante")
         sys.exit(1)
 
     try:
         credentials = get_credentials(key_data)
         fresh_urls = []
 
-        # 1. Vérification d'une URL manuelle passée par GitHub Action
+        # 1. URL injectée manuellement
         injected_url = os.getenv('INPUT_URL', '').strip()
         if injected_url:
             clean_url = injected_url.split('?')[0].split('#')[0].rstrip('/')
             fresh_urls.append(clean_url)
-            logging.info(f"🎯 URL manuelle détectée : {clean_url}")
+            logging.info(f"🎯 URL manuelle : {clean_url}")
 
-        # 2. Scan du flux RSS
+        # 2. Scan du RSS
         feed = feedparser.parse(RSS_URL)
-        if feed.entries
+        if feed.entries:
+            for entry in feed.entries:
+                if len(fresh_urls) >= MAX_URLS_PER_RUN:
+                    break
+                if is_fresh(entry):
+                    url = entry.link.split('?')[0].split('#')[0].rstrip('/')
+                    if url not in fresh_urls:
+                        fresh_urls.append(url)
+
+        logging.info(f"📊 URLs à traiter : {len(fresh_urls)}")
+
+        if fresh_urls:
+            if can_push():
+                sent = submit_to_indexing_api(credentials, fresh_urls)
+                if sent > 0:
+                    update_last_push()
+            else:
+                logging.info("⏳ Pause de 10min active (Throttling)")
+
+        submit_sitemap(credentials)
+
+    except Exception as e:
+        logging.error(f"❌ Erreur critique : {e}")
+
+if __name__ == "__main__":
+    run()
