@@ -1,25 +1,43 @@
 name: Update Google News Sitemap
 
 on:
-  schedule:
-    - cron: '30 * * * *'
-  push:
-    branches:
-      - main
-    paths:
-      - 'generate_sitemap.py'
-      - 'index_news.py'
-      - 'requirements.txt'
-      - '.github/workflows/update_sitemap.yml'
-  workflow_dispatch:
+  repository_dispatch:
+    types: [publish-event]
+  workflow_dispatch: # Permet de le lancer manuellement pour tester
 
-# Empêche deux versions de courir en même temps et de s'annuler
-concurrency:
-  group: sitemap-locking-group
-  cancel-in-progress: true
+permissions:
+  contents: write
 
 jobs:
-  build:
+  update-sitemap:
     runs-on: ubuntu-latest
     steps:
-      # ... la suite de tes étapes (checkout, setup python, etc.)
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Update Sitemap
+        env:
+          # On ajoute des guillemets pour éviter l'erreur si Wix envoie un texte vide
+          POST_TITLE: "${{ github.event.client_payload.title }}"
+          POST_URL: "${{ github.event.client_payload.url }}"
+          POST_DATE: "${{ github.event.client_payload.date }}"
+        run: |
+          python scripts/update_sitemap.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/newssitemap.xml
+          # On vérifie s'il y a des changements avant de commit
+          if git diff --staged --quiet; then
+            echo "Aucun changement à commiter."
+          else
+            git commit -m "auto: mise à jour sitemap [skip ci]"
+            git push origin main
+          fi
