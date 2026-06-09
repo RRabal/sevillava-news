@@ -26,28 +26,4 @@
       <news:title>LaLiga 2026/27 : date officielle de l'annonce du calendrier, le Sevilla FC sous pression</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://www.sevillava.fr/test</loc>
-    <lastmod>2026-06-07T16:42:52+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-07T16:42:52+00:00</news:publication_date>
-      <news:title>Test de connexion</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/diego-conde-la-bonne-pioche-pour-le-poste-de-gardien</loc>
-    <lastmod>2026-06-07T16:33:31+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-07T16:33:31+00:00</news:publication_date>
-      <news:title>Diego Conde, la bonne pioche pour le poste de gardien ?</news:title>
-    </news:news>
-  </url>
 </urlset>
