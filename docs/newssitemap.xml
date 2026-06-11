@@ -3,6 +3,18 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/juan-iglesias-rejoint-le-sevilla-fc-jusqu-en-2030</loc>
+    <lastmod>2026-06-11T11:20:31+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-11T11:20:31+00:00</news:publication_date>
+      <news:title>Juan Iglesias rejoint le Sevilla FC jusqu’en 2030</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/sevilla-fc-2026-27-tout-ce-qu-il-faut-savoir-sur-les-abonnements-et-le-statut-de-socio</loc>
     <lastmod>2026-06-10T21:14:09+00:00</lastmod>
     <news:news>
@@ -36,18 +48,6 @@
       </news:publication>
       <news:publication_date>2026-06-09T17:52:15+00:00</news:publication_date>
       <news:title>José Ignacio Navarro nommé directeur sportif du Sevilla FC</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/jos%C3%A9-ignacio-navarro-pressenti-comme-nouveau-directeur-sportif-du-club</loc>
-    <lastmod>2026-06-09T09:27:04+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-09T09:27:04+00:00</news:publication_date>
-      <news:title>José Ignacio Navarro pressenti comme nouveau directeur sportif du club</news:title>
     </news:news>
   </url>
 </urlset>
