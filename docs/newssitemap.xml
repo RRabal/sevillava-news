@@ -3,6 +3,18 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/visite-surprise-de-luis-garc%C3%ADa-plaza-pour-les-supporters-de-la-pe%C3%B1a-sevillista-del-mediterr%C3%A1neo</loc>
+    <lastmod>2026-06-15T20:11:19+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-15T20:11:19+00:00</news:publication_date>
+      <news:title>Visite surprise de Luis García Plaza pour les supporters de la Peña Sevillista del Mediterráneo</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/rafa-mir-condamn%C3%A9-le-sevilla-fc-r%C3%A9agit-officiellement</loc>
     <lastmod>2026-06-15T15:53:39+00:00</lastmod>
     <news:news>
