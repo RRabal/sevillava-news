@@ -3,6 +3,18 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/arouna-sangante-rejoint-le-sevilla-fc-jusqu-en-2031</loc>
+    <lastmod>2026-06-16T12:39:30+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-16T12:39:30+00:00</news:publication_date>
+      <news:title>Arouna Sangante rejoint le Sevilla FC jusqu'en 2031</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/visite-surprise-de-luis-garc%C3%ADa-plaza-pour-les-supporters-de-la-pe%C3%B1a-sevillista-del-mediterr%C3%A1neo</loc>
     <lastmod>2026-06-15T20:11:19+00:00</lastmod>
     <news:news>
