@@ -3,6 +3,18 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/la-fondation-1890-rend-hommage-aux-donneurs-de-sang</loc>
+    <lastmod>2026-06-18T08:30:07+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-18T08:30:07+00:00</news:publication_date>
+      <news:title>La Fondation 1890 rend hommage aux donneurs de sang</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/le-club-andalou-sur-le-point-de-changer-de-propri%C3%A9taire-gr%C3%A2ce-a-des-investisseurs-%C3%A9trangers</loc>
     <lastmod>2026-06-16T20:38:49+00:00</lastmod>
     <news:news>
