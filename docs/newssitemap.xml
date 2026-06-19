@@ -3,6 +3,18 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/patrik-mercado-attendu-%C3%A0-s%C3%A9ville-une-visite-m%C3%A9dicale-d%C3%A9cisive-pour-son-avenir</loc>
+    <lastmod>2026-06-19T05:57:52+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-19T05:57:52+00:00</news:publication_date>
+      <news:title>Patrik Mercado attendu à Séville : une visite médicale décisive pour son avenir</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/le-sevillismo-se-mobilise-pour-d%C3%A9fendre-l-avenir-du-club</loc>
     <lastmod>2026-06-18T12:55:09+00:00</lastmod>
     <news:news>
