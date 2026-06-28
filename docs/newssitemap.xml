@@ -26,16 +26,4 @@
       <news:title>Les nouvelles maillots du Sevilla FC : Adidas prépare un lancement imminent</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://www.sevillava.fr/notre-message-de-soutien-%C3%A0-joaqu%C3%ADn-caparr%C3%B3s</loc>
-    <lastmod>2026-06-26T20:34:29+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-26T20:34:29+00:00</news:publication_date>
-      <news:title>Notre message de soutien à Joaquín Caparrós</news:title>
-    </news:news>
-  </url>
 </urlset>
