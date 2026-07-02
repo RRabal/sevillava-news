@@ -1,6 +1,5 @@
 name: Update Google News Sitemap
 
-# Cette variable supprime l'avertissement Node.js 20
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
@@ -83,12 +82,20 @@ jobs:
           curl -s "https://www.google.com/ping?sitemap=https://www.sevillava.fr/newssitemap.xml"
           curl -s "https://www.bing.com/ping?sitemap=https://www.sevillava.fr/newssitemap.xml"
 
-      # --- LES DEUX ÉTAPES QUI RÉGLENT LE PROBLÈME JEKYLL ---
       - name: 5. Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./docs  # Indique à GitHub de prendre le contenu du dossier docs
+          path: ./docs
 
+  deploy-pages:
+    needs: update-sitemap
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+    steps:
       - name: 6. Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
