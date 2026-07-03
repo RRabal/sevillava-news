@@ -3,6 +3,18 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/deux-nouvelles-d%C3%A9missions-au-sein-du-conseil-d-administration-carolina-al%C3%A9s-et-fernando-carri%C3%B3n</loc>
+    <lastmod>2026-07-03T18:14:32+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-03T18:14:32+00:00</news:publication_date>
+      <news:title>Deux nouvelles démissions au sein du Conseil d'administration du Sevilla FC : Carolina Alés et Fernando Carrión quittent leurs fonctions</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/fin-d-aventure-pour-sept-joueurs-au-sevilla-fc</loc>
     <lastmod>2026-07-02T12:35:07+00:00</lastmod>
     <news:news>
