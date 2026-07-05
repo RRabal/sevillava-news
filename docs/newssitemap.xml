@@ -3,6 +3,18 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/arouna-sangant%C3%A9-je-suis-pr%C3%AAt-%C3%A0-relever-ce-d%C3%A9fi</loc>
+    <lastmod>2026-07-05T17:16:00+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-05T17:16:00+00:00</news:publication_date>
+      <news:title>Arouna Sanganté : « Je suis prêt à relever ce défi »</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/jon-guridi-luis-garc%C3%ADa-plaza-m-a-contact%C3%A9-et-je-n-ai-pas-h%C3%A9sit%C3%A9</loc>
     <lastmod>2026-07-04T16:19:19+00:00</lastmod>
     <news:news>
@@ -24,18 +36,6 @@
       </news:publication>
       <news:publication_date>2026-07-04T08:07:51+00:00</news:publication_date>
       <news:title>Le Sevilla FC officialise deux renforts pour sa direction sportive, Carlos Jiménez et Pablo Rodríguez</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/deux-nouvelles-d%C3%A9missions-au-sein-du-conseil-d-administration-carolina-al%C3%A9s-et-fernando-carri%C3%B3n</loc>
-    <lastmod>2026-07-03T18:14:32+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-03T18:14:32+00:00</news:publication_date>
-      <news:title>Deux nouvelles démissions au sein du Conseil d'administration du Sevilla FC : Carolina Alés et Fernando Carrión quittent leurs fonctions</news:title>
     </news:news>
   </url>
 </urlset>
