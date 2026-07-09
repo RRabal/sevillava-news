@@ -2,16 +2,5 @@
 <urlset
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-  <url>
-    <loc>https://www.sevillava.fr/le-club-met-trois-joueurs-%C3%A0-l-%C3%A9cart-et-acc%C3%A9l%C3%A8re-son-op%C3%A9ration-d%C3%A9graissage</loc>
-    <lastmod>2026-07-07T11:05:14+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-07T11:05:14+00:00</news:publication_date>
-      <news:title>Le club met trois joueurs à l'écart et accélère son opération dégraissage</news:title>
-    </news:news>
-  </url>
+
 </urlset>
