@@ -3,6 +3,18 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/luis-garc%C3%ADa-plaza-l-important-maintenant-c-est-d-%C3%A9viter-les-blessures</loc>
+    <lastmod>2026-07-12T17:26:10+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-12T17:26:10+00:00</news:publication_date>
+      <news:title>Luis García Plaza : « L’important maintenant, c’est d’éviter les blessures et d’apprendre à tous nous connaître »</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/sevilla-fc-1-0-juventud-de-torremolinos-cf</loc>
     <lastmod>2026-07-11T21:03:43+00:00</lastmod>
     <news:news>
