@@ -50,16 +50,4 @@
       <news:title>José Ignacio Navarro : « À ce jour, nous n’avons pas la capacité d’inscrire des joueurs »</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://www.sevillava.fr/le-sevilla-fc-d%C3%A9voile-son-nouveau-maillot-ext%C3%A9rieur-2026-27</loc>
-    <lastmod>2026-07-14T07:30:43+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-14T07:30:43+00:00</news:publication_date>
-      <news:title>Le Sevilla FC dévoile son nouveau maillot extérieur 2026/27</news:title>
-    </news:news>
-  </url>
 </urlset>
