@@ -38,28 +38,4 @@
       <news:title>Juan Iglesias : « Nous ne nous fixons aucun objectif au-delà du match contre le Rayo »</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://www.sevillava.fr/arouna-sangante-j-ai-trouv%C3%A9-ici-une-grande-famille</loc>
-    <lastmod>2026-07-15T15:46:47+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-15T15:46:47+00:00</news:publication_date>
-      <news:title>Arouna Sangante : « J'ai trouvé ici une grande famille »</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/jos%C3%A9-ignacio-navarro-%C3%A0-ce-jour-nous-n-avons-pas-la-capacit%C3%A9-d-inscrire-des-joueurs</loc>
-    <lastmod>2026-07-15T15:30:10+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-15T15:30:10+00:00</news:publication_date>
-      <news:title>José Ignacio Navarro : « À ce jour, nous n’avons pas la capacité d’inscrire des joueurs »</news:title>
-    </news:news>
-  </url>
 </urlset>
