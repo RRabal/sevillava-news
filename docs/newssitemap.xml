@@ -3,6 +3,18 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/luis-garc%C3%ADa-plaza-il-faut-continuer-%C3%A0-jouer-des-matchs-pour-progresser</loc>
+    <lastmod>2026-07-19T18:33:18+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-19T18:33:18+00:00</news:publication_date>
+      <news:title>Luis García Plaza : « Il faut continuer à jouer des matchs pour progresser »</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/ks-cracovia-1-0-sevilla-fc</loc>
     <lastmod>2026-07-19T16:08:52+00:00</lastmod>
     <news:news>
