@@ -3,6 +3,18 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/calendrier-officiel-saison-2026-27-sevilla-fc</loc>
+    <lastmod>2026-07-20T07:28:01+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>Sevilla Va</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-20T07:28:01+00:00</news:publication_date>
+      <news:title>Calendrier officiel saison 2026/27</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/luis-garc%C3%ADa-plaza-il-faut-continuer-%C3%A0-jouer-des-matchs-pour-progresser</loc>
     <lastmod>2026-07-19T18:33:18+00:00</lastmod>
     <news:news>
@@ -48,18 +60,6 @@
       </news:publication>
       <news:publication_date>2026-07-18T17:22:26+00:00</news:publication_date>
       <news:title>103 ans plus tard, le Sevilla FC retrouve le KS Cracovia dans un duel historique</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/le-sevilla-fc-acc%C3%A9l%C3%A8re-son-d%C3%A9graissage-quatre-joueurs-pouss%C3%A9s-vers-la-sortie</loc>
-    <lastmod>2026-07-18T07:00:10+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>Sevilla Va</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-18T07:00:10+00:00</news:publication_date>
-      <news:title>Le Sevilla FC accélère son dégraissage : quatre joueurs poussés vers la sortie, les inscriptions toujours bloquées</news:title>
     </news:news>
   </url>
 </urlset>
