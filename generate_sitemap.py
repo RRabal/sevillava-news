@@ -67,7 +67,7 @@ def generate_news_sitemap():
     <lastmod>{date_iso}</lastmod>
     <news:news>
       <news:publication>
-        <news:name>Sevilla Va</news:name>
+        <news:name>SevillaVa</news:name>
         <news:language>fr</news:language>
       </news:publication>
       <news:publication_date>{date_iso}</news:publication_date>
@@ -102,7 +102,7 @@ def generate_news_sitemap():
     <lastmod>{date_iso}</lastmod>
     <news:news>
       <news:publication>
-        <news:name>Sevilla Va</news:name>
+        <news:name>SevillaVa</news:name>
         <news:language>fr</news:language>
       </news:publication>
       <news:publication_date>{date_iso}</news:publication_date>
