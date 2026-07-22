@@ -2,16 +2,5 @@
 <urlset
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-  <url>
-    <loc>https://www.sevillava.fr/calendrier-officiel-saison-2026-27-sevilla-fc</loc>
-    <lastmod>2026-07-20T07:28:01+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-20T07:28:01+00:00</news:publication_date>
-      <news:title>Calendrier officiel saison 2026/27</news:title>
-    </news:news>
-  </url>
+
 </urlset>
