@@ -2,5 +2,16 @@
 <urlset
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-
+  <url>
+    <loc>https://www.sevillava.fr/la-roja-fera-son-grand-retour-au-ram%C3%B3n-s%C3%A1nchez-pizju%C3%A1n-apr%C3%A8s-plus-de-11-ans-d-absence</loc>
+    <lastmod>2026-07-22T14:37:05+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-22T14:37:05+00:00</news:publication_date>
+      <news:title>La Roja fera son grand retour au Ramón Sánchez-Pizjuán après plus de 11 ans d'absence</news:title>
+    </news:news>
+  </url>
 </urlset>
