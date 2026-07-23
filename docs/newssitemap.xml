@@ -3,6 +3,18 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/c%C3%B3rdoba-cf-0-0-sevilla-fc-tab-4-5-les-andalous-s-adjugent-le-iv-trofeo-puertas-de-c%C3%B3rdoba</loc>
+    <lastmod>2026-07-23T21:35:25+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-23T21:35:25+00:00</news:publication_date>
+      <news:title>Córdoba CF 0-0 Sevilla FC, tab : 4-5 / Les andalous s'adjugent le IV Trofeo Puertas de Córdoba</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/felipe-segura-nomm%C3%A9-directeur-des-services-m%C3%A9dicaux-du-sevilla-fc</loc>
     <lastmod>2026-07-23T13:51:19+00:00</lastmod>
     <news:news>
