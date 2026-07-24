@@ -3,6 +3,18 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/gabriel-suazo-nous-continuons-%C3%A0-prendre-du-rythme-c-est-une-bonne-%C3%A9tape</loc>
+    <lastmod>2026-07-24T14:51:33+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-24T14:51:33+00:00</news:publication_date>
+      <news:title>Gabriel Suazo : « Nous continuons à prendre du rythme, c'est une bonne étape pour continuer à progresser »</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/c%C3%B3rdoba-cf-0-0-sevilla-fc-tab-4-5-les-andalous-s-adjugent-le-iv-trofeo-puertas-de-c%C3%B3rdoba</loc>
     <lastmod>2026-07-23T21:35:25+00:00</lastmod>
     <news:news>
@@ -36,18 +48,6 @@
       </news:publication>
       <news:publication_date>2026-07-22T19:25:46+00:00</news:publication_date>
       <news:title>Officiel : Akor Adams rejoint le Venezia FC</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/la-roja-fera-son-grand-retour-au-ram%C3%B3n-s%C3%A1nchez-pizju%C3%A1n-apr%C3%A8s-plus-de-11-ans-d-absence</loc>
-    <lastmod>2026-07-22T14:37:05+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-22T14:37:05+00:00</news:publication_date>
-      <news:title>La Roja fera son grand retour au Ramón Sánchez-Pizjuán après plus de 11 ans d'absence</news:title>
     </news:news>
   </url>
 </urlset>
