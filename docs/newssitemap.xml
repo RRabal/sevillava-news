@@ -3,6 +3,18 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/miguel-sierra-nous-formons-un-tr%C3%A8s-bon-groupe</loc>
+    <lastmod>2026-07-27T07:39:48+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-27T07:39:48+00:00</news:publication_date>
+      <news:title>Miguel Sierra : « Nous formons un très bon groupe »</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/sevilla-fc-2-1-ad-ceuta-fc-succ%C3%A8s-%C3%A0-mi-parcours-de-la-pr%C3%A9paration-estivale</loc>
     <lastmod>2026-07-25T22:00:00+00:00</lastmod>
     <news:news>
