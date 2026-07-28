@@ -3,6 +3,18 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/billetterie-officielle-du-sevilla-fc-saison-2026-27</loc>
+    <lastmod>2026-07-28T13:16:58+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-28T13:16:58+00:00</news:publication_date>
+      <news:title>Billetterie officielle du Sevilla FC saison 2026/27</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/miguel-sierra-nous-formons-un-tr%C3%A8s-bon-groupe</loc>
     <lastmod>2026-07-27T07:39:48+00:00</lastmod>
     <news:news>
