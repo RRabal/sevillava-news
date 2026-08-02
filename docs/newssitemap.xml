@@ -3,6 +3,18 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/juan-iglesias-il-faut-shabituer-a-entrer-sur-le-terrain-avec-la-mentalite-de-gagner</loc>
+    <lastmod>2026-08-02T19:38:26+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-02T19:38:26+00:00</news:publication_date>
+      <news:title>Juan Iglesias : « Il faut s’habituer à entrer sur le terrain avec la mentalité de gagner »</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/fc-utrecht-0-1-sevilla-fc-une-nouvelle-victoire-pour-les-hommes-de-luis-garcia-plaza</loc>
     <lastmod>2026-08-02T14:48:11+00:00</lastmod>
     <news:news>
@@ -36,18 +48,6 @@
       </news:publication>
       <news:publication_date>2026-07-31T22:05:49+00:00</news:publication_date>
       <news:title>Isaac Romero : « J'ai été attentif sur le rebond et, cette fois, elle est enfin entrée »</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/nec-nim%C3%A8gue-1-2-sevilla-fc-succes-pour-le-lancement-du-stage-au-pays-bas</loc>
-    <lastmod>2026-07-31T19:27:24+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-31T19:27:24+00:00</news:publication_date>
-      <news:title>NEC Nimègue 1 - 2 Sevilla FC / Succès pour le lancement du stage au Pays-Bas</news:title>
     </news:news>
   </url>
 </urlset>
