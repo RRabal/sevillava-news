@@ -3,6 +3,18 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/fran-gonz%C3%A1lez-rejoint-le-sevilla-fc-jusquen-2031</loc>
+    <lastmod>2026-08-02T20:31:14+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-02T20:31:14+00:00</news:publication_date>
+      <news:title>Fran González rejoint le Sevilla FC jusqu’en 2031</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/juan-iglesias-il-faut-shabituer-a-entrer-sur-le-terrain-avec-la-mentalite-de-gagner</loc>
     <lastmod>2026-08-02T19:38:26+00:00</lastmod>
     <news:news>
