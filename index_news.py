@@ -12,7 +12,7 @@ from google.oauth2 import service_account
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
 RSS_URL = "https://www.sevillava.fr/blog-feed.xml"
-SITEMAP_URL = "https://www.sevillava.fr/newssitemap.xml"
+SITEMAP_URL = "https://news.sevillava.fr/newssitemap.xml"
 SITE_URL = "sc-domain:sevillava.fr" 
 
 MAX_AGE_MINUTES = 60
