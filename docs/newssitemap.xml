@@ -3,6 +3,18 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/les-nouvelles-adhesions-comme-socio-du-sevilla-fc-sont-desormais-ouvertes</loc>
+    <lastmod>2026-08-03T11:34:00+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03T11:34:00+00:00</news:publication_date>
+      <news:title>Les nouvelles adhésions comme socio du Sevilla FC sont désormais ouvertes</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/fran-gonz%C3%A1lez-rejoint-le-sevilla-fc-jusquen-2031</loc>
     <lastmod>2026-08-02T20:31:14+00:00</lastmod>
     <news:news>
