@@ -3,6 +3,18 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/odysseas-vlachodimos-mon-objectif-est-detre-meilleur-que-la-saison-derniere</loc>
+    <lastmod>2026-08-04T13:48:10+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-04T13:48:10+00:00</news:publication_date>
+      <news:title>Odysseas Vlachodimos : « Mon objectif est d’être meilleur que la saison dernière »</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/juanlu-s%C3%A1nchez-de-retour-%C3%A0-s%C3%A9ville-avant-son-transfert-%C3%A0-lafc-bournemouth</loc>
     <lastmod>2026-08-03T16:17:56+00:00</lastmod>
     <news:news>
@@ -48,18 +60,6 @@
       </news:publication>
       <news:publication_date>2026-08-02T19:38:26+00:00</news:publication_date>
       <news:title>Juan Iglesias : « Il faut s’habituer à entrer sur le terrain avec la mentalité de gagner »</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/fc-utrecht-0-1-sevilla-fc-une-nouvelle-victoire-pour-les-hommes-de-luis-garcia-plaza</loc>
-    <lastmod>2026-08-02T14:48:11+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-02T14:48:11+00:00</news:publication_date>
-      <news:title>FC Utrecht 0 - 1 Sevilla FC / Une nouvelle victoire pour les hommes de Luis García Plaza</news:title>
     </news:news>
   </url>
 </urlset>
