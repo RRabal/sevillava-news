@@ -3,6 +3,18 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/rafa-mir-rejoint-officiellement-laris-salonique-fc-en-pr%C3%AAt</loc>
+    <lastmod>2026-08-04T19:00:29+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-04T19:00:29+00:00</news:publication_date>
+      <news:title>Rafa Mir rejoint officiellement l’Aris Salonique FC en prêt</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/odysseas-vlachodimos-mon-objectif-est-detre-meilleur-que-la-saison-derniere</loc>
     <lastmod>2026-08-04T13:48:10+00:00</lastmod>
     <news:news>
@@ -48,18 +60,6 @@
       </news:publication>
       <news:publication_date>2026-08-02T20:31:14+00:00</news:publication_date>
       <news:title>Fran González rejoint le Sevilla FC jusqu’en 2031</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/juan-iglesias-il-faut-shabituer-a-entrer-sur-le-terrain-avec-la-mentalite-de-gagner</loc>
-    <lastmod>2026-08-02T19:38:26+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-02T19:38:26+00:00</news:publication_date>
-      <news:title>Juan Iglesias : « Il faut s’habituer à entrer sur le terrain avec la mentalité de gagner »</news:title>
     </news:news>
   </url>
 </urlset>
