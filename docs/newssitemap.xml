@@ -3,6 +3,30 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/miguel-sierra-et-nico-guill%C3%A9n-%C3%AAtre-ici-est-un-r%C3%AAve</loc>
+    <lastmod>2026-08-06T22:12:26+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-06T22:12:26+00:00</news:publication_date>
+      <news:title>Miguel Sierra et Nico Guillén : « être ici est un rêve »</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.sevillava.fr/djibril-sow-rejoint-officiellement-le-genoa-cfc</loc>
+    <lastmod>2026-08-06T20:08:39+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-06T20:08:39+00:00</news:publication_date>
+      <news:title>Djibril Sow rejoint officiellement le Genoa CFC</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/gracias-juanlu-s%C3%A1nchez-le-lateral-droit-rejoint-officiellement-lafc-bournemouth</loc>
     <lastmod>2026-08-06T14:25:51+00:00</lastmod>
     <news:news>
@@ -48,18 +72,6 @@
       </news:publication>
       <news:publication_date>2026-08-05T07:02:13+00:00</news:publication_date>
       <news:title>Juanlu Sánchez s’envole pour l’Angleterre : accord conclu avec l'AFC Bournemouth pour 13 millions d’euros</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/rafa-mir-rejoint-officiellement-laris-salonique-fc-en-pr%C3%AAt</loc>
-    <lastmod>2026-08-04T19:00:29+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-04T19:00:29+00:00</news:publication_date>
-      <news:title>Rafa Mir rejoint officiellement l’Aris Salonique FC en prêt</news:title>
     </news:news>
   </url>
 </urlset>
