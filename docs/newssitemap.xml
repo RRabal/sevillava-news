@@ -3,6 +3,18 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/le-sevilla-fc-renonce-a-patrik-mercado-apres-sa-grave-blessure-au-genou</loc>
+    <lastmod>2026-08-07T18:34:09+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-07T18:34:09+00:00</news:publication_date>
+      <news:title>Le Sevilla FC renonce à Patrik Mercado après sa grave blessure au genou</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/laliga-2026-27-six-nouvelles-r%C3%A8gles-arbitrales-qui-vont-changer-les-matchs</loc>
     <lastmod>2026-08-07T13:52:25+00:00</lastmod>
     <news:news>
