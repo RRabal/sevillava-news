@@ -3,6 +3,18 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/joan-jord%C3%A1n-rejoint-officiellement-lestrela-amadora-au-portugal</loc>
+    <lastmod>2026-08-10T18:53:47+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-10T18:53:47+00:00</news:publication_date>
+      <news:title>Joan Jordán rejoint officiellement l'Estrela Amadora au Portugal</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/alberto-flores-rejoint-officiellement-granada-cf</loc>
     <lastmod>2026-08-10T15:17:24+00:00</lastmod>
     <news:news>
