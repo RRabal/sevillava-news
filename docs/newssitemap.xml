@@ -3,6 +3,18 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/robbie-ure-ils-auront-quelquun-qui-donnera-tout-pour-ce-club</loc>
+    <lastmod>2026-08-11T21:00:33+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-11T21:00:33+00:00</news:publication_date>
+      <news:title>Robbie Ure : « Ils auront quelqu’un qui donnera tout pour ce club »</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/isaac-romero-herite-du-mythique-numero-16-du-sevilla-fc</loc>
     <lastmod>2026-08-11T20:10:49+00:00</lastmod>
     <news:news>
