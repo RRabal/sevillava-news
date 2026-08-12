@@ -62,16 +62,4 @@
       <news:title>Joan Jordán rejoint officiellement l'Estrela Amadora au Portugal</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://www.sevillava.fr/alberto-flores-rejoint-officiellement-granada-cf</loc>
-    <lastmod>2026-08-10T15:17:24+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-10T15:17:24+00:00</news:publication_date>
-      <news:title>Alberto Flores rejoint officiellement Granada cf</news:title>
-    </news:news>
-  </url>
 </urlset>
