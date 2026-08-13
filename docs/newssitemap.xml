@@ -3,6 +3,18 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/sevilla-fc-rayo-vallecano-de-madrid-pr%C3%A9sentation-de-la-rencontre</loc>
+    <lastmod>2026-08-13T10:54:59+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-13T10:54:59+00:00</news:publication_date>
+      <news:title>Sevilla FC - Rayo Vallecano de Madrid : Présentation de la rencontre, sur quelle chaîne voir le match ?</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/federico-gattoni-rejoint-officiellement-lascoli-calcio-1898</loc>
     <lastmod>2026-08-12T12:11:02+00:00</lastmod>
     <news:news>
