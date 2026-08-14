@@ -50,16 +50,4 @@
       <news:title>Sevilla FC - Rayo Vallecano de Madrid : Présentation de la rencontre, sur quelle chaîne voir le match ?</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://www.sevillava.fr/federico-gattoni-rejoint-officiellement-lascoli-calcio-1898</loc>
-    <lastmod>2026-08-12T12:11:02+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-12T12:11:02+00:00</news:publication_date>
-      <news:title>Federico Gattoni rejoint officiellement l'Ascoli Calcio 1898</news:title>
-    </news:news>
-  </url>
 </urlset>
