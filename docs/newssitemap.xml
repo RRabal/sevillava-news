@@ -3,6 +3,18 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/luis-garc%C3%ADa-plaza-tout-va-sam%C3%A9liorer-et-le-sevilla-redeviendra-ce-quil-est</loc>
+    <lastmod>2026-08-14T12:52:33+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-14T12:52:33+00:00</news:publication_date>
+      <news:title>Luis García Plaza : « Tout va s’améliorer et le Sevilla redeviendra ce qu’il est »</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/jos%C3%A9-ignacio-navarro-tant-que-le-mercato-sera-ouvert-nous-devons-continuer-%C3%A0-travailler</loc>
     <lastmod>2026-08-13T17:40:19+00:00</lastmod>
     <news:news>
