@@ -3,6 +3,18 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/luis-garc%C3%ADa-plaza-je-suis-tr%C3%A8s-heureux-pour-les-supporters-qui-sont-essentiels-pour-nous</loc>
+    <lastmod>2026-08-15T23:06:21+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-15T23:06:21+00:00</news:publication_date>
+      <news:title>Luis García Plaza : « Je suis très heureux pour les supporters, qui sont essentiels pour nous »</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/sevilla-fc-2-1-rayo-vallecano-de-madrid-le-sevilla-fc-renverse-le-rayo</loc>
     <lastmod>2026-08-15T22:06:52+00:00</lastmod>
     <news:news>
