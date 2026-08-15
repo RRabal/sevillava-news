@@ -3,6 +3,18 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/sevilla-fc-2-1-rayo-vallecano-de-madrid-le-sevilla-fc-renverse-le-rayo</loc>
+    <lastmod>2026-08-15T22:06:52+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-15T22:06:52+00:00</news:publication_date>
+      <news:title>Sevilla FC 2 - 1 Rayo Vallecano de Madrid / Le Sevilla FC renverse le Rayo et lance sa saison par une victoire au bout du suspense</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/le-sevilla-fc-met-son-maillot-au-service-de-la-fundaci%C3%B3n-1890-et-de-son-d%C3%A9fi-solidaire</loc>
     <lastmod>2026-08-14T19:51:19+00:00</lastmod>
     <news:news>
