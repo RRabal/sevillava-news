@@ -3,6 +3,18 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/le-cercle-des-joueurs-ayant-marqu%C3%A9-d%C3%A8s-leur-premi%C3%A8re-apparition-sous-le-maillot-du-sevilla-fc</loc>
+    <lastmod>2026-08-16T12:54:35+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-16T12:54:35+00:00</news:publication_date>
+      <news:title>Le cercle des joueurs ayant marqué dès leur première apparition en Liga sous le maillot du Sevilla FC</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/lambiance-de-sevilla-rayo-vue-par-xavier-m%C3%A9deau-depuis-le-ram%C3%B3n-s%C3%A1nchez-pizju%C3%A1n</loc>
     <lastmod>2026-08-16T08:21:27+00:00</lastmod>
     <news:news>
@@ -48,18 +60,6 @@
       </news:publication>
       <news:publication_date>2026-08-14T19:51:19+00:00</news:publication_date>
       <news:title>Le Sevilla FC met son maillot au service de la Fundación 1890 et de son défi solidaire</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.sevillava.fr/luis-garc%C3%ADa-plaza-tout-va-sam%C3%A9liorer-et-le-sevilla-redeviendra-ce-quil-est</loc>
-    <lastmod>2026-08-14T12:52:33+00:00</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>SevillaVa</news:name>
-        <news:language>fr</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-14T12:52:33+00:00</news:publication_date>
-      <news:title>Luis García Plaza : « Tout va s’améliorer et le Sevilla redeviendra ce qu’il est »</news:title>
     </news:news>
   </url>
 </urlset>
