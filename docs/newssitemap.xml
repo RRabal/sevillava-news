@@ -3,6 +3,18 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.sevillava.fr/lambiance-de-sevilla-rayo-vue-par-xavier-m%C3%A9deau-depuis-le-ram%C3%B3n-s%C3%A1nchez-pizju%C3%A1n</loc>
+    <lastmod>2026-08-16T08:21:27+00:00</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>SevillaVa</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-16T08:21:27+00:00</news:publication_date>
+      <news:title>L’ambiance de Sevilla-Rayo vue par Xavier Médeau depuis le Ramón Sánchez-Pizjuán</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.sevillava.fr/luis-garc%C3%ADa-plaza-je-suis-tr%C3%A8s-heureux-pour-les-supporters-qui-sont-essentiels-pour-nous</loc>
     <lastmod>2026-08-15T23:06:21+00:00</lastmod>
     <news:news>
